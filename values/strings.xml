@@ -1,0 +1,37 @@
+<resources>
+    <string name="app_name">中文初步繕改程式</string>
+    <string name="app_name_v2">多語言初步繕改程式</string>
+
+    <string name="alerts">文字沙石</string>
+    <string name="fixes">校正</string>
+    <string name="detect_language">偵察語言</string>
+</resources>
+
+<resources>
+    <string name="app_name">Chinese proofing tools</string>
+    <string name="app_name_v2">Chinese proofing tools</string>
+
+    <string name="alerts">Alerts</string>
+    <string name="fixes">Fixes</string>
+    <string name="detect_language">Detect language</string>
+
+</resources>
+
+<resources>
+    <string name="app_name">Outils d'inspection de la langue chinoise</string>
+    <string name="app_name_v2">Outils d'inspection multilingues</string>
+
+    <string name="alerts">Alertes</string>
+    <string name="fixes">Corrections</string>
+    <string name="detect_language">Choisir la langue automatiquement</string>
+
+</resources>
+
+<resources>
+    <string name="app_name">Herramientas de comprobacion del idioma chino</string>
+    <string name="app_name_v2">Herramientas de comprobacion multilingües</string>
+
+    <string name="alerts">Alertas</string>
+    <string name="fixes">Arreglos</string>
+    <string name="detect_language">Seleccioner el idioma automáticamente</string>
+</resources>
