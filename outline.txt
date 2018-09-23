@@ -1,8 +1,19 @@
 中文初步
 繕改程式
 
-'''ChinesePod''' is a Singaporean YouTube channel which promotes the use of		[[red locutions]] and the		[[deformed script]] advertised as simplified characters, by featuring attractive women.
-
+Select option in list widget, change text
+Save & Next button
+Ignore & Next button
+We've reached the end of text. Back to the beginning? 1. Yes 2. Finish editing
+Share button
+Word count
+Open button
+All on the right panel
+Button 2dp padding
+moedict fonts (font setting?)
+aura 10 sentences instead of clauses, category
+onlyAsPos: 'vt'
+Json to proto buf
 
 ==rules_punct.proto==
 'space': 

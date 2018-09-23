@@ -27,15 +27,19 @@ function parseJSON() {
         breakIntoClauses();
     }
 
-    JSONObject jsonObj = open('rules.part0.json');
-    for (let y = 1; y < numOfFiles('./rules'); y++) {
-        jsonObj.concat('rules.part${y}.json');
-    }
-    while (json.next()) {
-        assertPos(clause, '', 0, 'vt');
-        aura(categoryId, 'cGeographicalEntity');
-        lookbehindClause('', 3);
-        lookafterClause('', 0);     
+    let fs = require('fs');
+    let files = fs.readdirSync('../rules');
+
+    let jsonArr = [];
+    for (let x in files) {
+        jsonArr.concat(x);
+        // Search by keys
+        while (json.next()) {
+            if (obj.has('assertPos')) assertPos(clause, '', 0, 'vt');
+            if (obj.has('aura')) aura(categoryId, 'cGeographicalEntity');
+            if (obj.has('lookbehindClause')) lookbehindClause('', 3);
+            if (obj.has('lookafterClause')) lookafterClause('', 0);
+        }
     }
 }
 
