@@ -51,4 +51,7 @@ The project, thus, is dedicated to style and linguistic purity. I am opposed to 
 ## Compendium of Basilects
 <!-- Redirects to our wiki -->
 
-## Donate
+## 下流指數
+PageRank
+
+<!-- ## Donate -->
