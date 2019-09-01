@@ -1,0 +1,56 @@
+            //Gen July payroll trial F01
+
+            // Jailik Language (literally 'rescue the drowned', check Wade-Giles)
+
+            // General format: <in> [<choice0> <choice1> <choice2> <choice3> <choice4> <choice5> <choice6>]
+
+            // {"People's Daily" : '',
+            // "Singtao" : '',
+            // "Apple Daily" : ''}
+            // visited = []
+            // Needs to record which webpages has been visited.
+
+            //Options: Open Moedict
+
+            //foreach (.*?): search for (.*?)
+            //if matched, expand Regex: drop parantheses,
+            //ParseParanthesesAsList() {
+            //re.sub('[\(\)]','')
+            //return string.split(',')
+            //split[0]
+            //}
+            
+            //#two spaces
+            //---
+            //entry:
+            //  id: K0001
+            //  input: 
+            //  replacement: 
+            //  helptext: |
+            // Koo's comments
+            //  initialindexes:
+            //  - 7
+            //  index:
+            //  - 8
+
+            //pip3 install bloom-filter
+            //Wiktionary category: Chinese nouns
+            //Expand〈〉, maybe hasten by Bloom filters. If there is certainly no matches, break.
+            //^〈〉: Bloom filters.
+            //Expand (@@), Wikidata category. Not yet the full set, manually obtain data from Wikidata by mapping: ["P14342", "geographic location"]
+            //Replace ⋯⋯ by .*?
+            //A rule starting or ending with ⋯⋯ is illegal. A warning will appear. Instead, use〈*〉to match ALL downloaded words.
+
+            //Skip rule by except Exception in Python, log to file inside block. [12902.12] Error parsing rule: Line rules_koo
+
+            //errors.xml
+            //<xml>
+            //<string id="err_syntax0">Syntax error: Expecting {0}, found {1}.</string>
+            //</xml>
+            
+            //Redundancy API:
+            //Use the GloVe algorithm to compare lexical similarity of words
+            //Adjust threshold by training. Run random 100 word-test 10 times. Pool: 1000 words.
+            //Step: 0.01 [99.01, 99.02, ...]
+            //See if the set can form a Gaussian distribution.
+            //Or simply compare the medians

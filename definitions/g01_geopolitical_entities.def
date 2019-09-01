@@ -1,0 +1,36 @@
+@@ G01 - Geographical entity - 地
+
+SELECT DISTINCT ?item ?itemLabel WHERE {
+  ?item (wdt:P31/(wdt:P279*)) wd:Q1549591.
+  SERVICE wikibase:label {
+    bd:serviceParam wikibase:language "yue, zh-yue, zh-hk, zh-tw, zh-hant".
+    ?item rdfs:label ?itemLabel.
+  }
+}
+
+
+https://en.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:en:Cities&cmlimit=20&format=xml
+https://en.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:en:Cities&cmlimit=999&format=xml&cmcontinue=page|4841595449|3540501
+https://en.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:en:Cities&cmlimit=999&format=xml&cmcontinue=page|4841595449|3540501
+https://en.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:en:Cities&cmlimit=999&format=xml&cmcontinue=page|4841595449|3540501
+
+https://en.wiktionary.org/wiki/Category:en:Cities
+https://en.wiktionary.org/wiki/Category:English_proper_nouns
+
+英國
+法國
+@@
+
+
+
+＇https://en.wiktionary.org/w/api.php?action=query&list=categorymembers&cmtitle=Category:zh:Cities&cmlimit=999&format=xml＇
+
+target = subcat = []
+
+for r in result:
+	if r['ns'] == '0':
+		target += r['ns']
+	elif r['ns'] == '14':
+		subcat += r['ns']
+for s in subcat:
+	# search again

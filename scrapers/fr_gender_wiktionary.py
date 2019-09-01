@@ -12,10 +12,13 @@ base_url_m = 'https://en.wiktionary.org/wiki/Category:French_masculine_nouns'
 base_url_f = 'https://en.wiktionary.org/wiki/Category:French_feminine_nouns'
 
 =1. masculine adj to feminine==
-*e -> pass
-*eur, *eux -> euse
-*teur -> trice
-*er -> ère
+TypeScript Regex Lookahead????
+Word boundary regex???? \\b
+
+*e -> pass			/\b.*(?=e)\b/gi
+*eur, *eux -> euse /\b.*(?=eu(r|x|se)\b)/gi
+*teur -> trice		/\b.*(?=teur)\b/gi
+*er -> ère			/\b.*(?=er)\b/gi
 *et -> ète 
 *f -> ve
 *ain -> aine
@@ -36,6 +39,8 @@ else -> +e
 *s|x|z -> pass
 tout -> tous
 else -> +s
+
+Exceptions: ail -> ails; bail -> baux
 
 
 Family names aren’t pluralized in French. For example, the Martins lose the –s in French but keep the article: Les Martin.

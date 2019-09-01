@@ -1,0 +1,58 @@
+---
+- entryid: C00001
+  matches:
+    - matched: "保留⋯⋯權（利｜力）" 
+      replacement: ["有權追究", "或會追究"]
+  comments: Koo
+  distastefulness:
+    initial: 8
+    current: 8
+
+- entry: C00002
+  matches:
+    - matched: "有保留"
+      replacement: "不敢苟同"
+  comments: Koo
+  distastefulness:
+    initial: 8
+    current: 8
+
+- entry: C00003
+  matches:
+    - matched: "你好"
+      replacement: ["安否", "無恙乎", "無恙嗎"]
+  comments: Koo
+  distastefulness:
+    initial: 8
+    current: 8
+
+- entry: C00004
+  matches:
+    - matched: "直言"
+      replacement: "言"
+    - matched: "直斥"
+      replacement: "斥"
+  comments: Koo
+  distastefulness:
+    initial: 8
+    current: 8
+
+- entry: C00005
+  matches:
+    - matched: "持份者"
+      replacement: ["與事各方", "與事者"]
+  comments: Koo
+  distastefulness:
+    initial: 8
+    current: 8
+
+- entry: C00006
+  matches:
+    - matched: []
+      replacement: []
+    - matched:
+      replacement:
+  comments: Koo
+  distastefulness:
+    initial: 8
+    current: 8
