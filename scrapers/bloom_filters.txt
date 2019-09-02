@@ -1,12 +1,12 @@
-            //Gen July payroll trial F01
-
-            // Jailik Language (literally 'rescue the drowned', check Wade-Giles)
+            // 濟溺 Jai Lihk Language (*.jl, literally 'rescue the drowned' in Cantonese Yale)
 
             // General format: <in> [<choice0> <choice1> <choice2> <choice3> <choice4> <choice5> <choice6>]
 
-            // {"People's Daily" : '',
-            // "Singtao" : '',
-            // "Apple Daily" : ''}
+            // {'People's Daily' : ['http://www.people.com.cn/index.html', 0],
+            // 'Singtao' : 'http://std.stheadline.com/',
+            // 'Apple Daily' : 'https://hk.appledaily.com/',
+            // 'Taikung Pao': 'http://www.takungpao.com.hk/hongkong/',
+            // 'Wen Wei Po': 'http://www.wenweipo.com/'}
             // visited = []
             // Needs to record which webpages has been visited.
 
