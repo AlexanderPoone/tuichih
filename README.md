@@ -21,7 +21,7 @@ The project, thus, is dedicated to style and linguistic purity. I am opposed to 
 ### 漢語（國語及粵語）
 * 阿拉伯數字 → 中文數字（年、月、日）
 /* Keep condition: [In|Before|After] (mid-)+ 1939 */
-* % → 百分之（「巴仙」）
+* % /「巴仙」 → 百分之
 * 統一中文標點符號
 /* 首先統一中文標點符號，再判斷有關詞藻是否在同一句。 */
 * 多餘「一」字
@@ -29,8 +29,8 @@ The project, thus, is dedicated to style and linguistic purity. I am opposed to 
 * 多餘空白 與 中、英字間隔 Dash英文字母符號前後
 * 歐化惡詞（煉字）
 * 日化惡詞（煉字）
-* 中共惡詞（煉字）
-* 大陸譯音（維基百科）
+* 紅色惡詞（煉字）
+* 金元譯音（維基百科）
 * 統一粵語字
 * 刪小農歎詞
 * 修正絕句或律詩之平仄與格律
@@ -51,4 +51,7 @@ The project, thus, is dedicated to style and linguistic purity. I am opposed to 
 ## Compendium of Basilects
 <!-- Redirects to our wiki -->
 
-## Donate
+## 下流指數
+PageRank
+
+<!-- ## Donate -->
