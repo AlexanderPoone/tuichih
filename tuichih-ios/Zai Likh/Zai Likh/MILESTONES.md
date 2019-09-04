@@ -1,6 +1,6 @@
 #  <#Title#>
-"action_settings" = "設定";
 
+DRAWER BAR with open/close animation
 
 Lemma boundary highlighting
 WebKit WKWebView
