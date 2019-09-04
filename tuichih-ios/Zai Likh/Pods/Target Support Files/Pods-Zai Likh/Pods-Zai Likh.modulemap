@@ -1,0 +1,6 @@
+framework module Pods_Zai_Likh {
+  umbrella header "Pods-Zai Likh-umbrella.h"
+
+  export *
+  module * { export * }
+}

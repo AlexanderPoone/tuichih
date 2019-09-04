@@ -1,0 +1,20 @@
+PODS:
+  - DropDown (2.3.13)
+  - Ono (2.1.2)
+
+DEPENDENCIES:
+  - DropDown
+  - Ono
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - DropDown
+    - Ono
+
+SPEC CHECKSUMS:
+  DropDown: 8a2116376c1981888557f72ec2ffc9a5e0e456ec
+  Ono: 26a7c1fc4df13ece7747560a1d80655807a8a000
+
+PODFILE CHECKSUM: d024d3db9eb36c37af9c02cfa1345f6cb8b2584a
+
+COCOAPODS: 1.7.5
