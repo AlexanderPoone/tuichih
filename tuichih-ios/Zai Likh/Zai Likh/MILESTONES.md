@@ -2,6 +2,12 @@
 
 DRAWER BAR with open/close animation
 
+Disable Cut, Copy, Paste at start
+
+* Extends OnboardingFragment: https://developer.android.com/training/tv/playback/onboarding
+* TapTargetView: https://github.com/KeepSafe/TapTargetView
+
+
 Lemma boundary highlighting
 WebKit WKWebView
 word list: animation rounded rectangle
@@ -10,38 +16,6 @@ Flask wsig
 
 http://jsfiddle.net/wUgXk/1/
 <color "background-color">#202020</color>
-
-
-
-<textarea name="Text1" cols="40" rows="5"></textarea>
-
-
-
-@font-face {
-  font-family: Kaiti;
-  src: url(AdobeKaitiStd-Regular.otf);
-}
-
-body {
-    background: #202020;
-}
-
-textarea {
-  height: 400px;
-    background: #1A1A1A;
-    border-radius: 2em;
-    border: none;
-    margin: 2em;
-    padding: 0.8em;
-    
-    color: #A2A2A2;
-    font-family: Kaiti;
-    font-size: 1.1em;
-    padding-left: 1.5em;
-    
-    outline: none;
-    box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px hsl(0, 0%, 2%)
-}
 
 
 

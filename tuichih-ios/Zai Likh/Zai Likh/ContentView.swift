@@ -17,7 +17,7 @@ private let dateFormatter: DateFormatter = {
 
 struct ContentView: View {
     @State private var dates = [Date]()
-
+    
     var body: some View {
         NavigationView {
             MasterView(dates: $dates)
@@ -27,11 +27,11 @@ struct ContentView: View {
                     trailing: Button(
                         action: {
                             withAnimation { self.dates.insert(Date(), at: 0) }
-                        }
+                    }
                     ) {
                         Image(systemName: "plus")
                     }
-                )
+            )
             DetailView()
         }.navigationViewStyle(DoubleColumnNavigationViewStyle())
     }
@@ -39,7 +39,7 @@ struct ContentView: View {
 
 struct MasterView: View {
     @Binding var dates: [Date]
-
+    
     var body: some View {
         List {
             ForEach(dates, id: \.self) { date in
@@ -57,14 +57,44 @@ struct MasterView: View {
 
 struct DetailView: View {
     var selectedDate: Date?
-
+    
+    @State private var buttonClicked = 0
+    
     var body: some View {
         Group {
             if selectedDate != nil {
-                Text("\(selectedDate!, formatter: dateFormatter)")
+                HStack {
+                    Text("\(selectedDate!, formatter: dateFormatter)")
+                    
+                    Picker(selection: $buttonClicked, label:   // $selection
+                        Text("Toolbar")
+                        , content: {
+                            Image(uiImage: UIImage(named: "2_cut")!)
+                            Image(uiImage: UIImage(named: "2_copy")!)
+                            Image(uiImage: UIImage(named: "2_paste")!)
+                            Image(uiImage: UIImage(named: "2_undo")!)
+                            Image(uiImage: UIImage(named: "2_redo")!)
+                            Image(uiImage: UIImage(named: "2_save")!)
+                            Image(uiImage: UIImage(named: "2_star")!)
+                            Image(uiImage: UIImage(named: "2_find")!)
+                            Image(uiImage: UIImage(named: "2_share")!)
+                            Image(uiImage: UIImage(named: "2_skip")!)
+                            Image(uiImage: UIImage(named: "2_next")!)
+                    })
+                    
+                    //            Picker(selection: $selectedStrength, label: Text("Strength")) {
+                    //                ForEach(0 ..< strengths.count) {
+                    //                    Text(self.strengths[$0]) // should be icon instead of text
+                    //
+                    //                }
+                    //            }
+                    //                .pickerStyle(.wheel) //.wheel .segmented .radioGroup .popUp
+                }
             } else {
                 Text("Detail view content goes here")
             }
+            
+            
         }.navigationBarTitle(Text("Detail"))
     }
 }

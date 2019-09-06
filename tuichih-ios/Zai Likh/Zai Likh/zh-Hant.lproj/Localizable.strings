@@ -7,3 +7,4 @@
 */
 "app_name" = "濟溺";
 "action_settings" = "設定";
+"word_count" = "Word count: %@";

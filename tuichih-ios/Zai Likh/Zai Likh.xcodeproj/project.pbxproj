@@ -9,6 +9,10 @@
 /* Begin PBXBuildFile section */
 		325C62654DEB52DF93059559 /* Pods_Zai_LikhTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899631E3409AF4F0E22FF372 /* Pods_Zai_LikhTests.framework */; };
 		4B152E5C2320247200EAAE50 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B152E5A2320247200EAAE50 /* Localizable.strings */; };
+		4B2118CA2320FA50008760FA /* engine.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B2118C92320FA50008760FA /* engine.html */; };
+		4B2118CE2320FB20008760FA /* AdobeHeitiStd-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2118CC2320FB20008760FA /* AdobeHeitiStd-Regular.otf */; };
+		4B2118CF2320FB20008760FA /* AdobeKaitiStd-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2118CD2320FB20008760FA /* AdobeKaitiStd-Regular.otf */; };
+		4B2118D12322AA05008760FA /* EmbeddedEngineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2118D02322AA05008760FA /* EmbeddedEngineView.swift */; };
 		4B3C117D231D588A008D3CB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C117C231D588A008D3CB6 /* AppDelegate.swift */; };
 		4B3C117F231D588A008D3CB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C117E231D588A008D3CB6 /* SceneDelegate.swift */; };
 		4B3C1181231D588A008D3CB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C1180231D588A008D3CB6 /* ContentView.swift */; };
@@ -49,6 +53,10 @@
 		4B152E5D2320247F00EAAE50 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
 		4B152E5E2320248100EAAE50 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
 		4B152E5F2320248300EAAE50 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B2118C92320FA50008760FA /* engine.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = engine.html; sourceTree = "<group>"; };
+		4B2118CC2320FB20008760FA /* AdobeHeitiStd-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdobeHeitiStd-Regular.otf"; path = "../../../../fonts/AdobeHeitiStd-Regular.otf"; sourceTree = "<group>"; };
+		4B2118CD2320FB20008760FA /* AdobeKaitiStd-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdobeKaitiStd-Regular.otf"; path = "../../../../fonts/AdobeKaitiStd-Regular.otf"; sourceTree = "<group>"; };
+		4B2118D02322AA05008760FA /* EmbeddedEngineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedEngineView.swift; sourceTree = "<group>"; };
 		4B3C1179231D588A008D3CB6 /* Zai Likh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zai Likh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3C117C231D588A008D3CB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4B3C117E231D588A008D3CB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -110,6 +118,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		4B2118CB2320FB00008760FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B2118CC2320FB20008760FA /* AdobeHeitiStd-Regular.otf */,
+				4B2118CD2320FB20008760FA /* AdobeKaitiStd-Regular.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		4B3C1170231D5889008D3CB6 = {
 			isa = PBXGroup;
 			children = (
@@ -135,8 +152,11 @@
 		4B3C117B231D588A008D3CB6 /* Zai Likh */ = {
 			isa = PBXGroup;
 			children = (
+				4B2118CB2320FB00008760FA /* Resources */,
 				4B3C117C231D588A008D3CB6 /* AppDelegate.swift */,
 				4B152E592320239900EAAE50 /* MILESTONES.md */,
+				4B2118C92320FA50008760FA /* engine.html */,
+				4B2118D02322AA05008760FA /* EmbeddedEngineView.swift */,
 				4B3C117E231D588A008D3CB6 /* SceneDelegate.swift */,
 				4B3C1180231D588A008D3CB6 /* ContentView.swift */,
 				4B3C1182231D589A008D3CB6 /* Assets.xcassets */,
@@ -298,10 +318,13 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B2118CE2320FB20008760FA /* AdobeHeitiStd-Regular.otf in Resources */,
 				4B3C1189231D589A008D3CB6 /* LaunchScreen.storyboard in Resources */,
 				4B152E5C2320247200EAAE50 /* Localizable.strings in Resources */,
 				4B3C1186231D589A008D3CB6 /* Preview Assets.xcassets in Resources */,
 				4B3C1183231D589A008D3CB6 /* Assets.xcassets in Resources */,
+				4B2118CF2320FB20008760FA /* AdobeKaitiStd-Regular.otf in Resources */,
+				4B2118CA2320FA50008760FA /* engine.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -414,6 +437,7 @@
 			files = (
 				4B3C117D231D588A008D3CB6 /* AppDelegate.swift in Sources */,
 				4B3C117F231D588A008D3CB6 /* SceneDelegate.swift in Sources */,
+				4B2118D12322AA05008760FA /* EmbeddedEngineView.swift in Sources */,
 				4B3C1181231D588A008D3CB6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

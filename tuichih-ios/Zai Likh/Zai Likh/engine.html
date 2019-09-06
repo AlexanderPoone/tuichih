@@ -1,0 +1,61 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title></title>
+    <style type="text/css">
+    @font-face {
+      font-family: Kaiti;
+      src: url(AdobeKaitiStd-Regular.otf);
+    }
+
+    body {
+        background: #202020;
+    }
+
+    textarea {
+      height: 400px;
+        background: #1A1A1A;
+        border-radius: 2em;
+        border: none;
+        margin: 2em;
+        padding: 0.8em;
+        
+        color: #A2A2A2;
+        font-family: Kaiti;
+        font-size: 1.1em;
+        padding-left: 1.5em;
+        
+        outline: none;
+        box-shadow: 0 4px 6px -5px hsl(0, 0%, 40%), inset 0px 4px 6px -5px hsl(0, 0%, 2%)
+    }
+
+    .use-warnings > .warning {
+        background-color: salmon;
+        color: scarlet;
+    }
+    .use-warnings > .clause {
+        background-color: lime;
+        color: olive;
+    }
+    .use-pos > .n {
+        background-color: lime;
+        color: olive;
+    }
+    .use-pos > .v {
+        background-color: lavender;
+        color: purple;
+    }
+    .use-pos > .a {
+        background-color: amber;
+        color: rust;
+    }
+    </style>
+</head>
+<body>
+<textarea name="input" cols="40" rows="5" placeholder="Your text will appear here.">
+    {{flask_area}}
+<!-- Action for backspace? -->
+</textarea>
+</body>
+</html>

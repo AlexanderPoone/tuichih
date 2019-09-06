@@ -7,3 +7,4 @@
 */
 "app_name" = "Zaï Laik";
 "action_settings" = "Ajustes";
+"word_count" = "Conteo de palabras: %@";
