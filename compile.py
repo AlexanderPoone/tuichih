@@ -5,8 +5,8 @@ from pprint import pprint
 
 def main():
 	try:
-		with open(r'.\rules_compiled\rules_koo.proto', 'w', encoding='utf8')  as w:
-			with open(r'.\rules\rules_koo.rll', 'r', encoding='utf8')  as r:
+		with open(r'.\rules_compiled\zh\rules_koo.proto', 'w', encoding='utf8')  as w:
+			with open(r'.\rules\zh\rules_koo.rll', 'r', encoding='utf8')  as r:
 				structure = object()
 				cnt = 0
 				failed = []

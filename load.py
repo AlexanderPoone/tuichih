@@ -5,7 +5,7 @@ from pprint import pprint
 
 def main():
 	try:
-		with open(r'.\rules_compiled\rules_koo.yaml', 'r', encoding='utf8')  as f:
+		with open(r'.\rules_compiled\zh\rules_koo.yaml', 'r', encoding='utf8')  as f:
 			compiled = load(f.read(), Loader=Loader)
 		pprint(compiled)
 	except FileNotFoundError as e:

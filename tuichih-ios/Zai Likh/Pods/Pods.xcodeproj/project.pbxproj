@@ -7,31 +7,40 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0299AA71C8295AE58A69D15330492240 /* Ono.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0F28B097ED641CF2CB5CD65FAF55CD /* Ono.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0299AA71C8295AE58A69D15330492240 /* Ono.h in Headers */ = {isa = PBXBuildFile; fileRef = C853006DA8BFFE5B5E2F057053C84639 /* Ono.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		076F0609117018F71F2B2D930EFF3B68 /* MainContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 120002DF927D72B2E3E0DDA669709A37 /* MainContainer.swift */; };
 		07A11882F2644D8FEA19006A153AFAAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		123FACA9E18BC1498A8CC75D70868513 /* ONOXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9F519C79DAD171E4ADFC53C0986EA1 /* ONOXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		14E465714CE2D175749C2E7AA193613F /* ONOXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D2123DBA7AC464284C5A843018F50771 /* ONOXMLDocument.m */; };
-		361F5CE2807CBD530C8C6E63FD245F5A /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B20BDE5C34D2D86F1BBC8AE0FB5422 /* DropDownCell.swift */; };
+		0AD8AF7A87759A0B41113D54CCE49997 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		123FACA9E18BC1498A8CC75D70868513 /* ONOXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = CDC7876CAD540FF55182138BE84AEA85 /* ONOXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E465714CE2D175749C2E7AA193613F /* ONOXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = 30ACCC5D7A6FB8A1CCE8EE773CD3C21D /* ONOXMLDocument.m */; };
+		204D079437186265C44900199FD7AFC0 /* Pods-Zai Likh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA5C86160A927D591B3BA8125A6D4A6 /* Pods-Zai Likh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		2F4C4476627A4DAAD5BF4392C7B64A54 /* SliderStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBE13C6F0C450C7D721B0009E0069517 /* SliderStatus.swift */; };
+		361F5CE2807CBD530C8C6E63FD245F5A /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 82FED93830ECFD5993A0863296EB3717 /* DropDownCell.swift */; };
 		3668A16B30398E18E5CC9D6D08A9264A /* Pods-Zai LikhTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB186F19BCAEB4ACD2044D0FD64A54 /* Pods-Zai LikhTests-dummy.m */; };
+		411D57464FE0D5871707C0ED1553F303 /* SwiftDrawer-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 12D6F2115F8237A7A9AF09F585A6945B /* SwiftDrawer-dummy.m */; };
 		43CBB64991E376716E8437F4BEE8D3EE /* Pods-Zai LikhUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7CE3F530C5D86060DD34947D7B6EA1 /* Pods-Zai LikhUITests-dummy.m */; };
-		4A8FE4C4F6D45B41CE01A00D24C56961 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F88941026555FA5ECE4F914F08454 /* DPDUIView+Extension.swift */; };
-		4C5047FAD656F83A74C2B07D5FE5C274 /* Ono-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CCD6AD70D5DB809A8AEB75FA76A89 /* Ono-dummy.m */; };
+		482C3EF7BAACB61344E4E06B39D692EC /* Pods-Zai Likh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7D32FC03158E064BACE0A80D99D54A /* Pods-Zai Likh-dummy.m */; };
+		4A8FE4C4F6D45B41CE01A00D24C56961 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D083812FE1DB1960F52CB030C4C9734 /* DPDUIView+Extension.swift */; };
+		4C5047FAD656F83A74C2B07D5FE5C274 /* Ono-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DE9A65FBE799A93C168FB9AD1659F479 /* Ono-dummy.m */; };
 		5469B590E264AE3D154D91827167A0F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		5900CB52F4C218C9DEF8AB99C3729550 /* Pods-Zai Likh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7D32FC03158E064BACE0A80D99D54A /* Pods-Zai Likh-dummy.m */; };
-		5F515237FF94DAB4C8A15B7E33A3877B /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D24EA2F0910AEFEE6414687A84B392 /* DPDConstants.swift */; };
-		6064C623428CE711C252E442741F81AB /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8271EEFDFE156AD4A0BCDA848F5711 /* DropDown+Appearance.swift */; };
+		5F515237FF94DAB4C8A15B7E33A3877B /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0EDF99874FF69AD7902368F67BDE3143 /* DPDConstants.swift */; };
+		6064C623428CE711C252E442741F81AB /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 45D593BDF8E325767E332788499AF03F /* DropDown+Appearance.swift */; };
 		618D9C6E8BFF0C7AAD509E9279488585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		842DFBB1471889C2CA329AE05620BBE7 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AD1A6BC994F9A6A893495A6B5878C0 /* DropDown.swift */; };
-		86132C616A2C9D0ED3A248FA96F96E5A /* Pods-Zai Likh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA5C86160A927D591B3BA8125A6D4A6 /* Pods-Zai Likh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		83E124AEB776040F4E652C3ED4DE9781 /* DrawerControl.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9AAED0FFD2E1C2AA055E58EB111D1447 /* DrawerControl.swift */; };
+		842DFBB1471889C2CA329AE05620BBE7 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BBE7205734074E8B16A4ACA4AC6053B /* DropDown.swift */; };
+		8639E5297929994ADCC16B7BC1567DF4 /* SwiftDrawer-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 069742E6081BEB43F8A344D6EB296209 /* SwiftDrawer-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		8A1674AF3356D4CF442BC0B3C8B99451 /* Pods-Zai LikhTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C9DF6D6BF448B5A3A1367E1FBF12F2 /* Pods-Zai LikhTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		94F21BA752B7B7A5E04F780EBA7CEBB8 /* Ono-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E125670D39E8FC76F33A23D86B37CC /* Ono-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9518195DB69E904D77247E0A55A0043C /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7B399F1055C9A9AFAAA17069C8FA26 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		952B9EB435C64FC60C0226F7C722815F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		95897DCFD4071A7D61AEAE1DA86BB539 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F9894A9B9FFAA83290113F9567AC2 /* DropDown-dummy.m */; };
-		BA7BB2FF04CE1CAFC5238D1807EF0034 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211763180E0EEA3B661387D92AF15809 /* DPDKeyboardListener.swift */; };
+		94F21BA752B7B7A5E04F780EBA7CEBB8 /* Ono-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 30CD2B42DFE0F4766B97CCD642261DCD /* Ono-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9518195DB69E904D77247E0A55A0043C /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 426A789886DFB89EF71A602A90816557 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		95897DCFD4071A7D61AEAE1DA86BB539 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 02249F6C76F40B5686E80218E290D2DD /* DropDown-dummy.m */; };
+		A9DDFD6CE7A15575DF420A51FC9F3E0C /* Drawer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F85BAFFA7F1C4C5808EED0E6F0742A7 /* Drawer.swift */; };
+		B7B70F29392F659D9BA49B50FA31378A /* DrawerDefine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 24D8EF0B466AA081EFA60E8EA822ADE2 /* DrawerDefine.swift */; };
+		BA7BB2FF04CE1CAFC5238D1807EF0034 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = E25257F17850B8028852840A6511093E /* DPDKeyboardListener.swift */; };
 		BE85F2308BA48784E9FF8DF1D8461B9D /* Pods-Zai LikhUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D3A8B3D6168AEA8700A97F9B9EACC5 /* Pods-Zai LikhUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		CEA201C88ACEDA35C48579316CDBEB7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
-		EB3D83C05EC7793D23A1192C11B9F631 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0FCC7422171AE7E601439B37312612 /* DropDownCell.xib */; };
+		E1F3023163F1244A29B43A0318CC327A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		E995F5D238FACF165D071A8522BA1C1F /* SliderContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B6E7BBEEFA8E74CDB8ECFBE284067BD /* SliderContainer.swift */; };
+		EB3D83C05EC7793D23A1192C11B9F631 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 00EF80AF13244A5553FF8EC224C5CE85 /* DropDownCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -42,6 +51,27 @@
 			remoteGlobalIDString = CC190860BB8D215AA3469A4B05296403;
 			remoteInfo = "Pods-Zai Likh";
 		};
+		8244F291EF184FF6EAA5276986253654 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F5A1B5AACD804DF8D564C4C47E1F45;
+			remoteInfo = Ono;
+		};
+		AE14FDA8830EB2F3E600BF8781DF83E2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		B0E4DFE64544AC40AD8F4A3C039A4899 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 3D9752496CD01A3D4867A865E4263AC1;
+			remoteInfo = SwiftDrawer;
+		};
 		D1497FE743CB252601B37E83C80C9ACA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
@@ -49,53 +79,53 @@
 			remoteGlobalIDString = CC190860BB8D215AA3469A4B05296403;
 			remoteInfo = "Pods-Zai Likh";
 		};
-		DD75107D79D6FE559C1663AC3FB5D843 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
-			remoteInfo = DropDown;
-		};
-		E807D5166416ED5BD32E36BE86D56D52 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 72F5A1B5AACD804DF8D564C4C47E1F45;
-			remoteInfo = Ono;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		045CCD6AD70D5DB809A8AEB75FA76A89 /* Ono-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ono-dummy.m"; sourceTree = "<group>"; };
+		00EF80AF13244A5553FF8EC224C5CE85 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		02249F6C76F40B5686E80218E290D2DD /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		069742E6081BEB43F8A344D6EB296209 /* SwiftDrawer-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDrawer-umbrella.h"; sourceTree = "<group>"; };
 		06A68491178A46045EC05378964FE8D4 /* Pods-Zai Likh-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zai Likh-acknowledgements.plist"; sourceTree = "<group>"; };
 		0EA5C86160A927D591B3BA8125A6D4A6 /* Pods-Zai Likh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zai Likh-umbrella.h"; sourceTree = "<group>"; };
-		0F7F9894A9B9FFAA83290113F9567AC2 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
-		211763180E0EEA3B661387D92AF15809 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
-		212F88941026555FA5ECE4F914F08454 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		0EDF99874FF69AD7902368F67BDE3143 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		0FA8CA84A9BA0DF79BF829DFDCC38BEF /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		120002DF927D72B2E3E0DDA669709A37 /* MainContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = MainContainer.swift; path = SwiftDrawer/Classes/MainContainer.swift; sourceTree = "<group>"; };
+		12D6F2115F8237A7A9AF09F585A6945B /* SwiftDrawer-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwiftDrawer-dummy.m"; sourceTree = "<group>"; };
+		174AB49232E0B7A9715C1EFFAA2CAEB0 /* SwiftDrawer-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "SwiftDrawer-Info.plist"; sourceTree = "<group>"; };
+		194A110C908B14FD926390744353C249 /* SwiftDrawer.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = SwiftDrawer.modulemap; sourceTree = "<group>"; };
+		1F85BAFFA7F1C4C5808EED0E6F0742A7 /* Drawer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Drawer.swift; path = SwiftDrawer/Classes/Drawer.swift; sourceTree = "<group>"; };
+		24D8EF0B466AA081EFA60E8EA822ADE2 /* DrawerDefine.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerDefine.swift; path = SwiftDrawer/Classes/DrawerDefine.swift; sourceTree = "<group>"; };
 		2536DDF713C3ACC418B6CBF13781EF3F /* Pods-Zai LikhTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zai LikhTests.release.xcconfig"; sourceTree = "<group>"; };
-		2990E253F6162C4DB988E3C1FCA19B49 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
-		2E00FD17BE88E22F31912C07860F730F /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
-		2E6F453AC3DDDA76F29FECA37C58D146 /* Ono.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ono.xcconfig; sourceTree = "<group>"; };
+		26DBB7C0A636A42EE517B8B941F2390D /* SwiftDrawer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = SwiftDrawer.framework; path = SwiftDrawer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		2F43CAF17D108BE5C0DE6E9159AD7876 /* Pods-Zai LikhUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zai LikhUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		30ACCC5D7A6FB8A1CCE8EE773CD3C21D /* ONOXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ONOXMLDocument.m; path = Source/ONOXMLDocument.m; sourceTree = "<group>"; };
+		30CD2B42DFE0F4766B97CCD642261DCD /* Ono-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ono-umbrella.h"; sourceTree = "<group>"; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
 		36CA6DC0FA032F175C3E390FAE152210 /* Pods-Zai Likh-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zai Likh-acknowledgements.markdown"; sourceTree = "<group>"; };
 		407B2494AEC2C9ED81085E7D280F8344 /* Pods_Zai_Likh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Zai_Likh.framework; path = "Pods-Zai Likh.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		426A789886DFB89EF71A602A90816557 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
 		45C9DF6D6BF448B5A3A1367E1FBF12F2 /* Pods-Zai LikhTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zai LikhTests-umbrella.h"; sourceTree = "<group>"; };
+		45D593BDF8E325767E332788499AF03F /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
 		4876B91B4F8A6531412C94B424553E15 /* Pods-Zai Likh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zai Likh.debug.xcconfig"; sourceTree = "<group>"; };
 		49D3423F67DC38B7784B3CACF4BE0380 /* Pods-Zai LikhUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zai LikhUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		4B83EDC6AE05B1070620AA328F9CBF63 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		4BBE7205734074E8B16A4ACA4AC6053B /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
 		565A6E121F141A5619899E590AF41605 /* Pods-Zai Likh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zai Likh.modulemap"; sourceTree = "<group>"; };
 		691712C0F31EF77CC6C2B8DCD4C89C66 /* Pods-Zai LikhUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zai LikhUITests-Info.plist"; sourceTree = "<group>"; };
-		6B7B399F1055C9A9AFAAA17069C8FA26 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		6E4EA4F2220DB833584659DCE76FCA92 /* Ono.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ono.xcconfig; sourceTree = "<group>"; };
 		74F17AB87389E107ACA03BBE1EE7297A /* Pods-Zai Likh-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zai Likh-frameworks.sh"; sourceTree = "<group>"; };
 		77D3A8B3D6168AEA8700A97F9B9EACC5 /* Pods-Zai LikhUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zai LikhUITests-umbrella.h"; sourceTree = "<group>"; };
-		7B8271EEFDFE156AD4A0BCDA848F5711 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
-		7D55B07691BCD75C075F6168FE93B681 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		7B6E7BBEEFA8E74CDB8ECFBE284067BD /* SliderContainer.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderContainer.swift; path = SwiftDrawer/Classes/SliderContainer.swift; sourceTree = "<group>"; };
 		7E6064D414ECA3A3D2A96A9A37FB25CB /* Pods-Zai LikhTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zai LikhTests.modulemap"; sourceTree = "<group>"; };
-		825CAFC0D8728A43DC31FDC1A7CC6E07 /* Ono-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Ono-Info.plist"; sourceTree = "<group>"; };
+		82FED93830ECFD5993A0863296EB3717 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		832D4B719F8FDCB2DAFBF7E14ED1E424 /* SwiftDrawer.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwiftDrawer.xcconfig; sourceTree = "<group>"; };
+		868C9055E09118F950026C661EB02924 /* Ono-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Ono-Info.plist"; sourceTree = "<group>"; };
+		8BE0B384655881881CBCBF5803975CE6 /* SwiftDrawer-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwiftDrawer-prefix.pch"; sourceTree = "<group>"; };
 		8CCB186F19BCAEB4ACD2044D0FD64A54 /* Pods-Zai LikhTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zai LikhTests-dummy.m"; sourceTree = "<group>"; };
-		93AD1A6BC994F9A6A893495A6B5878C0 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
-		94E125670D39E8FC76F33A23D86B37CC /* Ono-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ono-umbrella.h"; sourceTree = "<group>"; };
+		8D083812FE1DB1960F52CB030C4C9734 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
 		96B1D090AD81C812954D17AAE7EC17CC /* Pods_Zai_LikhTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Zai_LikhTests.framework; path = "Pods-Zai LikhTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		98F776F360C3C7B2EF1765A11B5C71D4 /* Ono-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ono-prefix.pch"; sourceTree = "<group>"; };
+		9AAED0FFD2E1C2AA055E58EB111D1447 /* DrawerControl.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DrawerControl.swift; path = SwiftDrawer/Classes/DrawerControl.swift; sourceTree = "<group>"; };
 		9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9B96A9DDE3BF8CFB5EBA35EF8CA089E2 /* Ono.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ono.framework; path = Ono.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D7CE3F530C5D86060DD34947D7B6EA1 /* Pods-Zai LikhUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zai LikhUITests-dummy.m"; sourceTree = "<group>"; };
@@ -105,37 +135,36 @@
 		AA84C65A03373C452946F2C30732A9AE /* Pods-Zai LikhTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zai LikhTests-Info.plist"; sourceTree = "<group>"; };
 		AB8F0B583D96A2368B24C375ED864A94 /* Pods-Zai Likh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zai Likh-Info.plist"; sourceTree = "<group>"; };
 		AF7D32FC03158E064BACE0A80D99D54A /* Pods-Zai Likh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zai Likh-dummy.m"; sourceTree = "<group>"; };
+		B538577148B7AFF3F4F3E549B88E6E0C /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
 		BB35EF3605A01A27D00717DB89EDC43F /* Pods-Zai Likh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zai Likh.release.xcconfig"; sourceTree = "<group>"; };
-		CC0FCC7422171AE7E601439B37312612 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
-		CFFD430DD2ACCFB832BEF2659A6B51E0 /* Ono-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ono-prefix.pch"; sourceTree = "<group>"; };
-		D2123DBA7AC464284C5A843018F50771 /* ONOXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ONOXMLDocument.m; path = Source/ONOXMLDocument.m; sourceTree = "<group>"; };
-		D3B20BDE5C34D2D86F1BBC8AE0FB5422 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		C853006DA8BFFE5B5E2F057053C84639 /* Ono.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ono.h; path = Source/Ono.h; sourceTree = "<group>"; };
+		CDC7876CAD540FF55182138BE84AEA85 /* ONOXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ONOXMLDocument.h; path = Source/ONOXMLDocument.h; sourceTree = "<group>"; };
 		D579CEE05792AC37A903CA2C79CECBF8 /* Pods_Zai_LikhUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Zai_LikhUITests.framework; path = "Pods-Zai LikhUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		D5D24EA2F0910AEFEE6414687A84B392 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
-		DA65920645B193E471BA07F69D9E4EE9 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
 		DD38E7D28B9628803ECC0C7DE18ABAD6 /* Pods-Zai LikhTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zai LikhTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		DE69DE0234EEFF3F533BAFEC93D4DEF3 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		DE9A65FBE799A93C168FB9AD1659F479 /* Ono-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ono-dummy.m"; sourceTree = "<group>"; };
+		DF21EE1A25CE7FF87C9D7FECB8999E1E /* Ono.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Ono.modulemap; sourceTree = "<group>"; };
+		E25257F17850B8028852840A6511093E /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
 		E46ABFC8FC0E7E79FEC6864BA1908863 /* Pods-Zai LikhTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zai LikhTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		ED792AC1330CA7CCEE56C321D9D3EF94 /* Pods-Zai LikhTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zai LikhTests.debug.xcconfig"; sourceTree = "<group>"; };
-		EF9F519C79DAD171E4ADFC53C0986EA1 /* ONOXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ONOXMLDocument.h; path = Source/ONOXMLDocument.h; sourceTree = "<group>"; };
 		F0ED7EDE161B8200D0C1F193B9745F65 /* Pods-Zai LikhUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zai LikhUITests.modulemap"; sourceTree = "<group>"; };
-		FC0F28B097ED641CF2CB5CD65FAF55CD /* Ono.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ono.h; path = Source/Ono.h; sourceTree = "<group>"; };
-		FEE3B2D7925E05288029F9E03A94CBEB /* Ono.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Ono.modulemap; sourceTree = "<group>"; };
+		FBE13C6F0C450C7D721B0009E0069517 /* SliderStatus.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = SliderStatus.swift; path = SwiftDrawer/Classes/SliderStatus.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2F3BE81B2518C18248141A77A39C2B30 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				952B9EB435C64FC60C0226F7C722815F /* Foundation.framework in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 		9727840973A9C2692E58F7089A7C243E /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 				618D9C6E8BFF0C7AAD509E9279488585 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B6FAE38D97F1192282F1E61488DDB56A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0AD8AF7A87759A0B41113D54CCE49997 /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -163,27 +192,55 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		EDCD8DBC0715F846D1426A7C4B3B0A4E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E1F3023163F1244A29B43A0318CC327A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		1F6B3E0F623AAEC6F9E4738CA807FA02 /* Pods */ = {
+		2A107B5ACC6791AB6FDC50246FC91EB5 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				DDDF00F71B50FF119441D5282A62F29F /* DropDown */,
-				8ED1F316E8542603818151FEAB7CB1E7 /* Ono */,
+				8A9D6831CFB9E3A377B52D31DBD1578B /* DropDown */,
+				792E0623F1A29D3BE4742497FD07BC9F /* Ono */,
+				525D4A7FF44908F0EB0A589BAE805047 /* SwiftDrawer */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		2222C96F9904FEA29D39B83645DDBCBC /* Resources */ = {
+		525D4A7FF44908F0EB0A589BAE805047 /* SwiftDrawer */ = {
 			isa = PBXGroup;
 			children = (
-				CC0FCC7422171AE7E601439B37312612 /* DropDownCell.xib */,
+				1F85BAFFA7F1C4C5808EED0E6F0742A7 /* Drawer.swift */,
+				9AAED0FFD2E1C2AA055E58EB111D1447 /* DrawerControl.swift */,
+				24D8EF0B466AA081EFA60E8EA822ADE2 /* DrawerDefine.swift */,
+				120002DF927D72B2E3E0DDA669709A37 /* MainContainer.swift */,
+				7B6E7BBEEFA8E74CDB8ECFBE284067BD /* SliderContainer.swift */,
+				FBE13C6F0C450C7D721B0009E0069517 /* SliderStatus.swift */,
+				FD5CBB20EAB1D907698377497CB7AA6D /* Support Files */,
 			);
-			name = Resources;
+			name = SwiftDrawer;
+			path = SwiftDrawer;
 			sourceTree = "<group>";
 		};
-		40AFE1ED71C7FF2E6EFFFE9048020363 /* Products */ = {
+		792E0623F1A29D3BE4742497FD07BC9F /* Ono */ = {
+			isa = PBXGroup;
+			children = (
+				C853006DA8BFFE5B5E2F057053C84639 /* Ono.h */,
+				CDC7876CAD540FF55182138BE84AEA85 /* ONOXMLDocument.h */,
+				30ACCC5D7A6FB8A1CCE8EE773CD3C21D /* ONOXMLDocument.m */,
+				B4B26BF72B8DBCA2F34260AC1BA56E64 /* Support Files */,
+			);
+			name = Ono;
+			path = Ono;
+			sourceTree = "<group>";
+		};
+		7C567EC3510485E7D3F3AA0481400A49 /* Products */ = {
 			isa = PBXGroup;
 			children = (
 				9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */,
@@ -191,36 +248,9 @@
 				407B2494AEC2C9ED81085E7D280F8344 /* Pods_Zai_Likh.framework */,
 				96B1D090AD81C812954D17AAE7EC17CC /* Pods_Zai_LikhTests.framework */,
 				D579CEE05792AC37A903CA2C79CECBF8 /* Pods_Zai_LikhUITests.framework */,
+				26DBB7C0A636A42EE517B8B941F2390D /* SwiftDrawer.framework */,
 			);
 			name = Products;
-			sourceTree = "<group>";
-		};
-		62E4A18632031BA2D4FCEB284D68671D /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				FEE3B2D7925E05288029F9E03A94CBEB /* Ono.modulemap */,
-				2E6F453AC3DDDA76F29FECA37C58D146 /* Ono.xcconfig */,
-				045CCD6AD70D5DB809A8AEB75FA76A89 /* Ono-dummy.m */,
-				825CAFC0D8728A43DC31FDC1A7CC6E07 /* Ono-Info.plist */,
-				CFFD430DD2ACCFB832BEF2659A6B51E0 /* Ono-prefix.pch */,
-				94E125670D39E8FC76F33A23D86B37CC /* Ono-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/Ono";
-			sourceTree = "<group>";
-		};
-		862E7725E2F4DB418F9EB2032DB0E7AE /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				DA65920645B193E471BA07F69D9E4EE9 /* DropDown.modulemap */,
-				2E00FD17BE88E22F31912C07860F730F /* DropDown.xcconfig */,
-				0F7F9894A9B9FFAA83290113F9567AC2 /* DropDown-dummy.m */,
-				2990E253F6162C4DB988E3C1FCA19B49 /* DropDown-Info.plist */,
-				7D55B07691BCD75C075F6168FE93B681 /* DropDown-prefix.pch */,
-				6B7B399F1055C9A9AFAAA17069C8FA26 /* DropDown-umbrella.h */,
-			);
-			name = "Support Files";
-			path = "../Target Support Files/DropDown";
 			sourceTree = "<group>";
 		};
 		887A7A3077E7D1BA53BCE7C1E2E184AA /* Pods-Zai LikhTests */ = {
@@ -256,16 +286,20 @@
 			path = "Target Support Files/Pods-Zai Likh";
 			sourceTree = "<group>";
 		};
-		8ED1F316E8542603818151FEAB7CB1E7 /* Ono */ = {
+		8A9D6831CFB9E3A377B52D31DBD1578B /* DropDown */ = {
 			isa = PBXGroup;
 			children = (
-				FC0F28B097ED641CF2CB5CD65FAF55CD /* Ono.h */,
-				EF9F519C79DAD171E4ADFC53C0986EA1 /* ONOXMLDocument.h */,
-				D2123DBA7AC464284C5A843018F50771 /* ONOXMLDocument.m */,
-				62E4A18632031BA2D4FCEB284D68671D /* Support Files */,
+				0EDF99874FF69AD7902368F67BDE3143 /* DPDConstants.swift */,
+				E25257F17850B8028852840A6511093E /* DPDKeyboardListener.swift */,
+				8D083812FE1DB1960F52CB030C4C9734 /* DPDUIView+Extension.swift */,
+				4BBE7205734074E8B16A4ACA4AC6053B /* DropDown.swift */,
+				45D593BDF8E325767E332788499AF03F /* DropDown+Appearance.swift */,
+				82FED93830ECFD5993A0863296EB3717 /* DropDownCell.swift */,
+				FC5ECA173828F5CBC280616B233F0DE3 /* Resources */,
+				9E6A8B064ADE6D358047C127CF51AFDC /* Support Files */,
 			);
-			name = Ono;
-			path = Ono;
+			name = DropDown;
+			path = DropDown;
 			sourceTree = "<group>";
 		};
 		9E56D458667B104CD0DF013C59BB47CE /* Targets Support Files */ = {
@@ -276,6 +310,34 @@
 				C94735E403EEE3907FC7239D20867E30 /* Pods-Zai LikhUITests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		9E6A8B064ADE6D358047C127CF51AFDC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				4B83EDC6AE05B1070620AA328F9CBF63 /* DropDown.modulemap */,
+				B538577148B7AFF3F4F3E549B88E6E0C /* DropDown.xcconfig */,
+				02249F6C76F40B5686E80218E290D2DD /* DropDown-dummy.m */,
+				DE69DE0234EEFF3F533BAFEC93D4DEF3 /* DropDown-Info.plist */,
+				0FA8CA84A9BA0DF79BF829DFDCC38BEF /* DropDown-prefix.pch */,
+				426A789886DFB89EF71A602A90816557 /* DropDown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		B4B26BF72B8DBCA2F34260AC1BA56E64 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DF21EE1A25CE7FF87C9D7FECB8999E1E /* Ono.modulemap */,
+				6E4EA4F2220DB833584659DCE76FCA92 /* Ono.xcconfig */,
+				DE9A65FBE799A93C168FB9AD1659F479 /* Ono-dummy.m */,
+				868C9055E09118F950026C661EB02924 /* Ono-Info.plist */,
+				98F776F360C3C7B2EF1765A11B5C71D4 /* Ono-prefix.pch */,
+				30CD2B42DFE0F4766B97CCD642261DCD /* Ono-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Ono";
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -307,8 +369,8 @@
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
-				1F6B3E0F623AAEC6F9E4738CA807FA02 /* Pods */,
-				40AFE1ED71C7FF2E6EFFFE9048020363 /* Products */,
+				2A107B5ACC6791AB6FDC50246FC91EB5 /* Pods */,
+				7C567EC3510485E7D3F3AA0481400A49 /* Products */,
 				9E56D458667B104CD0DF013C59BB47CE /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -321,25 +383,39 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		DDDF00F71B50FF119441D5282A62F29F /* DropDown */ = {
+		FC5ECA173828F5CBC280616B233F0DE3 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				D5D24EA2F0910AEFEE6414687A84B392 /* DPDConstants.swift */,
-				211763180E0EEA3B661387D92AF15809 /* DPDKeyboardListener.swift */,
-				212F88941026555FA5ECE4F914F08454 /* DPDUIView+Extension.swift */,
-				93AD1A6BC994F9A6A893495A6B5878C0 /* DropDown.swift */,
-				7B8271EEFDFE156AD4A0BCDA848F5711 /* DropDown+Appearance.swift */,
-				D3B20BDE5C34D2D86F1BBC8AE0FB5422 /* DropDownCell.swift */,
-				2222C96F9904FEA29D39B83645DDBCBC /* Resources */,
-				862E7725E2F4DB418F9EB2032DB0E7AE /* Support Files */,
+				00EF80AF13244A5553FF8EC224C5CE85 /* DropDownCell.xib */,
 			);
-			name = DropDown;
-			path = DropDown;
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		FD5CBB20EAB1D907698377497CB7AA6D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				194A110C908B14FD926390744353C249 /* SwiftDrawer.modulemap */,
+				832D4B719F8FDCB2DAFBF7E14ED1E424 /* SwiftDrawer.xcconfig */,
+				12D6F2115F8237A7A9AF09F585A6945B /* SwiftDrawer-dummy.m */,
+				174AB49232E0B7A9715C1EFFAA2CAEB0 /* SwiftDrawer-Info.plist */,
+				8BE0B384655881881CBCBF5803975CE6 /* SwiftDrawer-prefix.pch */,
+				069742E6081BEB43F8A344D6EB296209 /* SwiftDrawer-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwiftDrawer";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		0FFDC38543E295FF0D5FE23586AF8391 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8639E5297929994ADCC16B7BC1567DF4 /* SwiftDrawer-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		15FD88110298811EE0D2866F597E837B /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -348,11 +424,11 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		209AEB022FB945A8AB8AB02C9E5CD425 /* Headers */ = {
+		261601463FA8F85B5F4435F74FB89810 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				86132C616A2C9D0ED3A248FA96F96E5A /* Pods-Zai Likh-umbrella.h in Headers */,
+				204D079437186265C44900199FD7AFC0 /* Pods-Zai Likh-umbrella.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -385,6 +461,24 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
+		3D9752496CD01A3D4867A865E4263AC1 /* SwiftDrawer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 07C62934478D662216E7E048A1CAF900 /* Build configuration list for PBXNativeTarget "SwiftDrawer" */;
+			buildPhases = (
+				0FFDC38543E295FF0D5FE23586AF8391 /* Headers */,
+				E0FFA410BB29F3DEF4780C305F112BD7 /* Sources */,
+				B6FAE38D97F1192282F1E61488DDB56A /* Frameworks */,
+				1F33895B10B8B633FD1B074BFB2176A7 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftDrawer;
+			productName = SwiftDrawer;
+			productReference = 26DBB7C0A636A42EE517B8B941F2390D /* SwiftDrawer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
 		59B07FB7D0AA14CF57DEDBA2522939F3 /* Pods-Zai LikhUITests */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 3B75FB79CD00A3DC3E0ED8402C789978 /* Build configuration list for PBXNativeTarget "Pods-Zai LikhUITests" */;
@@ -424,18 +518,19 @@
 		};
 		CC190860BB8D215AA3469A4B05296403 /* Pods-Zai Likh */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 4B3FCA4F377AFE4C7857EDFA8C9E6D27 /* Build configuration list for PBXNativeTarget "Pods-Zai Likh" */;
+			buildConfigurationList = B3A707344DD5BB33ECF196E31BA1FB32 /* Build configuration list for PBXNativeTarget "Pods-Zai Likh" */;
 			buildPhases = (
-				209AEB022FB945A8AB8AB02C9E5CD425 /* Headers */,
-				D66808AA51C265F474F2ABF272F6A32B /* Sources */,
-				2F3BE81B2518C18248141A77A39C2B30 /* Frameworks */,
-				DCF83DAE3394E3619F4F99A6487ACD58 /* Resources */,
+				261601463FA8F85B5F4435F74FB89810 /* Headers */,
+				D16C44BCF84B01F59F302750B6817F4C /* Sources */,
+				EDCD8DBC0715F846D1426A7C4B3B0A4E /* Frameworks */,
+				6F6EBF3D583F49BA4D686E15067BBC2F /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				A642475E2043452EF0A3CC76A9C747D9 /* PBXTargetDependency */,
-				DEB77528E8602A9212486F0058D49113 /* PBXTargetDependency */,
+				C3B840CB306E614A83FC56C64D56B64F /* PBXTargetDependency */,
+				8F7C31B7B2360B3DF922234B4FB36703 /* PBXTargetDependency */,
+				391118F7445582D619EF948036A6FE16 /* PBXTargetDependency */,
 			);
 			name = "Pods-Zai Likh";
 			productName = "Pods-Zai Likh";
@@ -496,7 +591,7 @@
 				en,
 			);
 			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
-			productRefGroup = 40AFE1ED71C7FF2E6EFFFE9048020363 /* Products */;
+			productRefGroup = 7C567EC3510485E7D3F3AA0481400A49 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
@@ -505,6 +600,7 @@
 				CC190860BB8D215AA3469A4B05296403 /* Pods-Zai Likh */,
 				D5F9FBB5B9BCFBF12396A90CAF43C45D /* Pods-Zai LikhTests */,
 				59B07FB7D0AA14CF57DEDBA2522939F3 /* Pods-Zai LikhUITests */,
+				3D9752496CD01A3D4867A865E4263AC1 /* SwiftDrawer */,
 			);
 		};
 /* End PBXProject section */
@@ -517,7 +613,21 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		1F33895B10B8B633FD1B074BFB2176A7 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36C980CDDEA90FDBA17BC7FC987F7A16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6F6EBF3D583F49BA4D686E15067BBC2F /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -539,13 +649,6 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DCF83DAE3394E3619F4F99A6487ACD58 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
@@ -558,11 +661,25 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		D66808AA51C265F474F2ABF272F6A32B /* Sources */ = {
+		D16C44BCF84B01F59F302750B6817F4C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				5900CB52F4C218C9DEF8AB99C3729550 /* Pods-Zai Likh-dummy.m in Sources */,
+				482C3EF7BAACB61344E4E06B39D692EC /* Pods-Zai Likh-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0FFA410BB29F3DEF4780C305F112BD7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A9DDFD6CE7A15575DF420A51FC9F3E0C /* Drawer.swift in Sources */,
+				83E124AEB776040F4E652C3ED4DE9781 /* DrawerControl.swift in Sources */,
+				B7B70F29392F659D9BA49B50FA31378A /* DrawerDefine.swift in Sources */,
+				076F0609117018F71F2B2D930EFF3B68 /* MainContainer.swift in Sources */,
+				E995F5D238FACF165D071A8522BA1C1F /* SliderContainer.swift in Sources */,
+				2F4C4476627A4DAAD5BF4392C7B64A54 /* SliderStatus.swift in Sources */,
+				411D57464FE0D5871707C0ED1553F303 /* SwiftDrawer-dummy.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -599,6 +716,12 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
+		391118F7445582D619EF948036A6FE16 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwiftDrawer;
+			target = 3D9752496CD01A3D4867A865E4263AC1 /* SwiftDrawer */;
+			targetProxy = B0E4DFE64544AC40AD8F4A3C039A4899 /* PBXContainerItemProxy */;
+		};
 		6753B47E3C7F1B2EBDED92A229BBCF3A /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-Zai Likh";
@@ -611,17 +734,17 @@
 			target = CC190860BB8D215AA3469A4B05296403 /* Pods-Zai Likh */;
 			targetProxy = D1497FE743CB252601B37E83C80C9ACA /* PBXContainerItemProxy */;
 		};
-		A642475E2043452EF0A3CC76A9C747D9 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = DropDown;
-			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
-			targetProxy = DD75107D79D6FE559C1663AC3FB5D843 /* PBXContainerItemProxy */;
-		};
-		DEB77528E8602A9212486F0058D49113 /* PBXTargetDependency */ = {
+		8F7C31B7B2360B3DF922234B4FB36703 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = Ono;
 			target = 72F5A1B5AACD804DF8D564C4C47E1F45 /* Ono */;
-			targetProxy = E807D5166416ED5BD32E36BE86D56D52 /* PBXContainerItemProxy */;
+			targetProxy = 8244F291EF184FF6EAA5276986253654 /* PBXContainerItemProxy */;
+		};
+		C3B840CB306E614A83FC56C64D56B64F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = AE14FDA8830EB2F3E600BF8781DF83E2 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -802,9 +925,159 @@
 			};
 			name = Debug;
 		};
+		7B295E69755FE32516B1BA334D6E6136 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832D4B719F8FDCB2DAFBF7E14ED1E424 /* SwiftDrawer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDrawer/SwiftDrawer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDrawer/SwiftDrawer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDrawer/SwiftDrawer.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDrawer;
+				PRODUCT_NAME = SwiftDrawer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8B1DE68F5760E556CFE4FC97C27EEE79 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 832D4B719F8FDCB2DAFBF7E14ED1E424 /* SwiftDrawer.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/SwiftDrawer/SwiftDrawer-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/SwiftDrawer/SwiftDrawer-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/SwiftDrawer/SwiftDrawer.modulemap";
+				PRODUCT_MODULE_NAME = SwiftDrawer;
+				PRODUCT_NAME = SwiftDrawer;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		9031680D98BA0BBF54835D37F95BF3FF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4876B91B4F8A6531412C94B424553E15 /* Pods-Zai Likh.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A368A041B765D8BA53DE6AD87D8F127A /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB35EF3605A01A27D00717DB89EDC43F /* Pods-Zai Likh.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
 		A3C733A6F45D03BC5A3664D7A8E538FB /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E00FD17BE88E22F31912C07860F730F /* DropDown.xcconfig */;
+			baseConfigurationReference = B538577148B7AFF3F4F3E549B88E6E0C /* DropDown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -878,7 +1151,7 @@
 		};
 		D30219333FCB92E4D175316E26E044C8 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E00FD17BE88E22F31912C07860F730F /* DropDown.xcconfig */;
+			baseConfigurationReference = B538577148B7AFF3F4F3E549B88E6E0C /* DropDown.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -913,7 +1186,7 @@
 		};
 		DF4B4804A0414B5B1108AA38213D02B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E6F453AC3DDDA76F29FECA37C58D146 /* Ono.xcconfig */;
+			baseConfigurationReference = 6E4EA4F2220DB833584659DCE76FCA92 /* Ono.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -945,83 +1218,6 @@
 				VERSION_INFO_PREFIX = "";
 			};
 			name = Debug;
-		};
-		E4E56810F6F36382F3D2C41D3CB906CA /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 4876B91B4F8A6531412C94B424553E15 /* Pods-Zai Likh.debug.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Debug;
-		};
-		E50A6E2EB25695787E06B2841140F425 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = BB35EF3605A01A27D00717DB89EDC43F /* Pods-Zai Likh.release.xcconfig */;
-			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
-				CLANG_ENABLE_OBJC_WEAK = NO;
-				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
-				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				CURRENT_PROJECT_VERSION = 1;
-				DEFINES_MODULE = YES;
-				DYLIB_COMPATIBILITY_VERSION = 1;
-				DYLIB_CURRENT_VERSION = 1;
-				DYLIB_INSTALL_NAME_BASE = "@rpath";
-				INFOPLIST_FILE = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh-Info.plist";
-				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
-				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-					"@loader_path/Frameworks",
-				);
-				MACH_O_TYPE = staticlib;
-				MODULEMAP_FILE = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh.modulemap";
-				OTHER_LDFLAGS = "";
-				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
-				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
-				SDKROOT = iphoneos;
-				SKIP_INSTALL = YES;
-				TARGETED_DEVICE_FAMILY = "1,2";
-				VALIDATE_PRODUCT = YES;
-				VERSIONING_SYSTEM = "apple-generic";
-				VERSION_INFO_PREFIX = "";
-			};
-			name = Release;
 		};
 		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
 			isa = XCBuildConfiguration;
@@ -1089,7 +1285,7 @@
 		};
 		F3B86F5327F0DFB84100CA72ABDE3B29 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2E6F453AC3DDDA76F29FECA37C58D146 /* Ono.xcconfig */;
+			baseConfigurationReference = 6E4EA4F2220DB833584659DCE76FCA92 /* Ono.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -1126,6 +1322,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		07C62934478D662216E7E048A1CAF900 /* Build configuration list for PBXNativeTarget "SwiftDrawer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7B295E69755FE32516B1BA334D6E6136 /* Debug */,
+				8B1DE68F5760E556CFE4FC97C27EEE79 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		3B75FB79CD00A3DC3E0ED8402C789978 /* Build configuration list for PBXNativeTarget "Pods-Zai LikhUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -1144,20 +1349,20 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		4B3FCA4F377AFE4C7857EDFA8C9E6D27 /* Build configuration list for PBXNativeTarget "Pods-Zai Likh" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				E4E56810F6F36382F3D2C41D3CB906CA /* Debug */,
-				E50A6E2EB25695787E06B2841140F425 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
 		67D60B28DBE6EC460B6DF839C24E3407 /* Build configuration list for PBXNativeTarget "Pods-Zai LikhTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				678FD538F1DAB186CC05584B35DCA332 /* Debug */,
 				2B3AD6116CEA7224D2B7F84A39406F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B3A707344DD5BB33ECF196E31BA1FB32 /* Build configuration list for PBXNativeTarget "Pods-Zai Likh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9031680D98BA0BBF54835D37F95BF3FF /* Debug */,
+				A368A041B765D8BA53DE6AD87D8F127A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

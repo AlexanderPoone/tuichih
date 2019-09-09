@@ -9,6 +9,16 @@ def remove_accents(input_str):
 def check_locution(input_locution):
 	pass
 
+
+'''
+LIST OF ALIAS
+.replace('（', '(')
+.replace('）', ')')
+.replace('｜', '|');
+
+
+'''
+
 text = 'Zu dieser Kamera gibt es noch allerlei Zubehör, wie Tasche, Fernauslöser und Stativ.'
 roughs = split(r'[\.\,\;\:\!\?\s]+', text)
 roughs.remove('')

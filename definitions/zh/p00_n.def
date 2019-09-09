@@ -1,0 +1,2 @@
+include(g00)
+include(cp00) /* Cantonese locutions */
