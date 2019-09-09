@@ -21,6 +21,12 @@
 		4B3C1189231D589A008D3CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C1187231D589A008D3CB6 /* LaunchScreen.storyboard */; };
 		4B3C1194231D589B008D3CB6 /* Zai_LikhTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C1193231D589B008D3CB6 /* Zai_LikhTests.swift */; };
 		4B3C119F231D589B008D3CB6 /* Zai_LikhUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C119E231D589B008D3CB6 /* Zai_LikhUITests.swift */; };
+		4B4EC3EB2326AB060059875E /* OneBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3EA2326AB060059875E /* OneBarController.swift */; };
+		4B4EC3ED2326AB1E0059875E /* TwoBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3EC2326AB1E0059875E /* TwoBarController.swift */; };
+		4B4EC3F02326AC720059875E /* OneBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3EE2326AC720059875E /* OneBarViewController.swift */; };
+		4B4EC3F12326AC720059875E /* OneBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EC3EF2326AC720059875E /* OneBarViewController.xib */; };
+		4B4EC3F42326B1560059875E /* ThreeBarViewControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3F22326B1560059875E /* ThreeBarViewControll.swift */; };
+		4B4EC3F52326B1560059875E /* ThreeBarViewControll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EC3F32326B1560059875E /* ThreeBarViewControll.xib */; };
 		4D6CA55F7F90A368EFC380A2 /* Pods_Zai_Likh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD606E0AF5DDF5A6280B72B /* Pods_Zai_Likh.framework */; };
 		5E3E0A2DD4702A30D9E4605F /* Pods_Zai_LikhUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C94FFA553F4F13B5A22A294 /* Pods_Zai_LikhUITests.framework */; };
 /* End PBXBuildFile section */
@@ -71,6 +77,12 @@
 		4B3C119A231D589B008D3CB6 /* Zai LikhUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zai LikhUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		4B3C119E231D589B008D3CB6 /* Zai_LikhUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zai_LikhUITests.swift; sourceTree = "<group>"; };
 		4B3C11A0231D589B008D3CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4EC3EA2326AB060059875E /* OneBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneBarController.swift; sourceTree = "<group>"; };
+		4B4EC3EC2326AB1E0059875E /* TwoBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoBarController.swift; sourceTree = "<group>"; };
+		4B4EC3EE2326AC720059875E /* OneBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneBarViewController.swift; sourceTree = "<group>"; };
+		4B4EC3EF2326AC720059875E /* OneBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneBarViewController.xib; sourceTree = "<group>"; };
+		4B4EC3F22326B1560059875E /* ThreeBarViewControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBarViewControll.swift; sourceTree = "<group>"; };
+		4B4EC3F32326B1560059875E /* ThreeBarViewControll.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeBarViewControll.xib; sourceTree = "<group>"; };
 		5C94FFA553F4F13B5A22A294 /* Pods_Zai_LikhUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zai_LikhUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		695208CD6C63AC71189FA4B2 /* Pods-Zai LikhUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai LikhUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zai LikhUITests/Pods-Zai LikhUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		76B5E3D843C3A6C691ACBBED /* Pods-Zai LikhUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai LikhUITests.release.xcconfig"; path = "Target Support Files/Pods-Zai LikhUITests/Pods-Zai LikhUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -158,6 +170,12 @@
 				4B2118C92320FA50008760FA /* engine.html */,
 				4B2118D02322AA05008760FA /* EmbeddedEngineView.swift */,
 				4B3C117E231D588A008D3CB6 /* SceneDelegate.swift */,
+				4B4EC3EA2326AB060059875E /* OneBarController.swift */,
+				4B4EC3EE2326AC720059875E /* OneBarViewController.swift */,
+				4B4EC3EF2326AC720059875E /* OneBarViewController.xib */,
+				4B4EC3F22326B1560059875E /* ThreeBarViewControll.swift */,
+				4B4EC3F32326B1560059875E /* ThreeBarViewControll.xib */,
+				4B4EC3EC2326AB1E0059875E /* TwoBarController.swift */,
 				4B3C1180231D588A008D3CB6 /* ContentView.swift */,
 				4B3C1182231D589A008D3CB6 /* Assets.xcassets */,
 				4B152E5A2320247200EAAE50 /* Localizable.strings */,
@@ -320,11 +338,13 @@
 			files = (
 				4B2118CE2320FB20008760FA /* AdobeHeitiStd-Regular.otf in Resources */,
 				4B3C1189231D589A008D3CB6 /* LaunchScreen.storyboard in Resources */,
+				4B4EC3F52326B1560059875E /* ThreeBarViewControll.xib in Resources */,
 				4B152E5C2320247200EAAE50 /* Localizable.strings in Resources */,
 				4B3C1186231D589A008D3CB6 /* Preview Assets.xcassets in Resources */,
 				4B3C1183231D589A008D3CB6 /* Assets.xcassets in Resources */,
 				4B2118CF2320FB20008760FA /* AdobeKaitiStd-Regular.otf in Resources */,
 				4B2118CA2320FA50008760FA /* engine.html in Resources */,
+				4B4EC3F12326AC720059875E /* OneBarViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -435,9 +455,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4EC3F02326AC720059875E /* OneBarViewController.swift in Sources */,
 				4B3C117D231D588A008D3CB6 /* AppDelegate.swift in Sources */,
+				4B4EC3F42326B1560059875E /* ThreeBarViewControll.swift in Sources */,
+				4B4EC3EB2326AB060059875E /* OneBarController.swift in Sources */,
 				4B3C117F231D588A008D3CB6 /* SceneDelegate.swift in Sources */,
 				4B2118D12322AA05008760FA /* EmbeddedEngineView.swift in Sources */,
+				4B4EC3ED2326AB1E0059875E /* TwoBarController.swift in Sources */,
 				4B3C1181231D588A008D3CB6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

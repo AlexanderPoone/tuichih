@@ -7,7 +7,6 @@
 //
 
 import SwiftUI
-import SwiftDrawer
 
 private let dateFormatter: DateFormatter = {
     let dateFormatter = DateFormatter()

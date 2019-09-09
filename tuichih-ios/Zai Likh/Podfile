@@ -6,7 +6,7 @@ target 'Zai Likh' do
   use_frameworks!
   pod 'DropDown'
   pod 'Ono'
-  pod 'SwiftDrawer'
+  #pod 'SwiftDrawer'
   
   # Pods for Zai Likh
 
