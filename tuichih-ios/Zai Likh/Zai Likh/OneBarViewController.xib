@@ -27,24 +27,24 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH0-fQ-4VK">
-                                    <rect key="frame" x="31" y="0.0" width="48" height="163.5"/>
+                                    <rect key="frame" x="7" y="0.0" width="96" height="163.5"/>
                                     <state key="normal" image="1__open"/>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OXr-3d-h5J">
-                                    <rect key="frame" x="31" y="163.5" width="48" height="163.5"/>
+                                    <rect key="frame" x="7" y="163.5" width="96" height="163.5"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" image="1_operation"/>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLh-TY-J9H">
-                                    <rect key="frame" x="31" y="327" width="48" height="163.5"/>
+                                    <rect key="frame" x="7" y="327" width="96" height="163.5"/>
                                     <state key="normal" image="1_settings"/>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAW-Ve-mfN">
-                                    <rect key="frame" x="31" y="490.5" width="48" height="164"/>
+                                    <rect key="frame" x="7" y="490.5" width="96" height="164"/>
                                     <state key="normal" image="1_help"/>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aE0-GK-gCn">
-                                    <rect key="frame" x="31" y="654.5" width="48" height="163.5"/>
+                                    <rect key="frame" x="7" y="654.5" width="96" height="163.5"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" image="1_about"/>
                                 </button>
