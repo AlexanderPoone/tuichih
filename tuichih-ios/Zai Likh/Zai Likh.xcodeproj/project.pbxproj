@@ -22,13 +22,19 @@
 		4B3C1194231D589B008D3CB6 /* Zai_LikhTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C1193231D589B008D3CB6 /* Zai_LikhTests.swift */; };
 		4B3C119F231D589B008D3CB6 /* Zai_LikhUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C119E231D589B008D3CB6 /* Zai_LikhUITests.swift */; };
 		4B4EC3EB2326AB060059875E /* OneBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3EA2326AB060059875E /* OneBarController.swift */; };
-		4B4EC3ED2326AB1E0059875E /* TwoBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3EC2326AB1E0059875E /* TwoBarController.swift */; };
 		4B4EC3F02326AC720059875E /* OneBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3EE2326AC720059875E /* OneBarViewController.swift */; };
 		4B4EC3F12326AC720059875E /* OneBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EC3EF2326AC720059875E /* OneBarViewController.xib */; };
 		4B4EC3F42326B1560059875E /* ThreeBarViewControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3F22326B1560059875E /* ThreeBarViewControll.swift */; };
 		4B4EC3F52326B1560059875E /* ThreeBarViewControll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EC3F32326B1560059875E /* ThreeBarViewControll.xib */; };
 		4B4EC3F82326B6DD0059875E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3F62326B6DC0059875E /* MainViewController.swift */; };
 		4B4EC3F92326B6DD0059875E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EC3F72326B6DD0059875E /* MainViewController.xib */; };
+		4B4EC3FB2327520A0059875E /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3FA2327520A0059875E /* ContainerViewController.swift */; };
+		4B4EC3FD232765170059875E /* MarkupDocunent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3FC232765170059875E /* MarkupDocunent.swift */; };
+		4B4EC3FF232766200059875E /* DocumentBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3FE232766200059875E /* DocumentBrowserDelegate.swift */; };
+		4B4EC401232766610059875E /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC400232766610059875E /* DocumentBrowserViewController.swift */; };
+		4B4EC40823276CEA0059875E /* QuickLookThumbnailing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4EC40723276CEA0059875E /* QuickLookThumbnailing.framework */; };
+		4B4EC40B23276CEA0059875E /* ThumbnailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC40A23276CEA0059875E /* ThumbnailProvider.swift */; };
+		4B4EC40F23276CEA0059875E /* MarkupThumbnail.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B4EC40623276CEA0059875E /* MarkupThumbnail.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		4D6CA55F7F90A368EFC380A2 /* Pods_Zai_Likh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD606E0AF5DDF5A6280B72B /* Pods_Zai_Likh.framework */; };
 		5E3E0A2DD4702A30D9E4605F /* Pods_Zai_LikhUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C94FFA553F4F13B5A22A294 /* Pods_Zai_LikhUITests.framework */; };
 /* End PBXBuildFile section */
@@ -48,7 +54,28 @@
 			remoteGlobalIDString = 4B3C1178231D588A008D3CB6;
 			remoteInfo = "Zai Likh";
 		};
+		4B4EC40D23276CEA0059875E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3C1171231D5889008D3CB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4EC40523276CEA0059875E;
+			remoteInfo = MarkupThumbnail;
+		};
 /* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B4EC41323276CEB0059875E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4B4EC40F23276CEA0059875E /* MarkupThumbnail.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		1A8C08FA514300B9CCAD37D0 /* Pods-Zai LikhTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai LikhTests.debug.xcconfig"; path = "Target Support Files/Pods-Zai LikhTests/Pods-Zai LikhTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -80,13 +107,20 @@
 		4B3C119E231D589B008D3CB6 /* Zai_LikhUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zai_LikhUITests.swift; sourceTree = "<group>"; };
 		4B3C11A0231D589B008D3CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		4B4EC3EA2326AB060059875E /* OneBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneBarController.swift; sourceTree = "<group>"; };
-		4B4EC3EC2326AB1E0059875E /* TwoBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoBarController.swift; sourceTree = "<group>"; };
 		4B4EC3EE2326AC720059875E /* OneBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneBarViewController.swift; sourceTree = "<group>"; };
 		4B4EC3EF2326AC720059875E /* OneBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneBarViewController.xib; sourceTree = "<group>"; };
 		4B4EC3F22326B1560059875E /* ThreeBarViewControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBarViewControll.swift; sourceTree = "<group>"; };
 		4B4EC3F32326B1560059875E /* ThreeBarViewControll.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeBarViewControll.xib; sourceTree = "<group>"; };
 		4B4EC3F62326B6DC0059875E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
 		4B4EC3F72326B6DD0059875E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4B4EC3FA2327520A0059875E /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		4B4EC3FC232765170059875E /* MarkupDocunent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkupDocunent.swift; sourceTree = "<group>"; };
+		4B4EC3FE232766200059875E /* DocumentBrowserDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserDelegate.swift; sourceTree = "<group>"; };
+		4B4EC400232766610059875E /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
+		4B4EC40623276CEA0059875E /* MarkupThumbnail.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MarkupThumbnail.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4EC40723276CEA0059875E /* QuickLookThumbnailing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookThumbnailing.framework; path = System/Library/Frameworks/QuickLookThumbnailing.framework; sourceTree = SDKROOT; };
+		4B4EC40A23276CEA0059875E /* ThumbnailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailProvider.swift; sourceTree = "<group>"; };
+		4B4EC40C23276CEA0059875E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5C94FFA553F4F13B5A22A294 /* Pods_Zai_LikhUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zai_LikhUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		695208CD6C63AC71189FA4B2 /* Pods-Zai LikhUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai LikhUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zai LikhUITests/Pods-Zai LikhUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		76B5E3D843C3A6C691ACBBED /* Pods-Zai LikhUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai LikhUITests.release.xcconfig"; path = "Target Support Files/Pods-Zai LikhUITests/Pods-Zai LikhUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -121,6 +155,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4B4EC40323276CEA0059875E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4EC40823276CEA0059875E /* QuickLookThumbnailing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
@@ -130,6 +172,7 @@
 				BAD606E0AF5DDF5A6280B72B /* Pods_Zai_Likh.framework */,
 				899631E3409AF4F0E22FF372 /* Pods_Zai_LikhTests.framework */,
 				5C94FFA553F4F13B5A22A294 /* Pods_Zai_LikhUITests.framework */,
+				4B4EC40723276CEA0059875E /* QuickLookThumbnailing.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -149,6 +192,7 @@
 				4B3C117B231D588A008D3CB6 /* Zai Likh */,
 				4B3C1192231D589B008D3CB6 /* Zai LikhTests */,
 				4B3C119D231D589B008D3CB6 /* Zai LikhUITests */,
+				4B4EC40923276CEA0059875E /* MarkupThumbnail */,
 				4B3C117A231D588A008D3CB6 /* Products */,
 				7C68CB68EAEB71FEA55F8E43 /* Pods */,
 				3533814B2C028D0BC846293F /* Frameworks */,
@@ -161,6 +205,7 @@
 				4B3C1179231D588A008D3CB6 /* Zai Likh.app */,
 				4B3C118F231D589B008D3CB6 /* Zai LikhTests.xctest */,
 				4B3C119A231D589B008D3CB6 /* Zai LikhUITests.xctest */,
+				4B4EC40623276CEA0059875E /* MarkupThumbnail.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -176,12 +221,15 @@
 				4B3C117E231D588A008D3CB6 /* SceneDelegate.swift */,
 				4B4EC3EA2326AB060059875E /* OneBarController.swift */,
 				4B4EC3EE2326AC720059875E /* OneBarViewController.swift */,
+				4B4EC3FA2327520A0059875E /* ContainerViewController.swift */,
+				4B4EC3FC232765170059875E /* MarkupDocunent.swift */,
+				4B4EC3FE232766200059875E /* DocumentBrowserDelegate.swift */,
+				4B4EC400232766610059875E /* DocumentBrowserViewController.swift */,
 				4B4EC3EF2326AC720059875E /* OneBarViewController.xib */,
 				4B4EC3F62326B6DC0059875E /* MainViewController.swift */,
 				4B4EC3F72326B6DD0059875E /* MainViewController.xib */,
 				4B4EC3F22326B1560059875E /* ThreeBarViewControll.swift */,
 				4B4EC3F32326B1560059875E /* ThreeBarViewControll.xib */,
-				4B4EC3EC2326AB1E0059875E /* TwoBarController.swift */,
 				4B3C1180231D588A008D3CB6 /* ContentView.swift */,
 				4B3C1182231D589A008D3CB6 /* Assets.xcassets */,
 				4B152E5A2320247200EAAE50 /* Localizable.strings */,
@@ -218,6 +266,15 @@
 			path = "Zai LikhUITests";
 			sourceTree = "<group>";
 		};
+		4B4EC40923276CEA0059875E /* MarkupThumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				4B4EC40A23276CEA0059875E /* ThumbnailProvider.swift */,
+				4B4EC40C23276CEA0059875E /* Info.plist */,
+			);
+			path = MarkupThumbnail;
+			sourceTree = "<group>";
+		};
 		7C68CB68EAEB71FEA55F8E43 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,10 +300,12 @@
 				4B3C1176231D588A008D3CB6 /* Frameworks */,
 				4B3C1177231D588A008D3CB6 /* Resources */,
 				20E776B0C0BDE8B7FF5FF301 /* [CP] Embed Pods Frameworks */,
+				4B4EC41323276CEB0059875E /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4B4EC40E23276CEA0059875E /* PBXTargetDependency */,
 			);
 			name = "Zai Likh";
 			productName = "Zai Likh";
@@ -291,6 +350,23 @@
 			productReference = 4B3C119A231D589B008D3CB6 /* Zai LikhUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
+		4B4EC40523276CEA0059875E /* MarkupThumbnail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4EC41023276CEB0059875E /* Build configuration list for PBXNativeTarget "MarkupThumbnail" */;
+			buildPhases = (
+				4B4EC40223276CEA0059875E /* Sources */,
+				4B4EC40323276CEA0059875E /* Frameworks */,
+				4B4EC40423276CEA0059875E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkupThumbnail;
+			productName = MarkupThumbnail;
+			productReference = 4B4EC40623276CEA0059875E /* MarkupThumbnail.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
@@ -311,6 +387,9 @@
 					4B3C1199231D589B008D3CB6 = {
 						CreatedOnToolsVersion = 11.0;
 						TestTargetID = 4B3C1178231D588A008D3CB6;
+					};
+					4B4EC40523276CEA0059875E = {
+						CreatedOnToolsVersion = 11.0;
 					};
 				};
 			};
@@ -333,6 +412,7 @@
 				4B3C1178231D588A008D3CB6 /* Zai Likh */,
 				4B3C118E231D589B008D3CB6 /* Zai LikhTests */,
 				4B3C1199231D589B008D3CB6 /* Zai LikhUITests */,
+				4B4EC40523276CEA0059875E /* MarkupThumbnail */,
 			);
 		};
 /* End PBXProject section */
@@ -363,6 +443,13 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4B3C1198231D589B008D3CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4EC40423276CEA0059875E /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -462,14 +549,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4B4EC3FD232765170059875E /* MarkupDocunent.swift in Sources */,
 				4B4EC3F02326AC720059875E /* OneBarViewController.swift in Sources */,
 				4B3C117D231D588A008D3CB6 /* AppDelegate.swift in Sources */,
+				4B4EC3FB2327520A0059875E /* ContainerViewController.swift in Sources */,
+				4B4EC401232766610059875E /* DocumentBrowserViewController.swift in Sources */,
 				4B4EC3F42326B1560059875E /* ThreeBarViewControll.swift in Sources */,
 				4B4EC3EB2326AB060059875E /* OneBarController.swift in Sources */,
+				4B4EC3FF232766200059875E /* DocumentBrowserDelegate.swift in Sources */,
 				4B3C117F231D588A008D3CB6 /* SceneDelegate.swift in Sources */,
 				4B2118D12322AA05008760FA /* EmbeddedEngineView.swift in Sources */,
 				4B4EC3F82326B6DD0059875E /* MainViewController.swift in Sources */,
-				4B4EC3ED2326AB1E0059875E /* TwoBarController.swift in Sources */,
 				4B3C1181231D588A008D3CB6 /* ContentView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -490,6 +580,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4B4EC40223276CEA0059875E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4EC40B23276CEA0059875E /* ThumbnailProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -502,6 +600,11 @@
 			isa = PBXTargetDependency;
 			target = 4B3C1178231D588A008D3CB6 /* Zai Likh */;
 			targetProxy = 4B3C119B231D589B008D3CB6 /* PBXContainerItemProxy */;
+		};
+		4B4EC40E23276CEA0059875E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B4EC40523276CEA0059875E /* MarkupThumbnail */;
+			targetProxy = 4B4EC40D23276CEA0059875E /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -651,6 +754,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = E6C44825E220D9D2707A6AE8 /* Pods-Zai Likh.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Zai Likh/Preview Content\"";
@@ -672,6 +776,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 8496234E6CB2BE7FE18587D0 /* Pods-Zai Likh.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_ASSET_PATHS = "\"Zai Likh/Preview Content\"";
@@ -777,6 +882,44 @@
 			};
 			name = Release;
 		};
+		4B4EC41123276CEB0059875E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94RT5FA8WL;
+				INFOPLIST_FILE = MarkupThumbnail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.softfeta.Zai-Likh.MarkupThumbnail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B4EC41223276CEB0059875E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94RT5FA8WL;
+				INFOPLIST_FILE = MarkupThumbnail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.softfeta.Zai-Likh.MarkupThumbnail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
@@ -812,6 +955,15 @@
 			buildConfigurations = (
 				4B3C11AA231D589B008D3CB6 /* Debug */,
 				4B3C11AB231D589B008D3CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4EC41023276CEB0059875E /* Build configuration list for PBXNativeTarget "MarkupThumbnail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4EC41123276CEB0059875E /* Debug */,
+				4B4EC41223276CEB0059875E /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

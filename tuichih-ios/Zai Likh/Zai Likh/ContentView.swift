@@ -19,10 +19,10 @@ struct ContentView: View {
     @State private var dates = [Date]()
     
     var body: some View {
-        Drawer()
-        .setSlider(view: SliderView(type: .leftRear))
-        .setSlider(view: Slider2View(type: .rightFront))
-        .setMain(view: HomeView())
+//        Drawer()
+//        .setSlider(view: SliderView(type: .leftRear))
+//        .setSlider(view: Slider2View(type: .rightFront))
+//        .setMain(view: HomeView())
         NavigationView {
             MasterView(dates: $dates)
                 .navigationBarTitle(Text("Master"))

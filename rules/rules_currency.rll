@@ -1,3 +1,11 @@
+/* Scraped from WikiData
+
+The property "instance of" has the identifier P31. The value "currency" has the identifier Q8142.
+If you want every Wikidata entity with the condition (P31 == Q8142) equals true:
+copy-paste claim[31:8142] in the form field called Query;
+
+*/
+
 {'$': getSetting('dollar'), '€': '歐羅', ['¥', '￥']: ['日元', '人民幣'], 
 '₹': '印度盧比', '₩', '韓圓', '₽', '盧布', '฿': '泰銖', "zł": "波蘭茲羅提",
 '£': '英鎊', '₪': '以色列新謝克爾', '₱': '菲律賓披索', '₴': '烏克蘭格里夫納', 

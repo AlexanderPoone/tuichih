@@ -27,24 +27,28 @@
                             <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                             <subviews>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="QH0-fQ-4VK">
-                                    <rect key="frame" x="7" y="0.0" width="96" height="163.5"/>
+                                    <rect key="frame" x="7" y="0.0" width="96" height="136.5"/>
                                     <state key="normal" image="1__open"/>
                                 </button>
+                                <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="an4-20-g8r">
+                                    <rect key="frame" x="7" y="136" width="96" height="136.5"/>
+                                    <state key="normal" image="2_star"/>
+                                </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="OXr-3d-h5J">
-                                    <rect key="frame" x="7" y="163.5" width="96" height="163.5"/>
+                                    <rect key="frame" x="7" y="272.5" width="96" height="136.5"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" image="1_operation"/>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gLh-TY-J9H">
-                                    <rect key="frame" x="7" y="327" width="96" height="163.5"/>
+                                    <rect key="frame" x="7" y="409" width="96" height="136.5"/>
                                     <state key="normal" image="1_settings"/>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="CAW-Ve-mfN">
-                                    <rect key="frame" x="7" y="490.5" width="96" height="164"/>
+                                    <rect key="frame" x="7" y="545.5" width="96" height="136"/>
                                     <state key="normal" image="1_help"/>
                                 </button>
                                 <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="aE0-GK-gCn">
-                                    <rect key="frame" x="7" y="654.5" width="96" height="163.5"/>
+                                    <rect key="frame" x="7" y="681.5" width="96" height="136.5"/>
                                     <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                     <state key="normal" image="1_about"/>
                                 </button>
@@ -67,6 +71,7 @@
         <image name="1_help" width="48" height="48"/>
         <image name="1_operation" width="48" height="48"/>
         <image name="1_settings" width="48" height="48"/>
+        <image name="2_star" width="48" height="48"/>
         <namedColor name="Smoky black">
             <color red="0.062745098039215685" green="0.047058823529411764" blue="0.031372549019607843" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
         </namedColor>

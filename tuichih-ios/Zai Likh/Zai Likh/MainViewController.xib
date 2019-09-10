@@ -31,7 +31,7 @@
                         <segment title="" image="2_save"/>
                         <segment title="" image="2_share"/>
                         <segment title="" image="2_find"/>
-                        <segment title="" image="2_star"/>
+                        <segment title="" image="2_star_grey"/>
                         <segment title="" image="2_skip"/>
                         <segment title="" image="2_next"/>
                     </segments>
@@ -67,7 +67,7 @@
         <image name="2_save" width="48" height="48"/>
         <image name="2_share" width="48" height="48"/>
         <image name="2_skip" width="48" height="48"/>
-        <image name="2_star" width="48" height="48"/>
+        <image name="2_star_grey" width="48" height="48"/>
         <image name="2_undo" width="48" height="48"/>
         <namedColor name="ThemeColor">
             <color red="0.12549019607843137" green="0.12549019607843137" blue="0.12549019607843137" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
