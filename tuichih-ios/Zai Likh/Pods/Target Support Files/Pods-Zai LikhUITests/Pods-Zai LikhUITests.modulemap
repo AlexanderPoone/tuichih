@@ -1,0 +1,6 @@
+framework module Pods_Zai_LikhUITests {
+  umbrella header "Pods-Zai LikhUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

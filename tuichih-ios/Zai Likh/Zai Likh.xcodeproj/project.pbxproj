@@ -1,0 +1,974 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		325C62654DEB52DF93059559 /* Pods_Zai_LikhTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899631E3409AF4F0E22FF372 /* Pods_Zai_LikhTests.framework */; };
+		4B152E5C2320247200EAAE50 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4B152E5A2320247200EAAE50 /* Localizable.strings */; };
+		4B2118CA2320FA50008760FA /* engine.html in Resources */ = {isa = PBXBuildFile; fileRef = 4B2118C92320FA50008760FA /* engine.html */; };
+		4B2118CE2320FB20008760FA /* AdobeHeitiStd-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2118CC2320FB20008760FA /* AdobeHeitiStd-Regular.otf */; };
+		4B2118CF2320FB20008760FA /* AdobeKaitiStd-Regular.otf in Resources */ = {isa = PBXBuildFile; fileRef = 4B2118CD2320FB20008760FA /* AdobeKaitiStd-Regular.otf */; };
+		4B2118D12322AA05008760FA /* EmbeddedEngineView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B2118D02322AA05008760FA /* EmbeddedEngineView.swift */; };
+		4B3C117D231D588A008D3CB6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C117C231D588A008D3CB6 /* AppDelegate.swift */; };
+		4B3C117F231D588A008D3CB6 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C117E231D588A008D3CB6 /* SceneDelegate.swift */; };
+		4B3C1181231D588A008D3CB6 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C1180231D588A008D3CB6 /* ContentView.swift */; };
+		4B3C1183231D589A008D3CB6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C1182231D589A008D3CB6 /* Assets.xcassets */; };
+		4B3C1186231D589A008D3CB6 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C1185231D589A008D3CB6 /* Preview Assets.xcassets */; };
+		4B3C1189231D589A008D3CB6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4B3C1187231D589A008D3CB6 /* LaunchScreen.storyboard */; };
+		4B3C1194231D589B008D3CB6 /* Zai_LikhTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C1193231D589B008D3CB6 /* Zai_LikhTests.swift */; };
+		4B3C119F231D589B008D3CB6 /* Zai_LikhUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B3C119E231D589B008D3CB6 /* Zai_LikhUITests.swift */; };
+		4B4EC3EB2326AB060059875E /* OneBarController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3EA2326AB060059875E /* OneBarController.swift */; };
+		4B4EC3F02326AC720059875E /* OneBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3EE2326AC720059875E /* OneBarViewController.swift */; };
+		4B4EC3F12326AC720059875E /* OneBarViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EC3EF2326AC720059875E /* OneBarViewController.xib */; };
+		4B4EC3F42326B1560059875E /* ThreeBarViewControll.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3F22326B1560059875E /* ThreeBarViewControll.swift */; };
+		4B4EC3F52326B1560059875E /* ThreeBarViewControll.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EC3F32326B1560059875E /* ThreeBarViewControll.xib */; };
+		4B4EC3F82326B6DD0059875E /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3F62326B6DC0059875E /* MainViewController.swift */; };
+		4B4EC3F92326B6DD0059875E /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4B4EC3F72326B6DD0059875E /* MainViewController.xib */; };
+		4B4EC3FB2327520A0059875E /* ContainerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3FA2327520A0059875E /* ContainerViewController.swift */; };
+		4B4EC3FD232765170059875E /* MarkupDocunent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3FC232765170059875E /* MarkupDocunent.swift */; };
+		4B4EC3FF232766200059875E /* DocumentBrowserDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC3FE232766200059875E /* DocumentBrowserDelegate.swift */; };
+		4B4EC401232766610059875E /* DocumentBrowserViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC400232766610059875E /* DocumentBrowserViewController.swift */; };
+		4B4EC40823276CEA0059875E /* QuickLookThumbnailing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4EC40723276CEA0059875E /* QuickLookThumbnailing.framework */; };
+		4B4EC40B23276CEA0059875E /* ThumbnailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC40A23276CEA0059875E /* ThumbnailProvider.swift */; };
+		4B4EC40F23276CEA0059875E /* MarkupThumbnail.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B4EC40623276CEA0059875E /* MarkupThumbnail.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4D6CA55F7F90A368EFC380A2 /* Pods_Zai_Likh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD606E0AF5DDF5A6280B72B /* Pods_Zai_Likh.framework */; };
+		5E3E0A2DD4702A30D9E4605F /* Pods_Zai_LikhUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C94FFA553F4F13B5A22A294 /* Pods_Zai_LikhUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4B3C1190231D589B008D3CB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3C1171231D5889008D3CB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3C1178231D588A008D3CB6;
+			remoteInfo = "Zai Likh";
+		};
+		4B3C119B231D589B008D3CB6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3C1171231D5889008D3CB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B3C1178231D588A008D3CB6;
+			remoteInfo = "Zai Likh";
+		};
+		4B4EC40D23276CEA0059875E /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4B3C1171231D5889008D3CB6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4B4EC40523276CEA0059875E;
+			remoteInfo = MarkupThumbnail;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		4B4EC41323276CEB0059875E /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4B4EC40F23276CEA0059875E /* MarkupThumbnail.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1A8C08FA514300B9CCAD37D0 /* Pods-Zai LikhTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai LikhTests.debug.xcconfig"; path = "Target Support Files/Pods-Zai LikhTests/Pods-Zai LikhTests.debug.xcconfig"; sourceTree = "<group>"; };
+		4AFB2C6AAC4CF5BEAD7561DD /* Pods-Zai LikhTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai LikhTests.release.xcconfig"; path = "Target Support Files/Pods-Zai LikhTests/Pods-Zai LikhTests.release.xcconfig"; sourceTree = "<group>"; };
+		4B152E562320230D00EAAE50 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/LaunchScreen.strings"; sourceTree = "<group>"; };
+		4B152E572320231B00EAAE50 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4B152E582320233F00EAAE50 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/LaunchScreen.strings; sourceTree = "<group>"; };
+		4B152E592320239900EAAE50 /* MILESTONES.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = MILESTONES.md; sourceTree = "<group>"; };
+		4B152E5B2320247200EAAE50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = Base; path = Base.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B152E5D2320247F00EAAE50 /* zh-Hant */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = "zh-Hant"; path = "zh-Hant.lproj/Localizable.strings"; sourceTree = "<group>"; };
+		4B152E5E2320248100EAAE50 /* fr */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = fr; path = fr.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B152E5F2320248300EAAE50 /* es */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = es; path = es.lproj/Localizable.strings; sourceTree = "<group>"; };
+		4B2118C92320FA50008760FA /* engine.html */ = {isa = PBXFileReference; lastKnownFileType = text.html; path = engine.html; sourceTree = "<group>"; };
+		4B2118CC2320FB20008760FA /* AdobeHeitiStd-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdobeHeitiStd-Regular.otf"; path = "../../../../fonts/AdobeHeitiStd-Regular.otf"; sourceTree = "<group>"; };
+		4B2118CD2320FB20008760FA /* AdobeKaitiStd-Regular.otf */ = {isa = PBXFileReference; lastKnownFileType = file; name = "AdobeKaitiStd-Regular.otf"; path = "../../../../fonts/AdobeKaitiStd-Regular.otf"; sourceTree = "<group>"; };
+		4B2118D02322AA05008760FA /* EmbeddedEngineView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EmbeddedEngineView.swift; sourceTree = "<group>"; };
+		4B3C1179231D588A008D3CB6 /* Zai Likh.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Zai Likh.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3C117C231D588A008D3CB6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		4B3C117E231D588A008D3CB6 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		4B3C1180231D588A008D3CB6 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		4B3C1182231D589A008D3CB6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		4B3C1185231D589A008D3CB6 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		4B3C1188231D589A008D3CB6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		4B3C118A231D589A008D3CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3C118F231D589B008D3CB6 /* Zai LikhTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zai LikhTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3C1193231D589B008D3CB6 /* Zai_LikhTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zai_LikhTests.swift; sourceTree = "<group>"; };
+		4B3C1195231D589B008D3CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B3C119A231D589B008D3CB6 /* Zai LikhUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Zai LikhUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B3C119E231D589B008D3CB6 /* Zai_LikhUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Zai_LikhUITests.swift; sourceTree = "<group>"; };
+		4B3C11A0231D589B008D3CB6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4B4EC3EA2326AB060059875E /* OneBarController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneBarController.swift; sourceTree = "<group>"; };
+		4B4EC3EE2326AC720059875E /* OneBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OneBarViewController.swift; sourceTree = "<group>"; };
+		4B4EC3EF2326AC720059875E /* OneBarViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = OneBarViewController.xib; sourceTree = "<group>"; };
+		4B4EC3F22326B1560059875E /* ThreeBarViewControll.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThreeBarViewControll.swift; sourceTree = "<group>"; };
+		4B4EC3F32326B1560059875E /* ThreeBarViewControll.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThreeBarViewControll.xib; sourceTree = "<group>"; };
+		4B4EC3F62326B6DC0059875E /* MainViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4B4EC3F72326B6DD0059875E /* MainViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4B4EC3FA2327520A0059875E /* ContainerViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContainerViewController.swift; sourceTree = "<group>"; };
+		4B4EC3FC232765170059875E /* MarkupDocunent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarkupDocunent.swift; sourceTree = "<group>"; };
+		4B4EC3FE232766200059875E /* DocumentBrowserDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserDelegate.swift; sourceTree = "<group>"; };
+		4B4EC400232766610059875E /* DocumentBrowserViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DocumentBrowserViewController.swift; sourceTree = "<group>"; };
+		4B4EC40623276CEA0059875E /* MarkupThumbnail.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = MarkupThumbnail.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B4EC40723276CEA0059875E /* QuickLookThumbnailing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookThumbnailing.framework; path = System/Library/Frameworks/QuickLookThumbnailing.framework; sourceTree = SDKROOT; };
+		4B4EC40A23276CEA0059875E /* ThumbnailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailProvider.swift; sourceTree = "<group>"; };
+		4B4EC40C23276CEA0059875E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		5C94FFA553F4F13B5A22A294 /* Pods_Zai_LikhUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zai_LikhUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		695208CD6C63AC71189FA4B2 /* Pods-Zai LikhUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai LikhUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zai LikhUITests/Pods-Zai LikhUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		76B5E3D843C3A6C691ACBBED /* Pods-Zai LikhUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai LikhUITests.release.xcconfig"; path = "Target Support Files/Pods-Zai LikhUITests/Pods-Zai LikhUITests.release.xcconfig"; sourceTree = "<group>"; };
+		8496234E6CB2BE7FE18587D0 /* Pods-Zai Likh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai Likh.release.xcconfig"; path = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh.release.xcconfig"; sourceTree = "<group>"; };
+		899631E3409AF4F0E22FF372 /* Pods_Zai_LikhTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zai_LikhTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAD606E0AF5DDF5A6280B72B /* Pods_Zai_Likh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zai_Likh.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E6C44825E220D9D2707A6AE8 /* Pods-Zai Likh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai Likh.debug.xcconfig"; path = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4B3C1176231D588A008D3CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6CA55F7F90A368EFC380A2 /* Pods_Zai_Likh.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3C118C231D589B008D3CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				325C62654DEB52DF93059559 /* Pods_Zai_LikhTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3C1197231D589B008D3CB6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5E3E0A2DD4702A30D9E4605F /* Pods_Zai_LikhUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4EC40323276CEA0059875E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4EC40823276CEA0059875E /* QuickLookThumbnailing.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		3533814B2C028D0BC846293F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BAD606E0AF5DDF5A6280B72B /* Pods_Zai_Likh.framework */,
+				899631E3409AF4F0E22FF372 /* Pods_Zai_LikhTests.framework */,
+				5C94FFA553F4F13B5A22A294 /* Pods_Zai_LikhUITests.framework */,
+				4B4EC40723276CEA0059875E /* QuickLookThumbnailing.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4B2118CB2320FB00008760FA /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				4B2118CC2320FB20008760FA /* AdobeHeitiStd-Regular.otf */,
+				4B2118CD2320FB20008760FA /* AdobeKaitiStd-Regular.otf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		4B3C1170231D5889008D3CB6 = {
+			isa = PBXGroup;
+			children = (
+				4B3C117B231D588A008D3CB6 /* Zai Likh */,
+				4B3C1192231D589B008D3CB6 /* Zai LikhTests */,
+				4B3C119D231D589B008D3CB6 /* Zai LikhUITests */,
+				4B4EC40923276CEA0059875E /* MarkupThumbnail */,
+				4B3C117A231D588A008D3CB6 /* Products */,
+				7C68CB68EAEB71FEA55F8E43 /* Pods */,
+				3533814B2C028D0BC846293F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		4B3C117A231D588A008D3CB6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4B3C1179231D588A008D3CB6 /* Zai Likh.app */,
+				4B3C118F231D589B008D3CB6 /* Zai LikhTests.xctest */,
+				4B3C119A231D589B008D3CB6 /* Zai LikhUITests.xctest */,
+				4B4EC40623276CEA0059875E /* MarkupThumbnail.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4B3C117B231D588A008D3CB6 /* Zai Likh */ = {
+			isa = PBXGroup;
+			children = (
+				4B2118CB2320FB00008760FA /* Resources */,
+				4B3C117C231D588A008D3CB6 /* AppDelegate.swift */,
+				4B152E592320239900EAAE50 /* MILESTONES.md */,
+				4B2118C92320FA50008760FA /* engine.html */,
+				4B2118D02322AA05008760FA /* EmbeddedEngineView.swift */,
+				4B3C117E231D588A008D3CB6 /* SceneDelegate.swift */,
+				4B4EC3EA2326AB060059875E /* OneBarController.swift */,
+				4B4EC3EE2326AC720059875E /* OneBarViewController.swift */,
+				4B4EC3FA2327520A0059875E /* ContainerViewController.swift */,
+				4B4EC3FC232765170059875E /* MarkupDocunent.swift */,
+				4B4EC3FE232766200059875E /* DocumentBrowserDelegate.swift */,
+				4B4EC400232766610059875E /* DocumentBrowserViewController.swift */,
+				4B4EC3EF2326AC720059875E /* OneBarViewController.xib */,
+				4B4EC3F62326B6DC0059875E /* MainViewController.swift */,
+				4B4EC3F72326B6DD0059875E /* MainViewController.xib */,
+				4B4EC3F22326B1560059875E /* ThreeBarViewControll.swift */,
+				4B4EC3F32326B1560059875E /* ThreeBarViewControll.xib */,
+				4B3C1180231D588A008D3CB6 /* ContentView.swift */,
+				4B3C1182231D589A008D3CB6 /* Assets.xcassets */,
+				4B152E5A2320247200EAAE50 /* Localizable.strings */,
+				4B3C1187231D589A008D3CB6 /* LaunchScreen.storyboard */,
+				4B3C118A231D589A008D3CB6 /* Info.plist */,
+				4B3C1184231D589A008D3CB6 /* Preview Content */,
+			);
+			path = "Zai Likh";
+			sourceTree = "<group>";
+		};
+		4B3C1184231D589A008D3CB6 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				4B3C1185231D589A008D3CB6 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		4B3C1192231D589B008D3CB6 /* Zai LikhTests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3C1193231D589B008D3CB6 /* Zai_LikhTests.swift */,
+				4B3C1195231D589B008D3CB6 /* Info.plist */,
+			);
+			path = "Zai LikhTests";
+			sourceTree = "<group>";
+		};
+		4B3C119D231D589B008D3CB6 /* Zai LikhUITests */ = {
+			isa = PBXGroup;
+			children = (
+				4B3C119E231D589B008D3CB6 /* Zai_LikhUITests.swift */,
+				4B3C11A0231D589B008D3CB6 /* Info.plist */,
+			);
+			path = "Zai LikhUITests";
+			sourceTree = "<group>";
+		};
+		4B4EC40923276CEA0059875E /* MarkupThumbnail */ = {
+			isa = PBXGroup;
+			children = (
+				4B4EC40A23276CEA0059875E /* ThumbnailProvider.swift */,
+				4B4EC40C23276CEA0059875E /* Info.plist */,
+			);
+			path = MarkupThumbnail;
+			sourceTree = "<group>";
+		};
+		7C68CB68EAEB71FEA55F8E43 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				E6C44825E220D9D2707A6AE8 /* Pods-Zai Likh.debug.xcconfig */,
+				8496234E6CB2BE7FE18587D0 /* Pods-Zai Likh.release.xcconfig */,
+				1A8C08FA514300B9CCAD37D0 /* Pods-Zai LikhTests.debug.xcconfig */,
+				4AFB2C6AAC4CF5BEAD7561DD /* Pods-Zai LikhTests.release.xcconfig */,
+				695208CD6C63AC71189FA4B2 /* Pods-Zai LikhUITests.debug.xcconfig */,
+				76B5E3D843C3A6C691ACBBED /* Pods-Zai LikhUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4B3C1178231D588A008D3CB6 /* Zai Likh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3C11A3231D589B008D3CB6 /* Build configuration list for PBXNativeTarget "Zai Likh" */;
+			buildPhases = (
+				E534EBF0A79CEF3D716AD41D /* [CP] Check Pods Manifest.lock */,
+				4B3C1175231D588A008D3CB6 /* Sources */,
+				4B3C1176231D588A008D3CB6 /* Frameworks */,
+				4B3C1177231D588A008D3CB6 /* Resources */,
+				20E776B0C0BDE8B7FF5FF301 /* [CP] Embed Pods Frameworks */,
+				4B4EC41323276CEB0059875E /* Embed App Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B4EC40E23276CEA0059875E /* PBXTargetDependency */,
+			);
+			name = "Zai Likh";
+			productName = "Zai Likh";
+			productReference = 4B3C1179231D588A008D3CB6 /* Zai Likh.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4B3C118E231D589B008D3CB6 /* Zai LikhTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3C11A6231D589B008D3CB6 /* Build configuration list for PBXNativeTarget "Zai LikhTests" */;
+			buildPhases = (
+				2AA2ED437D63E2CEDF72B891 /* [CP] Check Pods Manifest.lock */,
+				4B3C118B231D589B008D3CB6 /* Sources */,
+				4B3C118C231D589B008D3CB6 /* Frameworks */,
+				4B3C118D231D589B008D3CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3C1191231D589B008D3CB6 /* PBXTargetDependency */,
+			);
+			name = "Zai LikhTests";
+			productName = "Zai LikhTests";
+			productReference = 4B3C118F231D589B008D3CB6 /* Zai LikhTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		4B3C1199231D589B008D3CB6 /* Zai LikhUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3C11A9231D589B008D3CB6 /* Build configuration list for PBXNativeTarget "Zai LikhUITests" */;
+			buildPhases = (
+				EB92FB06020FE3B2C69193A2 /* [CP] Check Pods Manifest.lock */,
+				4B3C1196231D589B008D3CB6 /* Sources */,
+				4B3C1197231D589B008D3CB6 /* Frameworks */,
+				4B3C1198231D589B008D3CB6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4B3C119C231D589B008D3CB6 /* PBXTargetDependency */,
+			);
+			name = "Zai LikhUITests";
+			productName = "Zai LikhUITests";
+			productReference = 4B3C119A231D589B008D3CB6 /* Zai LikhUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4B4EC40523276CEA0059875E /* MarkupThumbnail */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B4EC41023276CEB0059875E /* Build configuration list for PBXNativeTarget "MarkupThumbnail" */;
+			buildPhases = (
+				4B4EC40223276CEA0059875E /* Sources */,
+				4B4EC40323276CEA0059875E /* Frameworks */,
+				4B4EC40423276CEA0059875E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MarkupThumbnail;
+			productName = MarkupThumbnail;
+			productReference = 4B4EC40623276CEA0059875E /* MarkupThumbnail.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4B3C1171231D5889008D3CB6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+				ORGANIZATIONNAME = SoftFeta;
+				TargetAttributes = {
+					4B3C1178231D588A008D3CB6 = {
+						CreatedOnToolsVersion = 11.0;
+					};
+					4B3C118E231D589B008D3CB6 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4B3C1178231D588A008D3CB6;
+					};
+					4B3C1199231D589B008D3CB6 = {
+						CreatedOnToolsVersion = 11.0;
+						TestTargetID = 4B3C1178231D588A008D3CB6;
+					};
+					4B4EC40523276CEA0059875E = {
+						CreatedOnToolsVersion = 11.0;
+					};
+				};
+			};
+			buildConfigurationList = 4B3C1174231D5889008D3CB6 /* Build configuration list for PBXProject "Zai Likh" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+				"zh-Hant",
+				fr,
+				es,
+			);
+			mainGroup = 4B3C1170231D5889008D3CB6;
+			productRefGroup = 4B3C117A231D588A008D3CB6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4B3C1178231D588A008D3CB6 /* Zai Likh */,
+				4B3C118E231D589B008D3CB6 /* Zai LikhTests */,
+				4B3C1199231D589B008D3CB6 /* Zai LikhUITests */,
+				4B4EC40523276CEA0059875E /* MarkupThumbnail */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4B3C1177231D588A008D3CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B2118CE2320FB20008760FA /* AdobeHeitiStd-Regular.otf in Resources */,
+				4B3C1189231D589A008D3CB6 /* LaunchScreen.storyboard in Resources */,
+				4B4EC3F52326B1560059875E /* ThreeBarViewControll.xib in Resources */,
+				4B152E5C2320247200EAAE50 /* Localizable.strings in Resources */,
+				4B3C1186231D589A008D3CB6 /* Preview Assets.xcassets in Resources */,
+				4B3C1183231D589A008D3CB6 /* Assets.xcassets in Resources */,
+				4B2118CF2320FB20008760FA /* AdobeKaitiStd-Regular.otf in Resources */,
+				4B4EC3F92326B6DD0059875E /* MainViewController.xib in Resources */,
+				4B2118CA2320FA50008760FA /* engine.html in Resources */,
+				4B4EC3F12326AC720059875E /* OneBarViewController.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3C118D231D589B008D3CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3C1198231D589B008D3CB6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4EC40423276CEA0059875E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		20E776B0C0BDE8B7FF5FF301 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zai Likh/Pods-Zai Likh-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Zai Likh/Pods-Zai Likh-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Zai Likh/Pods-Zai Likh-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		2AA2ED437D63E2CEDF72B891 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zai LikhTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		E534EBF0A79CEF3D716AD41D /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zai Likh-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		EB92FB06020FE3B2C69193A2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Zai LikhUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4B3C1175231D588A008D3CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4EC3FD232765170059875E /* MarkupDocunent.swift in Sources */,
+				4B4EC3F02326AC720059875E /* OneBarViewController.swift in Sources */,
+				4B3C117D231D588A008D3CB6 /* AppDelegate.swift in Sources */,
+				4B4EC3FB2327520A0059875E /* ContainerViewController.swift in Sources */,
+				4B4EC401232766610059875E /* DocumentBrowserViewController.swift in Sources */,
+				4B4EC3F42326B1560059875E /* ThreeBarViewControll.swift in Sources */,
+				4B4EC3EB2326AB060059875E /* OneBarController.swift in Sources */,
+				4B4EC3FF232766200059875E /* DocumentBrowserDelegate.swift in Sources */,
+				4B3C117F231D588A008D3CB6 /* SceneDelegate.swift in Sources */,
+				4B2118D12322AA05008760FA /* EmbeddedEngineView.swift in Sources */,
+				4B4EC3F82326B6DD0059875E /* MainViewController.swift in Sources */,
+				4B3C1181231D588A008D3CB6 /* ContentView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3C118B231D589B008D3CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3C1194231D589B008D3CB6 /* Zai_LikhTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B3C1196231D589B008D3CB6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B3C119F231D589B008D3CB6 /* Zai_LikhUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4B4EC40223276CEA0059875E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4B4EC40B23276CEA0059875E /* ThumbnailProvider.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4B3C1191231D589B008D3CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3C1178231D588A008D3CB6 /* Zai Likh */;
+			targetProxy = 4B3C1190231D589B008D3CB6 /* PBXContainerItemProxy */;
+		};
+		4B3C119C231D589B008D3CB6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B3C1178231D588A008D3CB6 /* Zai Likh */;
+			targetProxy = 4B3C119B231D589B008D3CB6 /* PBXContainerItemProxy */;
+		};
+		4B4EC40E23276CEA0059875E /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4B4EC40523276CEA0059875E /* MarkupThumbnail */;
+			targetProxy = 4B4EC40D23276CEA0059875E /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4B152E5A2320247200EAAE50 /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B152E5B2320247200EAAE50 /* Base */,
+				4B152E5D2320247F00EAAE50 /* zh-Hant */,
+				4B152E5E2320248100EAAE50 /* fr */,
+				4B152E5F2320248300EAAE50 /* es */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		4B3C1187231D589A008D3CB6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4B3C1188231D589A008D3CB6 /* Base */,
+				4B152E562320230D00EAAE50 /* zh-Hant */,
+				4B152E572320231B00EAAE50 /* fr */,
+				4B152E582320233F00EAAE50 /* es */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4B3C11A1231D589B008D3CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		4B3C11A2231D589B008D3CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4B3C11A4231D589B008D3CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E6C44825E220D9D2707A6AE8 /* Pods-Zai Likh.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Zai Likh/Preview Content\"";
+				DEVELOPMENT_TEAM = 94RT5FA8WL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Zai Likh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.softfeta.Zai-Likh";
+				PRODUCT_NAME = "Zai Likh";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B3C11A5231D589B008D3CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 8496234E6CB2BE7FE18587D0 /* Pods-Zai Likh.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_ASSET_PATHS = "\"Zai Likh/Preview Content\"";
+				DEVELOPMENT_TEAM = 94RT5FA8WL;
+				ENABLE_PREVIEWS = YES;
+				INFOPLIST_FILE = "Zai Likh/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.softfeta.Zai-Likh";
+				PRODUCT_NAME = "Zai Likh";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		4B3C11A7231D589B008D3CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1A8C08FA514300B9CCAD37D0 /* Pods-Zai LikhTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94RT5FA8WL;
+				INFOPLIST_FILE = "Zai LikhTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.softfeta.Zai-LikhTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zai Likh.app/Zai Likh";
+			};
+			name = Debug;
+		};
+		4B3C11A8231D589B008D3CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4AFB2C6AAC4CF5BEAD7561DD /* Pods-Zai LikhTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94RT5FA8WL;
+				INFOPLIST_FILE = "Zai LikhTests/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.softfeta.Zai-LikhTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Zai Likh.app/Zai Likh";
+			};
+			name = Release;
+		};
+		4B3C11AA231D589B008D3CB6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 695208CD6C63AC71189FA4B2 /* Pods-Zai LikhUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94RT5FA8WL;
+				INFOPLIST_FILE = "Zai LikhUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.softfeta.Zai-LikhUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zai Likh";
+			};
+			name = Debug;
+		};
+		4B3C11AB231D589B008D3CB6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76B5E3D843C3A6C691ACBBED /* Pods-Zai LikhUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94RT5FA8WL;
+				INFOPLIST_FILE = "Zai LikhUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.softfeta.Zai-LikhUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Zai Likh";
+			};
+			name = Release;
+		};
+		4B4EC41123276CEB0059875E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94RT5FA8WL;
+				INFOPLIST_FILE = MarkupThumbnail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.softfeta.Zai-Likh.MarkupThumbnail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4B4EC41223276CEB0059875E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 94RT5FA8WL;
+				INFOPLIST_FILE = MarkupThumbnail/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.github.softfeta.Zai-Likh.MarkupThumbnail";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4B3C1174231D5889008D3CB6 /* Build configuration list for PBXProject "Zai Likh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3C11A1231D589B008D3CB6 /* Debug */,
+				4B3C11A2231D589B008D3CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3C11A3231D589B008D3CB6 /* Build configuration list for PBXNativeTarget "Zai Likh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3C11A4231D589B008D3CB6 /* Debug */,
+				4B3C11A5231D589B008D3CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3C11A6231D589B008D3CB6 /* Build configuration list for PBXNativeTarget "Zai LikhTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3C11A7231D589B008D3CB6 /* Debug */,
+				4B3C11A8231D589B008D3CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3C11A9231D589B008D3CB6 /* Build configuration list for PBXNativeTarget "Zai LikhUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B3C11AA231D589B008D3CB6 /* Debug */,
+				4B3C11AB231D589B008D3CB6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B4EC41023276CEB0059875E /* Build configuration list for PBXNativeTarget "MarkupThumbnail" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4B4EC41123276CEB0059875E /* Debug */,
+				4B4EC41223276CEB0059875E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4B3C1171231D5889008D3CB6 /* Project object */;
+}

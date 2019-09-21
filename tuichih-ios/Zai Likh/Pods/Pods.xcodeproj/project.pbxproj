@@ -1,0 +1,1186 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0299AA71C8295AE58A69D15330492240 /* Ono.h in Headers */ = {isa = PBXBuildFile; fileRef = FC0F28B097ED641CF2CB5CD65FAF55CD /* Ono.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		07A11882F2644D8FEA19006A153AFAAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		123FACA9E18BC1498A8CC75D70868513 /* ONOXMLDocument.h in Headers */ = {isa = PBXBuildFile; fileRef = EF9F519C79DAD171E4ADFC53C0986EA1 /* ONOXMLDocument.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		14E465714CE2D175749C2E7AA193613F /* ONOXMLDocument.m in Sources */ = {isa = PBXBuildFile; fileRef = D2123DBA7AC464284C5A843018F50771 /* ONOXMLDocument.m */; };
+		361F5CE2807CBD530C8C6E63FD245F5A /* DropDownCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D3B20BDE5C34D2D86F1BBC8AE0FB5422 /* DropDownCell.swift */; };
+		3668A16B30398E18E5CC9D6D08A9264A /* Pods-Zai LikhTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8CCB186F19BCAEB4ACD2044D0FD64A54 /* Pods-Zai LikhTests-dummy.m */; };
+		43CBB64991E376716E8437F4BEE8D3EE /* Pods-Zai LikhUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9D7CE3F530C5D86060DD34947D7B6EA1 /* Pods-Zai LikhUITests-dummy.m */; };
+		4A8FE4C4F6D45B41CE01A00D24C56961 /* DPDUIView+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 212F88941026555FA5ECE4F914F08454 /* DPDUIView+Extension.swift */; };
+		4C5047FAD656F83A74C2B07D5FE5C274 /* Ono-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 045CCD6AD70D5DB809A8AEB75FA76A89 /* Ono-dummy.m */; };
+		5469B590E264AE3D154D91827167A0F8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		5900CB52F4C218C9DEF8AB99C3729550 /* Pods-Zai Likh-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = AF7D32FC03158E064BACE0A80D99D54A /* Pods-Zai Likh-dummy.m */; };
+		5F515237FF94DAB4C8A15B7E33A3877B /* DPDConstants.swift in Sources */ = {isa = PBXBuildFile; fileRef = D5D24EA2F0910AEFEE6414687A84B392 /* DPDConstants.swift */; };
+		6064C623428CE711C252E442741F81AB /* DropDown+Appearance.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7B8271EEFDFE156AD4A0BCDA848F5711 /* DropDown+Appearance.swift */; };
+		618D9C6E8BFF0C7AAD509E9279488585 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		842DFBB1471889C2CA329AE05620BBE7 /* DropDown.swift in Sources */ = {isa = PBXBuildFile; fileRef = 93AD1A6BC994F9A6A893495A6B5878C0 /* DropDown.swift */; };
+		86132C616A2C9D0ED3A248FA96F96E5A /* Pods-Zai Likh-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0EA5C86160A927D591B3BA8125A6D4A6 /* Pods-Zai Likh-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8A1674AF3356D4CF442BC0B3C8B99451 /* Pods-Zai LikhTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45C9DF6D6BF448B5A3A1367E1FBF12F2 /* Pods-Zai LikhTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		94F21BA752B7B7A5E04F780EBA7CEBB8 /* Ono-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 94E125670D39E8FC76F33A23D86B37CC /* Ono-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9518195DB69E904D77247E0A55A0043C /* DropDown-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6B7B399F1055C9A9AFAAA17069C8FA26 /* DropDown-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		952B9EB435C64FC60C0226F7C722815F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		95897DCFD4071A7D61AEAE1DA86BB539 /* DropDown-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F7F9894A9B9FFAA83290113F9567AC2 /* DropDown-dummy.m */; };
+		BA7BB2FF04CE1CAFC5238D1807EF0034 /* DPDKeyboardListener.swift in Sources */ = {isa = PBXBuildFile; fileRef = 211763180E0EEA3B661387D92AF15809 /* DPDKeyboardListener.swift */; };
+		BE85F2308BA48784E9FF8DF1D8461B9D /* Pods-Zai LikhUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 77D3A8B3D6168AEA8700A97F9B9EACC5 /* Pods-Zai LikhUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CEA201C88ACEDA35C48579316CDBEB7A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
+		EB3D83C05EC7793D23A1192C11B9F631 /* DropDownCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = CC0FCC7422171AE7E601439B37312612 /* DropDownCell.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		7658D020200B371EBAC22F873019C643 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC190860BB8D215AA3469A4B05296403;
+			remoteInfo = "Pods-Zai Likh";
+		};
+		D1497FE743CB252601B37E83C80C9ACA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CC190860BB8D215AA3469A4B05296403;
+			remoteInfo = "Pods-Zai Likh";
+		};
+		DD75107D79D6FE559C1663AC3FB5D843 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E9F9401E9C74C0C393164FD8D86D0068;
+			remoteInfo = DropDown;
+		};
+		E807D5166416ED5BD32E36BE86D56D52 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 72F5A1B5AACD804DF8D564C4C47E1F45;
+			remoteInfo = Ono;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		045CCD6AD70D5DB809A8AEB75FA76A89 /* Ono-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Ono-dummy.m"; sourceTree = "<group>"; };
+		06A68491178A46045EC05378964FE8D4 /* Pods-Zai Likh-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zai Likh-acknowledgements.plist"; sourceTree = "<group>"; };
+		0EA5C86160A927D591B3BA8125A6D4A6 /* Pods-Zai Likh-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zai Likh-umbrella.h"; sourceTree = "<group>"; };
+		0F7F9894A9B9FFAA83290113F9567AC2 /* DropDown-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "DropDown-dummy.m"; sourceTree = "<group>"; };
+		211763180E0EEA3B661387D92AF15809 /* DPDKeyboardListener.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDKeyboardListener.swift; path = DropDown/helpers/DPDKeyboardListener.swift; sourceTree = "<group>"; };
+		212F88941026555FA5ECE4F914F08454 /* DPDUIView+Extension.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DPDUIView+Extension.swift"; path = "DropDown/helpers/DPDUIView+Extension.swift"; sourceTree = "<group>"; };
+		2536DDF713C3ACC418B6CBF13781EF3F /* Pods-Zai LikhTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zai LikhTests.release.xcconfig"; sourceTree = "<group>"; };
+		2990E253F6162C4DB988E3C1FCA19B49 /* DropDown-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "DropDown-Info.plist"; sourceTree = "<group>"; };
+		2E00FD17BE88E22F31912C07860F730F /* DropDown.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = DropDown.xcconfig; sourceTree = "<group>"; };
+		2E6F453AC3DDDA76F29FECA37C58D146 /* Ono.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Ono.xcconfig; sourceTree = "<group>"; };
+		2F43CAF17D108BE5C0DE6E9159AD7876 /* Pods-Zai LikhUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zai LikhUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		36CA6DC0FA032F175C3E390FAE152210 /* Pods-Zai Likh-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zai Likh-acknowledgements.markdown"; sourceTree = "<group>"; };
+		407B2494AEC2C9ED81085E7D280F8344 /* Pods_Zai_Likh.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Zai_Likh.framework; path = "Pods-Zai Likh.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		45C9DF6D6BF448B5A3A1367E1FBF12F2 /* Pods-Zai LikhTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zai LikhTests-umbrella.h"; sourceTree = "<group>"; };
+		4876B91B4F8A6531412C94B424553E15 /* Pods-Zai Likh.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zai Likh.debug.xcconfig"; sourceTree = "<group>"; };
+		49D3423F67DC38B7784B3CACF4BE0380 /* Pods-Zai LikhUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zai LikhUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		565A6E121F141A5619899E590AF41605 /* Pods-Zai Likh.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zai Likh.modulemap"; sourceTree = "<group>"; };
+		691712C0F31EF77CC6C2B8DCD4C89C66 /* Pods-Zai LikhUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zai LikhUITests-Info.plist"; sourceTree = "<group>"; };
+		6B7B399F1055C9A9AFAAA17069C8FA26 /* DropDown-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-umbrella.h"; sourceTree = "<group>"; };
+		74F17AB87389E107ACA03BBE1EE7297A /* Pods-Zai Likh-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-Zai Likh-frameworks.sh"; sourceTree = "<group>"; };
+		77D3A8B3D6168AEA8700A97F9B9EACC5 /* Pods-Zai LikhUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-Zai LikhUITests-umbrella.h"; sourceTree = "<group>"; };
+		7B8271EEFDFE156AD4A0BCDA848F5711 /* DropDown+Appearance.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DropDown+Appearance.swift"; path = "DropDown/src/DropDown+Appearance.swift"; sourceTree = "<group>"; };
+		7D55B07691BCD75C075F6168FE93B681 /* DropDown-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "DropDown-prefix.pch"; sourceTree = "<group>"; };
+		7E6064D414ECA3A3D2A96A9A37FB25CB /* Pods-Zai LikhTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zai LikhTests.modulemap"; sourceTree = "<group>"; };
+		825CAFC0D8728A43DC31FDC1A7CC6E07 /* Ono-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Ono-Info.plist"; sourceTree = "<group>"; };
+		8CCB186F19BCAEB4ACD2044D0FD64A54 /* Pods-Zai LikhTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zai LikhTests-dummy.m"; sourceTree = "<group>"; };
+		93AD1A6BC994F9A6A893495A6B5878C0 /* DropDown.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDown.swift; path = DropDown/src/DropDown.swift; sourceTree = "<group>"; };
+		94E125670D39E8FC76F33A23D86B37CC /* Ono-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ono-umbrella.h"; sourceTree = "<group>"; };
+		96B1D090AD81C812954D17AAE7EC17CC /* Pods_Zai_LikhTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Zai_LikhTests.framework; path = "Pods-Zai LikhTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = DropDown.framework; path = DropDown.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9B96A9DDE3BF8CFB5EBA35EF8CA089E2 /* Ono.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Ono.framework; path = Ono.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		9D7CE3F530C5D86060DD34947D7B6EA1 /* Pods-Zai LikhUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zai LikhUITests-dummy.m"; sourceTree = "<group>"; };
+		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9F57F88E6BB6E843ED5508414EE6C4AB /* Pods-Zai LikhUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zai LikhUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A10466A4B6AD8829AA4F64AF85A4BAFC /* Pods-Zai LikhUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zai LikhUITests.release.xcconfig"; sourceTree = "<group>"; };
+		AA84C65A03373C452946F2C30732A9AE /* Pods-Zai LikhTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zai LikhTests-Info.plist"; sourceTree = "<group>"; };
+		AB8F0B583D96A2368B24C375ED864A94 /* Pods-Zai Likh-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zai Likh-Info.plist"; sourceTree = "<group>"; };
+		AF7D32FC03158E064BACE0A80D99D54A /* Pods-Zai Likh-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-Zai Likh-dummy.m"; sourceTree = "<group>"; };
+		BB35EF3605A01A27D00717DB89EDC43F /* Pods-Zai Likh.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zai Likh.release.xcconfig"; sourceTree = "<group>"; };
+		CC0FCC7422171AE7E601439B37312612 /* DropDownCell.xib */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.xib; name = DropDownCell.xib; path = DropDown/resources/DropDownCell.xib; sourceTree = "<group>"; };
+		CFFD430DD2ACCFB832BEF2659A6B51E0 /* Ono-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Ono-prefix.pch"; sourceTree = "<group>"; };
+		D2123DBA7AC464284C5A843018F50771 /* ONOXMLDocument.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ONOXMLDocument.m; path = Source/ONOXMLDocument.m; sourceTree = "<group>"; };
+		D3B20BDE5C34D2D86F1BBC8AE0FB5422 /* DropDownCell.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DropDownCell.swift; path = DropDown/src/DropDownCell.swift; sourceTree = "<group>"; };
+		D579CEE05792AC37A903CA2C79CECBF8 /* Pods_Zai_LikhUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_Zai_LikhUITests.framework; path = "Pods-Zai LikhUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D5D24EA2F0910AEFEE6414687A84B392 /* DPDConstants.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = DPDConstants.swift; path = DropDown/helpers/DPDConstants.swift; sourceTree = "<group>"; };
+		DA65920645B193E471BA07F69D9E4EE9 /* DropDown.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = DropDown.modulemap; sourceTree = "<group>"; };
+		DD38E7D28B9628803ECC0C7DE18ABAD6 /* Pods-Zai LikhTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-Zai LikhTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		E46ABFC8FC0E7E79FEC6864BA1908863 /* Pods-Zai LikhTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-Zai LikhTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		ED792AC1330CA7CCEE56C321D9D3EF94 /* Pods-Zai LikhTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-Zai LikhTests.debug.xcconfig"; sourceTree = "<group>"; };
+		EF9F519C79DAD171E4ADFC53C0986EA1 /* ONOXMLDocument.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ONOXMLDocument.h; path = Source/ONOXMLDocument.h; sourceTree = "<group>"; };
+		F0ED7EDE161B8200D0C1F193B9745F65 /* Pods-Zai LikhUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-Zai LikhUITests.modulemap"; sourceTree = "<group>"; };
+		FC0F28B097ED641CF2CB5CD65FAF55CD /* Ono.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Ono.h; path = Source/Ono.h; sourceTree = "<group>"; };
+		FEE3B2D7925E05288029F9E03A94CBEB /* Ono.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = Ono.modulemap; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2F3BE81B2518C18248141A77A39C2B30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				952B9EB435C64FC60C0226F7C722815F /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9727840973A9C2692E58F7089A7C243E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				618D9C6E8BFF0C7AAD509E9279488585 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B75F33915722AC65FFDBF17CD0F79658 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5469B590E264AE3D154D91827167A0F8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C602F914E7C2E3941570258FC28752CF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				07A11882F2644D8FEA19006A153AFAAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C876A9A242789FE374AC578389902DAA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA201C88ACEDA35C48579316CDBEB7A /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1F6B3E0F623AAEC6F9E4738CA807FA02 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DDDF00F71B50FF119441D5282A62F29F /* DropDown */,
+				8ED1F316E8542603818151FEAB7CB1E7 /* Ono */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		2222C96F9904FEA29D39B83645DDBCBC /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				CC0FCC7422171AE7E601439B37312612 /* DropDownCell.xib */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		40AFE1ED71C7FF2E6EFFFE9048020363 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */,
+				9B96A9DDE3BF8CFB5EBA35EF8CA089E2 /* Ono.framework */,
+				407B2494AEC2C9ED81085E7D280F8344 /* Pods_Zai_Likh.framework */,
+				96B1D090AD81C812954D17AAE7EC17CC /* Pods_Zai_LikhTests.framework */,
+				D579CEE05792AC37A903CA2C79CECBF8 /* Pods_Zai_LikhUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		62E4A18632031BA2D4FCEB284D68671D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				FEE3B2D7925E05288029F9E03A94CBEB /* Ono.modulemap */,
+				2E6F453AC3DDDA76F29FECA37C58D146 /* Ono.xcconfig */,
+				045CCD6AD70D5DB809A8AEB75FA76A89 /* Ono-dummy.m */,
+				825CAFC0D8728A43DC31FDC1A7CC6E07 /* Ono-Info.plist */,
+				CFFD430DD2ACCFB832BEF2659A6B51E0 /* Ono-prefix.pch */,
+				94E125670D39E8FC76F33A23D86B37CC /* Ono-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Ono";
+			sourceTree = "<group>";
+		};
+		862E7725E2F4DB418F9EB2032DB0E7AE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				DA65920645B193E471BA07F69D9E4EE9 /* DropDown.modulemap */,
+				2E00FD17BE88E22F31912C07860F730F /* DropDown.xcconfig */,
+				0F7F9894A9B9FFAA83290113F9567AC2 /* DropDown-dummy.m */,
+				2990E253F6162C4DB988E3C1FCA19B49 /* DropDown-Info.plist */,
+				7D55B07691BCD75C075F6168FE93B681 /* DropDown-prefix.pch */,
+				6B7B399F1055C9A9AFAAA17069C8FA26 /* DropDown-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/DropDown";
+			sourceTree = "<group>";
+		};
+		887A7A3077E7D1BA53BCE7C1E2E184AA /* Pods-Zai LikhTests */ = {
+			isa = PBXGroup;
+			children = (
+				7E6064D414ECA3A3D2A96A9A37FB25CB /* Pods-Zai LikhTests.modulemap */,
+				DD38E7D28B9628803ECC0C7DE18ABAD6 /* Pods-Zai LikhTests-acknowledgements.markdown */,
+				E46ABFC8FC0E7E79FEC6864BA1908863 /* Pods-Zai LikhTests-acknowledgements.plist */,
+				8CCB186F19BCAEB4ACD2044D0FD64A54 /* Pods-Zai LikhTests-dummy.m */,
+				AA84C65A03373C452946F2C30732A9AE /* Pods-Zai LikhTests-Info.plist */,
+				45C9DF6D6BF448B5A3A1367E1FBF12F2 /* Pods-Zai LikhTests-umbrella.h */,
+				ED792AC1330CA7CCEE56C321D9D3EF94 /* Pods-Zai LikhTests.debug.xcconfig */,
+				2536DDF713C3ACC418B6CBF13781EF3F /* Pods-Zai LikhTests.release.xcconfig */,
+			);
+			name = "Pods-Zai LikhTests";
+			path = "Target Support Files/Pods-Zai LikhTests";
+			sourceTree = "<group>";
+		};
+		89FFFDB7F35A8663B4A050D367A18C04 /* Pods-Zai Likh */ = {
+			isa = PBXGroup;
+			children = (
+				565A6E121F141A5619899E590AF41605 /* Pods-Zai Likh.modulemap */,
+				36CA6DC0FA032F175C3E390FAE152210 /* Pods-Zai Likh-acknowledgements.markdown */,
+				06A68491178A46045EC05378964FE8D4 /* Pods-Zai Likh-acknowledgements.plist */,
+				AF7D32FC03158E064BACE0A80D99D54A /* Pods-Zai Likh-dummy.m */,
+				74F17AB87389E107ACA03BBE1EE7297A /* Pods-Zai Likh-frameworks.sh */,
+				AB8F0B583D96A2368B24C375ED864A94 /* Pods-Zai Likh-Info.plist */,
+				0EA5C86160A927D591B3BA8125A6D4A6 /* Pods-Zai Likh-umbrella.h */,
+				4876B91B4F8A6531412C94B424553E15 /* Pods-Zai Likh.debug.xcconfig */,
+				BB35EF3605A01A27D00717DB89EDC43F /* Pods-Zai Likh.release.xcconfig */,
+			);
+			name = "Pods-Zai Likh";
+			path = "Target Support Files/Pods-Zai Likh";
+			sourceTree = "<group>";
+		};
+		8ED1F316E8542603818151FEAB7CB1E7 /* Ono */ = {
+			isa = PBXGroup;
+			children = (
+				FC0F28B097ED641CF2CB5CD65FAF55CD /* Ono.h */,
+				EF9F519C79DAD171E4ADFC53C0986EA1 /* ONOXMLDocument.h */,
+				D2123DBA7AC464284C5A843018F50771 /* ONOXMLDocument.m */,
+				62E4A18632031BA2D4FCEB284D68671D /* Support Files */,
+			);
+			name = Ono;
+			path = Ono;
+			sourceTree = "<group>";
+		};
+		9E56D458667B104CD0DF013C59BB47CE /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				89FFFDB7F35A8663B4A050D367A18C04 /* Pods-Zai Likh */,
+				887A7A3077E7D1BA53BCE7C1E2E184AA /* Pods-Zai LikhTests */,
+				C94735E403EEE3907FC7239D20867E30 /* Pods-Zai LikhUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		C94735E403EEE3907FC7239D20867E30 /* Pods-Zai LikhUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F0ED7EDE161B8200D0C1F193B9745F65 /* Pods-Zai LikhUITests.modulemap */,
+				2F43CAF17D108BE5C0DE6E9159AD7876 /* Pods-Zai LikhUITests-acknowledgements.markdown */,
+				49D3423F67DC38B7784B3CACF4BE0380 /* Pods-Zai LikhUITests-acknowledgements.plist */,
+				9D7CE3F530C5D86060DD34947D7B6EA1 /* Pods-Zai LikhUITests-dummy.m */,
+				691712C0F31EF77CC6C2B8DCD4C89C66 /* Pods-Zai LikhUITests-Info.plist */,
+				77D3A8B3D6168AEA8700A97F9B9EACC5 /* Pods-Zai LikhUITests-umbrella.h */,
+				9F57F88E6BB6E843ED5508414EE6C4AB /* Pods-Zai LikhUITests.debug.xcconfig */,
+				A10466A4B6AD8829AA4F64AF85A4BAFC /* Pods-Zai LikhUITests.release.xcconfig */,
+			);
+			name = "Pods-Zai LikhUITests";
+			path = "Target Support Files/Pods-Zai LikhUITests";
+			sourceTree = "<group>";
+		};
+		CF1408CF629C7361332E53B88F7BD30C = {
+			isa = PBXGroup;
+			children = (
+				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
+				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				1F6B3E0F623AAEC6F9E4738CA807FA02 /* Pods */,
+				40AFE1ED71C7FF2E6EFFFE9048020363 /* Products */,
+				9E56D458667B104CD0DF013C59BB47CE /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDDF00F71B50FF119441D5282A62F29F /* DropDown */ = {
+			isa = PBXGroup;
+			children = (
+				D5D24EA2F0910AEFEE6414687A84B392 /* DPDConstants.swift */,
+				211763180E0EEA3B661387D92AF15809 /* DPDKeyboardListener.swift */,
+				212F88941026555FA5ECE4F914F08454 /* DPDUIView+Extension.swift */,
+				93AD1A6BC994F9A6A893495A6B5878C0 /* DropDown.swift */,
+				7B8271EEFDFE156AD4A0BCDA848F5711 /* DropDown+Appearance.swift */,
+				D3B20BDE5C34D2D86F1BBC8AE0FB5422 /* DropDownCell.swift */,
+				2222C96F9904FEA29D39B83645DDBCBC /* Resources */,
+				862E7725E2F4DB418F9EB2032DB0E7AE /* Support Files */,
+			);
+			name = DropDown;
+			path = DropDown;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		15FD88110298811EE0D2866F597E837B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8A1674AF3356D4CF442BC0B3C8B99451 /* Pods-Zai LikhTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		209AEB022FB945A8AB8AB02C9E5CD425 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				86132C616A2C9D0ED3A248FA96F96E5A /* Pods-Zai Likh-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2B9154D210146FEB68B5F36F46C611B3 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				94F21BA752B7B7A5E04F780EBA7CEBB8 /* Ono-umbrella.h in Headers */,
+				0299AA71C8295AE58A69D15330492240 /* Ono.h in Headers */,
+				123FACA9E18BC1498A8CC75D70868513 /* ONOXMLDocument.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2BB5683F7D1AA8FB2F94DA252A664DB8 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9518195DB69E904D77247E0A55A0043C /* DropDown-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DD7D680F93E9678B3D803C2DE7003CAD /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BE85F2308BA48784E9FF8DF1D8461B9D /* Pods-Zai LikhUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		59B07FB7D0AA14CF57DEDBA2522939F3 /* Pods-Zai LikhUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3B75FB79CD00A3DC3E0ED8402C789978 /* Build configuration list for PBXNativeTarget "Pods-Zai LikhUITests" */;
+			buildPhases = (
+				DD7D680F93E9678B3D803C2DE7003CAD /* Headers */,
+				EC0D503113F59755EB625E9B5BFA93E7 /* Sources */,
+				B75F33915722AC65FFDBF17CD0F79658 /* Frameworks */,
+				36C980CDDEA90FDBA17BC7FC987F7A16 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				6753B47E3C7F1B2EBDED92A229BBCF3A /* PBXTargetDependency */,
+			);
+			name = "Pods-Zai LikhUITests";
+			productName = "Pods-Zai LikhUITests";
+			productReference = D579CEE05792AC37A903CA2C79CECBF8 /* Pods_Zai_LikhUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		72F5A1B5AACD804DF8D564C4C47E1F45 /* Ono */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = D1C6755C874B03307681700ABE804D53 /* Build configuration list for PBXNativeTarget "Ono" */;
+			buildPhases = (
+				2B9154D210146FEB68B5F36F46C611B3 /* Headers */,
+				3348D7D1193F7D3E938F0387A3D64F49 /* Sources */,
+				C602F914E7C2E3941570258FC28752CF /* Frameworks */,
+				0EB1560604AC3D3F6BD57C26AE3E035E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Ono;
+			productName = Ono;
+			productReference = 9B96A9DDE3BF8CFB5EBA35EF8CA089E2 /* Ono.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		CC190860BB8D215AA3469A4B05296403 /* Pods-Zai Likh */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4B3FCA4F377AFE4C7857EDFA8C9E6D27 /* Build configuration list for PBXNativeTarget "Pods-Zai Likh" */;
+			buildPhases = (
+				209AEB022FB945A8AB8AB02C9E5CD425 /* Headers */,
+				D66808AA51C265F474F2ABF272F6A32B /* Sources */,
+				2F3BE81B2518C18248141A77A39C2B30 /* Frameworks */,
+				DCF83DAE3394E3619F4F99A6487ACD58 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A642475E2043452EF0A3CC76A9C747D9 /* PBXTargetDependency */,
+				DEB77528E8602A9212486F0058D49113 /* PBXTargetDependency */,
+			);
+			name = "Pods-Zai Likh";
+			productName = "Pods-Zai Likh";
+			productReference = 407B2494AEC2C9ED81085E7D280F8344 /* Pods_Zai_Likh.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D5F9FBB5B9BCFBF12396A90CAF43C45D /* Pods-Zai LikhTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 67D60B28DBE6EC460B6DF839C24E3407 /* Build configuration list for PBXNativeTarget "Pods-Zai LikhTests" */;
+			buildPhases = (
+				15FD88110298811EE0D2866F597E837B /* Headers */,
+				FDAE271681C25D21884C1B503BC9108D /* Sources */,
+				C876A9A242789FE374AC578389902DAA /* Frameworks */,
+				894936BAA08A5E7BF82A9DE4B075FC4D /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				78C6A3A0C380A7F197A0C48C6679DF7A /* PBXTargetDependency */,
+			);
+			name = "Pods-Zai LikhTests";
+			productName = "Pods-Zai LikhTests";
+			productReference = 96B1D090AD81C812954D17AAE7EC17CC /* Pods_Zai_LikhTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EBED57D13F9A2559E14BCD92E7CFF597 /* Build configuration list for PBXNativeTarget "DropDown" */;
+			buildPhases = (
+				2BB5683F7D1AA8FB2F94DA252A664DB8 /* Headers */,
+				FAFA782452D3B598A37FB459CD314120 /* Sources */,
+				9727840973A9C2692E58F7089A7C243E /* Frameworks */,
+				D0143B72ED2669C4E98A5B8BBCE72151 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DropDown;
+			productName = DropDown;
+			productReference = 9B6725B782188F18CB76A740433F14E4 /* DropDown.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BFDFE7DC352907FC980B868725387E98 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1100;
+				LastUpgradeCheck = 1100;
+			};
+			buildConfigurationList = 4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = CF1408CF629C7361332E53B88F7BD30C;
+			productRefGroup = 40AFE1ED71C7FF2E6EFFFE9048020363 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */,
+				72F5A1B5AACD804DF8D564C4C47E1F45 /* Ono */,
+				CC190860BB8D215AA3469A4B05296403 /* Pods-Zai Likh */,
+				D5F9FBB5B9BCFBF12396A90CAF43C45D /* Pods-Zai LikhTests */,
+				59B07FB7D0AA14CF57DEDBA2522939F3 /* Pods-Zai LikhUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0EB1560604AC3D3F6BD57C26AE3E035E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		36C980CDDEA90FDBA17BC7FC987F7A16 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		894936BAA08A5E7BF82A9DE4B075FC4D /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D0143B72ED2669C4E98A5B8BBCE72151 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EB3D83C05EC7793D23A1192C11B9F631 /* DropDownCell.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		DCF83DAE3394E3619F4F99A6487ACD58 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		3348D7D1193F7D3E938F0387A3D64F49 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4C5047FAD656F83A74C2B07D5FE5C274 /* Ono-dummy.m in Sources */,
+				14E465714CE2D175749C2E7AA193613F /* ONOXMLDocument.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D66808AA51C265F474F2ABF272F6A32B /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5900CB52F4C218C9DEF8AB99C3729550 /* Pods-Zai Likh-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC0D503113F59755EB625E9B5BFA93E7 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				43CBB64991E376716E8437F4BEE8D3EE /* Pods-Zai LikhUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FAFA782452D3B598A37FB459CD314120 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F515237FF94DAB4C8A15B7E33A3877B /* DPDConstants.swift in Sources */,
+				BA7BB2FF04CE1CAFC5238D1807EF0034 /* DPDKeyboardListener.swift in Sources */,
+				4A8FE4C4F6D45B41CE01A00D24C56961 /* DPDUIView+Extension.swift in Sources */,
+				6064C623428CE711C252E442741F81AB /* DropDown+Appearance.swift in Sources */,
+				95897DCFD4071A7D61AEAE1DA86BB539 /* DropDown-dummy.m in Sources */,
+				842DFBB1471889C2CA329AE05620BBE7 /* DropDown.swift in Sources */,
+				361F5CE2807CBD530C8C6E63FD245F5A /* DropDownCell.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FDAE271681C25D21884C1B503BC9108D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3668A16B30398E18E5CC9D6D08A9264A /* Pods-Zai LikhTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		6753B47E3C7F1B2EBDED92A229BBCF3A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Zai Likh";
+			target = CC190860BB8D215AA3469A4B05296403 /* Pods-Zai Likh */;
+			targetProxy = 7658D020200B371EBAC22F873019C643 /* PBXContainerItemProxy */;
+		};
+		78C6A3A0C380A7F197A0C48C6679DF7A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-Zai Likh";
+			target = CC190860BB8D215AA3469A4B05296403 /* Pods-Zai Likh */;
+			targetProxy = D1497FE743CB252601B37E83C80C9ACA /* PBXContainerItemProxy */;
+		};
+		A642475E2043452EF0A3CC76A9C747D9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = DropDown;
+			target = E9F9401E9C74C0C393164FD8D86D0068 /* DropDown */;
+			targetProxy = DD75107D79D6FE559C1663AC3FB5D843 /* PBXContainerItemProxy */;
+		};
+		DEB77528E8602A9212486F0058D49113 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Ono;
+			target = 72F5A1B5AACD804DF8D564C4C47E1F45 /* Ono */;
+			targetProxy = E807D5166416ED5BD32E36BE86D56D52 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1422B121EAEAEA11307496903FA623C6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		2B3AD6116CEA7224D2B7F84A39406F6C /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2536DDF713C3ACC418B6CBF13781EF3F /* Pods-Zai LikhTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zai LikhTests/Pods-Zai LikhTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zai LikhTests/Pods-Zai LikhTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4223F6BABE3B104F4D081F3D6178493F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A10466A4B6AD8829AA4F64AF85A4BAFC /* Pods-Zai LikhUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zai LikhUITests/Pods-Zai LikhUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zai LikhUITests/Pods-Zai LikhUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		678FD538F1DAB186CC05584B35DCA332 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ED792AC1330CA7CCEE56C321D9D3EF94 /* Pods-Zai LikhTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zai LikhTests/Pods-Zai LikhTests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zai LikhTests/Pods-Zai LikhTests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		A3C733A6F45D03BC5A3664D7A8E538FB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E00FD17BE88E22F31912C07860F730F /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		AACC00BA29D8C58B30B48F4EB7AB6C3E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9F57F88E6BB6E843ED5508414EE6C4AB /* Pods-Zai LikhUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zai LikhUITests/Pods-Zai LikhUITests-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zai LikhUITests/Pods-Zai LikhUITests.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		D30219333FCB92E4D175316E26E044C8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E00FD17BE88E22F31912C07860F730F /* DropDown.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/DropDown/DropDown-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/DropDown/DropDown-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/DropDown/DropDown.modulemap";
+				PRODUCT_MODULE_NAME = DropDown;
+				PRODUCT_NAME = DropDown;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		DF4B4804A0414B5B1108AA38213D02B1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6F453AC3DDDA76F29FECA37C58D146 /* Ono.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Ono/Ono-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ono/Ono-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Ono/Ono.modulemap";
+				PRODUCT_MODULE_NAME = Ono;
+				PRODUCT_NAME = Ono;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E4E56810F6F36382F3D2C41D3CB906CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4876B91B4F8A6531412C94B424553E15 /* Pods-Zai Likh.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		E50A6E2EB25695787E06B2841140F425 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BB35EF3605A01A27D00717DB89EDC43F /* Pods-Zai Likh.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-Zai Likh/Pods-Zai Likh.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		ED7888FA6713EABBF66D26A8003AD1CA /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		F3B86F5327F0DFB84100CA72ABDE3B29 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2E6F453AC3DDDA76F29FECA37C58D146 /* Ono.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/Ono/Ono-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/Ono/Ono-Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MODULEMAP_FILE = "Target Support Files/Ono/Ono.modulemap";
+				PRODUCT_MODULE_NAME = Ono;
+				PRODUCT_NAME = Ono;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		3B75FB79CD00A3DC3E0ED8402C789978 /* Build configuration list for PBXNativeTarget "Pods-Zai LikhUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AACC00BA29D8C58B30B48F4EB7AB6C3E /* Debug */,
+				4223F6BABE3B104F4D081F3D6178493F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4821239608C13582E20E6DA73FD5F1F9 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				ED7888FA6713EABBF66D26A8003AD1CA /* Debug */,
+				1422B121EAEAEA11307496903FA623C6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4B3FCA4F377AFE4C7857EDFA8C9E6D27 /* Build configuration list for PBXNativeTarget "Pods-Zai Likh" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E4E56810F6F36382F3D2C41D3CB906CA /* Debug */,
+				E50A6E2EB25695787E06B2841140F425 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		67D60B28DBE6EC460B6DF839C24E3407 /* Build configuration list for PBXNativeTarget "Pods-Zai LikhTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				678FD538F1DAB186CC05584B35DCA332 /* Debug */,
+				2B3AD6116CEA7224D2B7F84A39406F6C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		D1C6755C874B03307681700ABE804D53 /* Build configuration list for PBXNativeTarget "Ono" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				DF4B4804A0414B5B1108AA38213D02B1 /* Debug */,
+				F3B86F5327F0DFB84100CA72ABDE3B29 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EBED57D13F9A2559E14BCD92E7CFF597 /* Build configuration list for PBXNativeTarget "DropDown" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				D30219333FCB92E4D175316E26E044C8 /* Debug */,
+				A3C733A6F45D03BC5A3664D7A8E538FB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+}
