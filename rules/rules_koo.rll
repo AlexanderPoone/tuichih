@@ -7,8 +7,8 @@
 供給側		供給體制		英語*supply side*的仿造詞。 (Calque of English supply side.)		8
 雙贏		互利		英語*win-win*的仿造詞。 (Calque of English win-win.)		8
 底線		最低標準		英語*bottom line*的仿造詞。 (Calque of English bottom line.)		8
-定性		判定, 論定		中文多指「定下神來」，例如《西遊記》第二十九回寶象國王見八戒、沙僧醜陋，心驚膽顫，「定性多時」，才敢問那一位善降妖。以「定性」說「界定事情的性質」，是共產黨的下流語，中文應說「判定」、「論定」等。		8
-提升		提高		「提高」；今天，不知為什麼，現代漢語人都改說「提升」		8
+定性		判定, 論定		「定性」中文多指「定下神來」。《西遊記》第二十九回：「寶象國王見八戒、沙僧醜陋，心驚膽顫，**定性**多時，才敢問那一位善降妖。」以「定性」說「界定事情的性質」，是俄賊的下流語，中文應說「判定」、「論定」等。		8
+提升		提高		現代標準漢語		8
 正面		良好, 有利		現代標準漢語		8
 負面		惡劣		現代標準漢語		8
 面對		在前, 遭, 應付		現代標準漢語		8
@@ -236,11 +236,12 @@ Imitatating women's speech 啫囉
 */
 /*	ABOUT
 
+.rll Logic Language
 RLL is a logical language designed for rule-based lexical analysis. It compiles to YAML.
 RLL compiles rules from top to bottom and **ORDER MATTERS**. Your rules can be overridden by some rule(s) below.
-https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
 
-.rll Logic Language
+Implementations of RLL include the mobile application **Zai Lihk**.
+
 Syntax Error: Expecting ）, found （.
 Syntax Error: （（|）） Right-hand side retainment content does not match the left-hand side.
 

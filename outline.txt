@@ -2,6 +2,8 @@
 繕改程式
 NLP: map adjectives to noun. Some adjectives cannot be used on some nouns.
 
+What is this: https://developer.mozilla.org/en-US/docs/Web/API/IndexedDB_API
+
 Select option in list widget, change text
 Save & Next button
 Ignore & Next button
