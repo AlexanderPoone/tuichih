@@ -16,8 +16,10 @@ v=u(currencies)
 h=v.read().decode('utf-8')
 soup=b(h,'html.parser')
 shift = 0
-for i in soup.select("#mw-content-text > div > table > tbody > tr"):
-    tdList = i.findAll('td')
+se = soup.select("#mw-content-text > div > table > tbody > tr")
+for i in range(len(se)):
+    print(f'{i}/{len(se)}')
+    tdList = se[i].findAll('td')
     if len(tdList) >= 5:
         if len(tdList) == 5:
             shift = 1
@@ -56,7 +58,32 @@ for i in soup.select("#mw-content-text > div > table > tbody > tr"):
             numToBasic = int(numToBasic)
 
         if currName not in doneCurrencyNames:
-            doneCurrencyNames[currName] = {'symbol': currSymb, 'iso4217': currIso4217, 'fractional': {'name': currFracElem, 'numToBasic': numToBasic}}
+            # Get other locales here
+            v=u(f'https://www.wikidata.org/w/api.php?action=wbsearchentities&format=json&language=en&search={q(currName)}&type=item')
+            h=v.read().decode('utf-8')
+            l = j.loads(h)
+            if len(l['search']) > 0:
+                qnum = l['search'][0]['id']
+                #print(qnum)
+
+                v=u(f'https://www.wikidata.org/w/api.php?action=wbgetentities&format=json&ids={qnum}&languages=zh%7Czh-cn%7Czh-hant%7Cyue&props=labels%7Cdescriptions')
+                h=v.read().decode('utf-8')
+                l = j.loads(h)
+                if 'yue' in l['entities'][qnum]['labels']:
+                    #print(0)
+                    zhCurrencyName = l['entities'][qnum]['labels']['yue']['value']
+                elif 'zh-hant' in l['entities'][qnum]['labels']:
+                    #print(1)
+                    zhCurrencyName = l['entities'][qnum]['labels']['zh-hant']['value']
+                # elif 'zh-hk' in l['entities'][qnum]['labels']:
+                #     #print(2)
+                #     zhCurrencyName = l['entities'][qnum]['labels']['zh-hk']['value']
+                elif 'zh' in l['entities'][qnum]['labels']:
+                    #print(3)
+                    zhCurrencyName = hc().toTraditional(l['entities'][qnum]['labels']['zh']['value'])
+            else:
+                zhCurrencyName = None
+            doneCurrencyNames[currName] = {'zh': zhCurrencyName, 'symbol': currSymb, 'iso4217': currIso4217, 'fractional': {'name': currFracElem, 'numToBasic': numToBasic}}
         # print(currName + '   ||   ' + tdList[2 - shift].text.replace('\n','') + '   ||   ' + currIso4217)
 l = j.dumps(doneCurrencyNames)
 with open('currency_info.json', 'w') as x:
