@@ -2,7 +2,7 @@
 <p align="center">
 <img src="https://drive.google.com/uc?export=view&id=1ghaysvquwMPmQWyoN5Zmxku1MdGQzZZ9" />
 </p>
-<p align="center"><strong>中文初步　　繕改程式</strong></p>
+<p align="center"><strong>多國語言　　繕改程式</strong></p>
 <!-- Introduction -->
 
 __What is a basilect?__
