@@ -1,8 +1,10 @@
 # Solidarity
-__中文初步__
-__繕改程式__
-
+<p align="center">
+<img src="https://drive.google.com/uc?export=view&id=1ghaysvquwMPmQWyoN5Zmxku1MdGQzZZ9" />
+</p>
+<p align="center"><strong>中文初步　　繕改程式</strong></p>
 <!-- Introduction -->
+
 __What is a basilect?__
 
 A basilect is a culturally weak dialect. The Han Basilect is extensively used among all social classes, both colloquially and formally. Newscasters and prominent government officials used it on a daily basis.
