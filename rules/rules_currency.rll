@@ -1,3 +1,17 @@
+https://en.wikipedia.org/wiki/List_of_circulating_currencies
+
+//*[@id="mw-content-text"]/div/table[1]/tbody/tr[1]/td[2]/a
+
+//*[@id="mw-content-text"]/div/table[1]/tbody/tr[1]/td[3]
+//*[@id="mw-content-text"]/div/table[1]/tbody/tr[2]/td[3]
+//*[@id="mw-content-text"]/div/table[1]/tbody/tr[2]/td[4]/a
+
+"#mw-content-text > div > table.wikitable.sortable.jquery-tablesorter > tbody > tr:nth-child(1) > td:nth-child(2) > a"
+"#mw-content-text > div > table.wikitable.sortable.jquery-tablesorter > tbody > tr:nth-child(1) > td:nth-child(3)"
+"#mw-content-text > div > table.wikitable.sortable.jquery-tablesorter > tbody > tr:nth-child(1) > td:nth-child(4)"
+"#mw-content-text > div > table.wikitable.sortable.jquery-tablesorter > tbody > tr:nth-child(1) > td:nth-child(5)"
+
+
 /* Scraped from WikiData
 
 The property "instance of" has the identifier P31. The value "currency" has the identifier Q8142.
