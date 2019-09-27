@@ -5,6 +5,8 @@
 <p align="center"><strong>多國語言　　繕改程式</strong></p>
 <!-- Introduction -->
 
+I don't think people at https://github.com/jazzband/inflect do not have a clear understanding of linguistics.
+
 __What is a basilect?__
 
 A basilect is a culturally weak dialect. The Han Basilect is extensively used among all social classes, both colloquially and formally. Newscasters and prominent government officials used it on a daily basis.
