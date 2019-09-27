@@ -48,7 +48,7 @@ The project, thus, is dedicated to style and linguistic purity. I am opposed to 
 ### 法語
 * Point -> virgule 法語小數點寫法轉換 
 * Orthographe (Guillemets)
-* Remplacer les anglicismes (as per l\'Académie française)
+* Remplacer les anglicismes (selon l\'Académie française / as per Académie française)
 * € → euro(s) etc.
 
 ## Roadmap
