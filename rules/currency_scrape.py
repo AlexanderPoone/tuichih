@@ -2,12 +2,17 @@ from urllib.request import urlopen as u
 from urllib.parse import quote as q
 from urllib.error import HTTPError
 from bs4 import BeautifulSoup as b
-from re import findall as fa, sub as s
+from re import findall as fa, sub as s, IGNORECASE
 from collections import OrderedDict as d
 from subprocess import Popen as p
 from pprint import pprint as pp
+from unidecode import unidecode as ud
 import json as j
 from hanziconv import HanziConv as hc
+
+pluralCache = {}
+def getPlural():
+    f'https://en.wiktionary.org/wiki/{123}'
 
 doneCurrencyNames = {}
 currencies = "https://en.wikipedia.org/wiki/List_of_circulating_currencies"
@@ -18,7 +23,7 @@ soup=b(h,'html.parser')
 shift = 0
 se = soup.select("#mw-content-text > div > table > tbody > tr")
 for i in range(len(se)):
-    print(f'{i}/{len(se)}')
+    print(f'{i+1}/{len(se)}')
     tdList = se[i].findAll('td')
     if len(tdList) >= 5:
         if len(tdList) == 5:
@@ -83,13 +88,39 @@ for i in range(len(se)):
                     zhCurrencyName = hc().toTraditional(l['entities'][qnum]['labels']['zh']['value'])
             else:
                 zhCurrencyName = None
+
+            # plural zloty or zlotys or zlote or zlotych or zloties
+            getPlural()
+
             doneCurrencyNames[currName] = {'zh': zhCurrencyName, 'symbol': currSymb, 'iso4217': currIso4217, 'fractional': {'name': currFracElem, 'numToBasic': numToBasic}}
         # print(currName + '   ||   ' + tdList[2 - shift].text.replace('\n','') + '   ||   ' + currIso4217)
 l = j.dumps(doneCurrencyNames)
 with open('currency_info.json', 'w') as x:
     x.write(l)
 pp(doneCurrencyNames)
-inputSymb = input('Insert a currency symbol: ')
-for k, v in doneCurrencyNames.items():
-    if v['symbol'] == inputSymb:
-        print(k)
+while True:
+    # inputSymb = input('Insert a currency symbol: ')
+    # for k, v in doneCurrencyNames.items():
+    #     if v['symbol'] == inputSymb:
+    #         print(k)
+    inputSen = input('Insert a sentence: ')
+    for k, v in doneCurrencyNames.items():
+        if v['symbol'] is not None:
+            if isinstance(v['symbol'],list):
+                symbol = v['symbol'][0]
+            else:
+                symbol = v['symbol']
+            nounCurrency = s('^.* ','',k,flags=IGNORECASE)
+            if k == 'Euro':                                                                                 # exception: only one-word currency: euro
+                nounCurrency = 'Euro'
+            allInstances = fa(f'[0-9\\,\\.]+ (?:{nounCurrency}|{ud(nounCurrency)})(?:e?s)?', inputSen)    # all should be uncaptured. Use (?:) instead of ()   <- captured
+            for i in allInstances:
+                numberPart = fa(f'[0-9\\,\\.]+', i)
+                # Left or right ?
+                if len(numberPart) > 0:
+                    if symbol.isalpha():  # Cyrillic and zloty are alphas !
+                        rpmt = f'{numberPart[0]} {symbol}'
+                    else:
+                        rpmt = f'{symbol}{numberPart[0]}'
+                    inputSen = s(i, rpmt, inputSen, flags=IGNORECASE)
+    print(inputSen)
