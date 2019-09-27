@@ -62,7 +62,7 @@ The project, thus, is dedicated to style and linguistic purity. I am opposed to 
 ## Compendium of Basilects
 <!-- Redirects to our wiki -->
 
-## 下流指數
+## Disgust Index
 PageRank
 
 <!-- ## Donate -->
