@@ -46,9 +46,9 @@ The project, thus, is dedicated to style and linguistic purity. I am opposed to 
 * £ → pound(s) etc.
 
 ### 法語
-* Point -> Virgule 法語小數點寫法轉換 
+* Point -> virgule 法語小數點寫法轉換 
 * Orthographe (Guillemets)
-* Remplacer les anglicismes (L\'Alliance Française)
+* Remplacer les anglicismes (as per l\'Académie française)
 * € → euro(s) etc.
 
 ## Roadmap
