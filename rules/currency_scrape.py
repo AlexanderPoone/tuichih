@@ -2,7 +2,7 @@ from urllib.request import urlopen as u
 from urllib.parse import quote as q
 from urllib.error import HTTPError
 from bs4 import BeautifulSoup as b
-from re import findall as fa, sub as s, IGNORECASE
+from re import findall as fa, sub as s, IGNORECASE, fullmatch as fm
 from collections import OrderedDict as d
 from subprocess import Popen as p
 from pprint import pprint as pp
@@ -94,6 +94,7 @@ for i in range(len(se)):
 
             doneCurrencyNames[currName] = {'zh': zhCurrencyName, 'symbol': currSymb, 'iso4217': currIso4217, 'fractional': {'name': currFracElem, 'numToBasic': numToBasic}}
         # print(currName + '   ||   ' + tdList[2 - shift].text.replace('\n','') + '   ||   ' + currIso4217)
+doneCurrencyNames['Bitcoin'] = {'zh': '比特幣', 'symbol': '₿', 'iso4217': currIso4217, 'fractional': {'name': None, 'numToBasic': None}} # Manually tuck Bitcoin into the dictionary
 l = j.dumps(doneCurrencyNames)
 with open('currency_info.json', 'w') as x:
     x.write(l)
@@ -110,9 +111,9 @@ while True:
                 symbol = v['symbol'][0]
             else:
                 symbol = v['symbol']
-            nounCurrency = s('^.* ','',k,flags=IGNORECASE)
-            if k == 'Euro':                                                                                 # exception: only one-word currency: euro
-                nounCurrency = 'Euro'
+            nounCurrency = s('^.* ','',k,flags=IGNORECASE)                                                                      # fm('[a-z]+', k, flags=IGNORECASE) != None
+            if ' ' not in k:                                                                                                # exception: one-word currency: euro, bitcoin
+                nounCurrency = k
             allInstances = fa(f'[0-9\\,\\.]+ (?:{nounCurrency}|{ud(nounCurrency)})(?:e?s)?', inputSen, flags=IGNORECASE)    # all should be uncaptured. Use (?:) instead of ()   <- captured
             for i in allInstances:
                 numberPart = fa(f'[0-9\\,\\.]+', i)
