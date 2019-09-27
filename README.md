@@ -42,12 +42,12 @@ The project, thus, is dedicated to style and linguistic purity. I am opposed to 
 ### 英語
 * 阿拉伯數字 → 英文數字（十或以下）
 * 保守whom, whomever
-* 英語濫用字 ('challenge (n)', 'epic (adj)', cf. McMillian\'s Manual of Style)
+* 英語濫用字 ('challenge (n)', 'epic (adj)', cf. McMillan\'s Manual of Style)
 * £ → pound(s) etc.
 
 ### 法語
 * Point -> virgule 法語小數點寫法轉換 
-* Orthographe (Guillemets)
+* Orthographe (e.g. guillemets)
 * Remplacer les anglicismes (selon l\'Académie française / as per Académie française)
 * € → euro(s) etc.
 
