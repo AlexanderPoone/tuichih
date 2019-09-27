@@ -20,7 +20,7 @@ Resistance is futile.
 
 The project, thus, is dedicated to style and linguistic purity. I am opposed to machine translation, but technology is at least useful in filtering out nauseating expressions.
 
-## Planned features
+## Features
 
 ### 漢語（國語及粵語）
 * 阿拉伯數字 → 中文數字（年、月、日）
@@ -36,8 +36,7 @@ The project, thus, is dedicated to style and linguistic purity. I am opposed to 
 * 紅色惡詞（煉字）
 * 金元譯音（維基百科）
 * 統一粵語字
-* 刪小農歎詞
-* 修正絕句或律詩之平仄與格律
+* 刪小農歎詞 (麼。咱們。噯呀。唷。唏。)
 * 「$ → 元」等
 
 ### 英語
@@ -48,9 +47,17 @@ The project, thus, is dedicated to style and linguistic purity. I am opposed to 
 
 ### 法語
 * Point -> Virgule 法語小數點寫法轉換 
-* L'orthographe (Guillemets)
+* Orthographe (Guillemets)
 * Remplacer les anglicismes (L\'Alliance Française)
 * € → euro(s) etc.
+
+## Roadmap
+
+### 漢語（國語及粵語）
+* 修正絕句或律詩之平仄與格律
+
+### 法語
+* Conversion entre l'orthographe classque et l'orthographe 1990
 
 ## Compendium of Basilects
 <!-- Redirects to our wiki -->
