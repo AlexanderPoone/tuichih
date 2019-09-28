@@ -158,9 +158,9 @@ while True:
                     # Left or right ?
                     if len(numberPart) > 0:
                         if symbol.isalpha():  # Cyrillic and zloty are alphas !
-                            rpmt = f'{float(numberPart[0].remove(',')) / v["fractional"]["numToBasic"]} {symbol}'
+                            rpmt = f'{float(numberPart[0].remove(",")) / v["fractional"]["numToBasic"]} {symbol}'
                         else:
-                            rpmt = f'{symbol}{float(numberPart[0].remove(',')) / v["fractional"]["numToBasic"]}'
+                            rpmt = f'{symbol}{float(numberPart[0].remove(",")) / v["fractional"]["numToBasic"]}'
                         inputSen = s(i, rpmt, inputSen, flags=IGNORECASE)
     print(inputSen)
     inputSen = input('Insert a sentence (e.g. I have ฿123,456.789): ')
