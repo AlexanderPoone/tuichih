@@ -11,8 +11,27 @@ import json as j
 from hanziconv import HanziConv as hc
 
 pluralCache = {}
-def getPlural():
-    f'https://en.wiktionary.org/wiki/{123}'
+
+def getPlural(key):
+    # f'https://en.wiktionary.org/wiki/{123}'
+    v=u(f'https://en.wikipedia.org/w/index.php?title={q(key)}&action=edit')
+    h=v.read().decode('utf-8')
+    soup=b(h,'html.parser')
+    infoBoxTry = soup.select('#wpTextbox1')
+    if len(infoBoxTry) > 0:
+        editArea = infoBoxTry[0].text
+        infoBox = fa('(?<=plural = ).*',editArea)
+        if len(infoBox) > 0:
+            formatted = s(r'(\{.*\}|\(.*\)|\t| |&nbsp;|\'\'.*\'\'|.*\: |<br>|<!--.*-->|/.*)','',infoBox[0])
+            if len(formatted) > 1:
+                print(f'{key}: {formatted.lower()}')
+                return formatted.lower()
+            else:
+                return None
+        else:
+            return None
+    else:
+        return None
 
 doneCurrencyNames = {}
 currencies = "https://en.wikipedia.org/wiki/List_of_circulating_currencies"
@@ -90,11 +109,11 @@ for i in range(len(se)):
                 zhCurrencyName = None
 
             # plural zloty or zlotys or zlote or zlotych or zloties
-            getPlural()
+            currPlural = getPlural(currName)
 
-            doneCurrencyNames[currName] = {'zh': zhCurrencyName, 'symbol': currSymb, 'iso4217': currIso4217, 'fractional': {'name': currFracElem, 'numToBasic': numToBasic}}
+            doneCurrencyNames[currName] = {'zh': zhCurrencyName, 'symbol': currSymb, 'iso4217': currIso4217, 'fractional': {'name': currFracElem, 'numToBasic': numToBasic}, 'plural': currPlural}
         # print(currName + '   ||   ' + tdList[2 - shift].text.replace('\n','') + '   ||   ' + currIso4217)
-doneCurrencyNames['Bitcoin'] = {'zh': '比特幣', 'symbol': '₿', 'iso4217': currIso4217, 'fractional': {'name': None, 'numToBasic': None}} # Manually tuck Bitcoin into the dictionary
+doneCurrencyNames['Bitcoin'] = {'zh': '比特幣', 'symbol': '₿', 'iso4217': currIso4217, 'fractional': {'name': None, 'numToBasic': None}, 'plural': None} # Manually tuck Bitcoin into the dictionary
 l = j.dumps(doneCurrencyNames)
 with open('currency_info.json', 'w') as x:
     x.write(l)
