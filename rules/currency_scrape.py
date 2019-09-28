@@ -22,7 +22,7 @@ def getPlural(key):
         editArea = infoBoxTry[0].text
         infoBox = fa('(?<=plural = ).*',editArea)
         if len(infoBox) > 0:
-            formatted = s(r'(\{.*\}|\(.*\)|\t| |&nbsp;|\'\'.*\'\'|.*\: |<br>|<!--.*-->|/.*)','',infoBox[0])
+            formatted = s(r'(\{.*\}|\(.*\)|\t| |&nbsp;|\'\'.*\'\'|.*\: |<br>|<!--.*-->|/.*|\{\{.*\|)','',infoBox[0]) # TODO: {{plainlist}} not supported, needs a workaround
             if len(formatted) > 1:
                 print(f'{key}: {formatted.lower()}')
                 return formatted.lower()
@@ -133,7 +133,11 @@ while True:
             nounCurrency = s('^.* ','',k,flags=IGNORECASE)                                                                      # fm('[a-z]+', k, flags=IGNORECASE) != None
             if ' ' not in k:                                                                                                # exception: one-word currency: euro, bitcoin
                 nounCurrency = k
-            allInstances = fa(f'[0-9\\,\\.]+ (?:{nounCurrency}|{ud(nounCurrency)})(?:e?s)?', inputSen, flags=IGNORECASE)    # all should be uncaptured. Use (?:) instead of ()   <- captured
+            if v['plural'] is not None:
+                pluralPrefix = f'{v["plural"]}|{ud(v["plural"])}|'                                  # orders matter. It's always {plural|singular} rather than {singular|plural}
+            else:
+                pluralPrefix = ''
+            allInstances = fa(f'[0-9\\,\\.]+ (?:{pluralPrefix}{nounCurrency}|{ud(nounCurrency)})(?:e?s)?', inputSen, flags=IGNORECASE)    # all should be uncaptured. Use (?:) instead of ()   <- captured
             for i in allInstances:
                 numberPart = fa(f'[0-9\\,\\.]+', i)
                 # Left or right ?
@@ -154,9 +158,9 @@ while True:
                     # Left or right ?
                     if len(numberPart) > 0:
                         if symbol.isalpha():  # Cyrillic and zloty are alphas !
-                            rpmt = f'{float(numberPart[0]) / v["fractional"]["numToBasic"]} {symbol}'
+                            rpmt = f'{float(numberPart[0].remove(',')) / v["fractional"]["numToBasic"]} {symbol}'
                         else:
-                            rpmt = f'{symbol}{float(numberPart[0]) / v["fractional"]["numToBasic"]}'
+                            rpmt = f'{symbol}{float(numberPart[0].remove(',')) / v["fractional"]["numToBasic"]}'
                         inputSen = s(i, rpmt, inputSen, flags=IGNORECASE)
     print(inputSen)
     inputSen = input('Insert a sentence (e.g. I have ฿123,456.789): ')
