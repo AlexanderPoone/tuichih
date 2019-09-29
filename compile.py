@@ -1,5 +1,10 @@
 # encoding: utf-8
 
+'''
+	PART OF THE RLL ENGINE
+	2019 SOFTFETA. ALL WRONGS RESERVED.
+'''
+
 from yaml import dump, Dumper
 from pprint import pprint
 

@@ -33,6 +33,9 @@ def getPlural(key):
     else:
         return None
 
+def getPopularity(key):
+    f'https://tools.wmflabs.org/pageviews/?project=en.wikipedia.org&platform=all-access&agent=user&range=latest-20&pages={key}'
+
 doneCurrencyNames = {}
 currencies = "https://en.wikipedia.org/wiki/List_of_circulating_currencies"
 

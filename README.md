@@ -20,6 +20,9 @@ Resistance is futile.
 
 The project, thus, is dedicated to style and linguistic purity. I am opposed to machine translation, but technology is at least useful in filtering out nauseating expressions.
 
+## How does it work?
+Content are scraped and processed at HKT 06:00 (GMT 22:00) every day.
+
 ## Features
 
 ### 漢語（國語及粵語）
@@ -35,7 +38,7 @@ The project, thus, is dedicated to style and linguistic purity. I am opposed to 
 * 日化惡詞（煉字）
 * 紅色惡詞（煉字）
 * 金元譯音（維基百科）
-* 統一粵語字
+* 統一粵語字 /* Yet to name the standardisation */ e.g. 「俾」 → 「畀」
 * 刪小農歎詞 (麼。咱們。噯呀。唷。唏。)
 * 「$ → 元」等
 
