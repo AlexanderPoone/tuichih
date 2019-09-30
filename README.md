@@ -25,6 +25,11 @@ Content are scraped and processed at HKT 06:00 (GMT 22:00) every day.
 
 ## Features
 
+### General
+* Removes double spaces
+* Replaces tabs with spaces
+* Adds space before opening parantheses
+
 ### 漢語（國語及粵語）
 * 阿拉伯數字 → 中文數字（年、月、日）
 /* Keep condition: [In|Before|After] (mid-)+ 1939 */
