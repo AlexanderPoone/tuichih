@@ -45,30 +45,33 @@ class currency_interface(object):
                     pluralPrefix = f'{v["plural"]}|{ud(v["plural"])}|'                                  # orders matter. It's always {plural|singular} rather than {singular|plural}
                 else:
                     pluralPrefix = ''
-                allInstances = fa(f'[0-9\\,\\.]+ (?:{pluralPrefix}{nounCurrency}|{ud(nounCurrency)})(?:e?s)?', inputSen, flags=IGNORECASE)    # all should be uncaptured. Use (?:) instead of ()   <- captured
+                allInstances = fa(f'[0-9\\,\\.]+ (?:{pluralPrefix}{k}|{ud(k)}|{nounCurrency}|{ud(nounCurrency)})(?:e?s)?', inputSen, flags=IGNORECASE)    # all should be uncaptured. Use (?:) instead of ()   <- captured
+                trailingZeroRegex = r"\.0$"
                 for i in allInstances:
                     numberPart = fa(f'[0-9\\,\\.]+', i)
                     # Left or right ?
                     if len(numberPart) > 0:
                         if symbol.isalpha():  # Cyrillic and zloty are alphas !
-                            rpmt = f'{numberPart[0]} {symbol}'
+                            # rpmt = f'{numberPart[0]} {symbol}'
+                            rpmt = f'{s(trailingZeroRegex,"","{:,}".format(float(numberPart[0].replace(",",""))).replace(","," "))} {symbol}'
                         else:
-                            rpmt = f'{symbol}{numberPart[0]}'
+                            # rpmt = f'{symbol}{numberPart[0]}'
+                            rpmt = f'{symbol}{s(trailingZeroRegex,"","{:,}".format(float(numberPart[0].replace(",",""))).replace(","," "))}'
                         inputSen = s(i, rpmt, inputSen, flags=IGNORECASE)
 
                 # ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
                 if v['fractional']['name'] is not None:
                     nounFraction = v['fractional']['name']
-                    allInstances = fa(f'[0-9\\,\\.]+ (?:{nounFraction}|{ud(nounFraction)})(?:e?s)?', inputSen, flags=IGNORECASE)    # all should be uncaptured. Use (?:) instead of ()   <- captured
+                    allInstances = fa(f'[0-9\\,\\.]+ (?:{k}|{ud(k)}|{nounFraction}|{ud(nounFraction)})(?:e?s)?', inputSen, flags=IGNORECASE)    # all should be uncaptured. Use (?:) instead of ()   <- captured
                     for i in allInstances:
                         numberPart = fa(f'[0-9\\,\\.]+', i)
                         # Left or right ?
                         if len(numberPart) > 0:
                             if symbol.isalpha():  # Cyrillic and zloty are alphas !
-                                rpmt = f'{float(numberPart[0].replace(",","")) / v["fractional"]["numToBasic"]} {symbol}'
+                                rpmt = f'{s(trailingZeroRegex,"","{:,}".format(float(numberPart[0].replace(",","")) / v["fractional"]["numToBasic"]).replace(","," "))} {symbol}'
                             else:
-                                rpmt = f'{symbol}{float(numberPart[0].replace(",","")) / v["fractional"]["numToBasic"]}'
+                                rpmt = f'{symbol}{s(trailingZeroRegex,"","{:,}".format(float(numberPart[0].replace(",","")) / v["fractional"]["numToBasic"]).replace(","," "))}'
                             inputSen = s(i, rpmt, inputSen, flags=IGNORECASE)
         return inputSen
 
