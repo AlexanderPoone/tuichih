@@ -8,3 +8,5 @@
 "app_name" = "Zai Lihk";
 "action_settings" = "Settings";
 "word_count" = "Word count: %@";
+
+"2_currency" = "Currency operations";

@@ -8,3 +8,5 @@
 "app_name" = "Zaï Laik";
 "action_settings" = "Paramètres";
 "word_count" = "Décompte des mots: %@";
+
+"2_currency" = "Currency operations";
