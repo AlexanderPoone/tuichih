@@ -16,7 +16,7 @@ def currency():
 	if input is None:
 		return jsonify([])
 	else:
-		return currency_interface().toSymbol(u(input))
+		return punct_interface().replace(currency_interface().toSymbol(u(input)))
 
 @app.errorhandler(500)
 def error_handling(error):
