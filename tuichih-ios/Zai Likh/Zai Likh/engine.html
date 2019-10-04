@@ -57,9 +57,26 @@
     </style>
 </head>
 <body>
-<textarea name="input" cols="40" rows="5" placeholder="Your text will appear here.">
+<textarea id="input" name="input" cols="40" rows="5" placeholder="Your text will appear here.">
     {{flask_area}}
+    <!-- AJAX to "dord.mynetgear.com:5000" -->
 <!-- Action for backspace? -->
 </textarea>
+<div id="returnArea" />
+<script type="text/javascript">
+	function submit() {
+		$('#id').val();
+	var jqxhr = $.ajax( "http://dord.mynetgear.com:5050" )
+	  .done(function(msg) {
+	    $('#returnArea').empty().append(msg);
+	  })
+	  .fail(function() {
+	    alert( "error" );
+	  })
+	  .always(function() {
+	    alert( "complete" );
+	  });
+	}
+</script>
 </body>
 </html>

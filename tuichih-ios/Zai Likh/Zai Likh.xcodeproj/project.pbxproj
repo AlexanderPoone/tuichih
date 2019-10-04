@@ -35,6 +35,8 @@
 		4B4EC40823276CEA0059875E /* QuickLookThumbnailing.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4B4EC40723276CEA0059875E /* QuickLookThumbnailing.framework */; };
 		4B4EC40B23276CEA0059875E /* ThumbnailProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4B4EC40A23276CEA0059875E /* ThumbnailProvider.swift */; };
 		4B4EC40F23276CEA0059875E /* MarkupThumbnail.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4B4EC40623276CEA0059875E /* MarkupThumbnail.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		4BFE51782344E30000A5574C /* RoundedRectangularSelector.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE51772344E30000A5574C /* RoundedRectangularSelector.swift */; };
+		4BFE517A23471A9400A5574C /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4BFE517923471A9400A5574C /* WebView.swift */; };
 		4D6CA55F7F90A368EFC380A2 /* Pods_Zai_Likh.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BAD606E0AF5DDF5A6280B72B /* Pods_Zai_Likh.framework */; };
 		5E3E0A2DD4702A30D9E4605F /* Pods_Zai_LikhUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5C94FFA553F4F13B5A22A294 /* Pods_Zai_LikhUITests.framework */; };
 /* End PBXBuildFile section */
@@ -121,6 +123,8 @@
 		4B4EC40723276CEA0059875E /* QuickLookThumbnailing.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuickLookThumbnailing.framework; path = System/Library/Frameworks/QuickLookThumbnailing.framework; sourceTree = SDKROOT; };
 		4B4EC40A23276CEA0059875E /* ThumbnailProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThumbnailProvider.swift; sourceTree = "<group>"; };
 		4B4EC40C23276CEA0059875E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4BFE51772344E30000A5574C /* RoundedRectangularSelector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RoundedRectangularSelector.swift; sourceTree = "<group>"; };
+		4BFE517923471A9400A5574C /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 		5C94FFA553F4F13B5A22A294 /* Pods_Zai_LikhUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Zai_LikhUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		695208CD6C63AC71189FA4B2 /* Pods-Zai LikhUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai LikhUITests.debug.xcconfig"; path = "Target Support Files/Pods-Zai LikhUITests/Pods-Zai LikhUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		76B5E3D843C3A6C691ACBBED /* Pods-Zai LikhUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Zai LikhUITests.release.xcconfig"; path = "Target Support Files/Pods-Zai LikhUITests/Pods-Zai LikhUITests.release.xcconfig"; sourceTree = "<group>"; };
@@ -219,10 +223,12 @@
 				4B2118C92320FA50008760FA /* engine.html */,
 				4B2118D02322AA05008760FA /* EmbeddedEngineView.swift */,
 				4B3C117E231D588A008D3CB6 /* SceneDelegate.swift */,
+				4BFE517923471A9400A5574C /* WebView.swift */,
 				4B4EC3EA2326AB060059875E /* OneBarController.swift */,
 				4B4EC3EE2326AC720059875E /* OneBarViewController.swift */,
 				4B4EC3FA2327520A0059875E /* ContainerViewController.swift */,
 				4B4EC3FC232765170059875E /* MarkupDocunent.swift */,
+				4BFE51772344E30000A5574C /* RoundedRectangularSelector.swift */,
 				4B4EC3FE232766200059875E /* DocumentBrowserDelegate.swift */,
 				4B4EC400232766610059875E /* DocumentBrowserViewController.swift */,
 				4B4EC3EF2326AC720059875E /* OneBarViewController.xib */,
@@ -556,11 +562,13 @@
 				4B4EC401232766610059875E /* DocumentBrowserViewController.swift in Sources */,
 				4B4EC3F42326B1560059875E /* ThreeBarViewControll.swift in Sources */,
 				4B4EC3EB2326AB060059875E /* OneBarController.swift in Sources */,
+				4BFE51782344E30000A5574C /* RoundedRectangularSelector.swift in Sources */,
 				4B4EC3FF232766200059875E /* DocumentBrowserDelegate.swift in Sources */,
 				4B3C117F231D588A008D3CB6 /* SceneDelegate.swift in Sources */,
 				4B2118D12322AA05008760FA /* EmbeddedEngineView.swift in Sources */,
 				4B4EC3F82326B6DD0059875E /* MainViewController.swift in Sources */,
 				4B3C1181231D588A008D3CB6 /* ContentView.swift in Sources */,
+				4BFE517A23471A9400A5574C /* WebView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
