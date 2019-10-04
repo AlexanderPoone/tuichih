@@ -6,6 +6,7 @@ target 'Zai Likh' do
   use_frameworks!
   pod 'DropDown'
   pod 'Ono'
+  pod 'Google-Mobile-Ads-SDK'
   #pod 'SwiftDrawer'
   
   # Pods for Zai Likh
