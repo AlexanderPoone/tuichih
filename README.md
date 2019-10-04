@@ -59,6 +59,48 @@ Content are scraped and processed at HKT 06:00 (GMT 22:00) every day.
 * Remplacer les anglicismes (selon l\'Académie française / as per Académie française)
 * € → euro(s) etc.
 
+### Project Structure
+p00_nouns:
+include(g00)
+include(cp00) /* Cantonese locutions */
+
+
+p01_verbs:
+
+p02_adjective
+
+Temporarily 3 categories
+
+
+十位是0個位不是0 = 「零」
+Lenses: 1. POS; 2. Inspection
+
+### 德語
+#### General algorithm
+All accented words:
+Remove umlaut
+Not in German and Not in English
+Insert non-umlaut word<tab>umlaut word
+
+Download one by one: https://en.wiktionary.org/w/index.php?title=Category:German_lemmas
+No morphemes.
+
+Plurals: some plural nouns may not have pages. Check presence of
+
+
+Proper nouns are NOT invariable in some languages, like Polish and Russian.
+
+Article-adjective-noun stack
+3rd layer - noun - Error?
+(2nd layer flach - adj. detected. Error? No, continue.)
+1st layer ein/fünf
+
+
+### UI
+• Accordion with header icon
+<cog-icon> Tasks
+• Convert currency symbols to text (money logo)
+
 ## Roadmap
 
 ### 漢語（國語及粵語）

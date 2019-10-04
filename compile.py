@@ -7,11 +7,17 @@
 
 from yaml import dump, Dumper
 from pprint import pprint
+#from os import 
+
+# Find all .rll files in ./rules
 
 def main():
+
+	commentBlockBegins = False
+
 	try:
-		with open(r'.\rules_compiled\zh\rules_koo.proto', 'w', encoding='utf8')  as w:
-			with open(r'.\rules\zh\rules_koo.rll', 'r', encoding='utf8')  as r:
+		with open(r'.\rules_compiled\rules_koo.proto', 'w', encoding='utf8') as w:				# .\rules_compiled\zh\rules_koo.proto
+			with open(r'.\rules\rules_koo.rll', 'r', encoding='utf8') as r:						# .\rules\zh\rules_koo.rll
 				structure = object()
 				cnt = 0
 				failed = []
@@ -19,6 +25,10 @@ def main():
 					cnt += 1
 					if line.isspace():
 						continue
+					if '/*' in line:
+						commentBlockBegins = True
+					if commentBlockBegins and '*/' in line:
+						commentBlockBegins = False
 					tokens = line.split('\t\t')
 					pprint(f'Line {cnt}; no. of tokens: {len(tokens)}; tokens: {tokens}')
 					if len(tokens) == 4:
