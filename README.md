@@ -21,7 +21,53 @@ Resistance is futile.
 The project, thus, is dedicated to style and linguistic purity. I am opposed to machine translation, but technology is at least useful in filtering out nauseating expressions.
 
 ## How does it work?
-Content are scraped and processed at HKT 06:00 (GMT 22:00) every day.
+Tules are coded using the RLL Logic Language. Definitions are based on web content. Web content are scraped and processed at HKT 06:00 (GMT 22:00) every day.
+
+## The RLL Logic Language (*.rll)
+RLL is a logical language designed for rule-based lexical analysis. It compiles to YAML.
+The RLL Compiler compiles rules from top to bottom and **ORDER MATTERS**. Your rules can be overridden by some rule(s) below.
+
+Implementations of RLL include the mobile application **Zai Lihk**.
+
+### Severity
+Severity	Description	Example
+High	Unacceptible mistakes
+Medium	Common mistakes
+Low	Suggestions	們 眾
+
+### Operations
+a = b													Replacement
+a = b, c, d 											Multiple replacements
+expToBeDeleted ~										Deletion
+((ab|cd))abc((ef|gh)) = x((ef|gh))y((ab|cd))			Retainment (both sides must be the same)
+
+### Matching
+[completely|entirely] optional  						Optional
+(either|or)												Or
+^(not|never)											Not
+?()														Non-capturing
+?^()													Non-capturing not
+~happy													Word plus synonyms
+~(well done)											Expression plus synonyms
+
+<@animals|@buildings>									Semantic Categories (cf. Semantic Categories definition)
+<v|n|adj|adv|art|prep|pron|proper>						Parts of speech
+<+|->													Sentiment (laudatory and derogatory)
+<inf|fml>												Formality
+<@animals,v,+,fml>										Combination of the above four
+<*>														Wildcard (Matches all recorded expressions. If there is a phrase, matches the whole phrase.)
+delim													Punctuation marks
+ldelim(祖)												Character left of a punctuation mark, same as (祖)?(delim)
+rdelim(祖)												Character right of a punctuation mark, same as ?(delim)(祖)
+
+### Aura
+{5.@animals}											Aura: Search 5 words/CKJ characters before for the Semantic Category for animals
+{@animals.5}											Aura: Search 5 words/CKJ characters after for the Semantic Category for animals
+{5.@animals.10}											Aura: Search 5 words/CKJ characters before, and 10 words/CKJ characters after for the Semantic Category for animals
+{5.(@animals|@plants).10}								Aura: Search 5 words/CKJ characters before, and 10 words/CKJ characters after for the Semantic Category for animals or plants
+
+### Comments
+/* this is a comment */									Comment
 
 ## Features
 

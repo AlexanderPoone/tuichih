@@ -1,3 +1,17 @@
+"<< Options menu. Choose a replacement: >>"
+"1.".ljust(10)
+"2.".ljust(10)
+"3.".ljust(10)
+"4.".ljust(10)
+
+期間限定		限量發行		日語		8
+有機[地]聯繫[起來]		息息相關, 相輔相成, 互為表裏, 同條共貫		英語*organically*的仿造詞。		8
+前所未有的 空前		現代標準漢語		8
+主流		普及	, 主要		現代標準漢語		8
+廣大人民		人民		無謂粘合		8
+嚴正聲明		聲明		無謂粘合		8
+溫馨提示		提示		無謂粘合		8
+是[一]把雙刃劍		[可謂]利害參半		[可謂]有利有弊		一定會翻譯如下：「這種藥有助止咳，但也可能令人懨懨欲睡，是一把雙刃劍。」中國人則當然不會說「是一把雙刃劍」，卻會說「可謂有利有弊」、「可謂利害參半」等。寫中文，怎麼要參考英文？		8
 廣泛閱讀		博覽		現代標準漢語		8
 有關〈名詞〉的〈名詞〉		與有關〈名詞〉的〈名詞〉		現代標準漢語		8
 發生(爭論)		爭論		爭論已是動詞，不用「發生」。		8
@@ -38,7 +52,6 @@
 淡化⋯⋯角色		掩抑⋯⋯作為		現代標準漢語		8
 在⋯⋯之間取得平衡		兼顧		現代標準漢語		8
 （透過｜通過）		藉, 借, 借助, 憑		現代標準漢語		8
-採取行動		行動		現代標準漢語		8
 嚴重關注		（十分｜很）關注		現代標準漢語		8
 對此表示		表示		現代標準漢語		8
 一系列		連串		現代標準漢語		8
@@ -52,7 +65,7 @@
 有保留		不敢苟同		現代標準漢語		8
 （沒有｜毫無）保留		竭盡全力, 竭盡心思, 盡心盡力		現代標準漢語		8
 普通話		國語		現代標準漢語		8
-反思		反省, 思量, 盤算, 想, 反躬自省, 反求諸己		現代標準漢語		8
+反思		檢討, 反省, 思量, 盤算, 想, 反躬自省, 反求諸己		現代標準漢語		8
 構成		是		現代標準漢語		8
 戰略（合作｜夥伴｜關係）		合作		現代標準漢語		8
 包括⋯⋯在內		包括, 在內		現代標準漢語		8
@@ -120,7 +133,7 @@
 除此之外		除卻x, 此外		現代標準漢語		8
 除此之外，其他		其他y		８		現代標準漢語 //should go into Redundancy API
 除此之外，再		再		現代標準漢語 //should go into Redundancy API		8
-放棄[^〈名詞〉]		喪氣, 罷休, 氣餒, 認輸		放棄：〈及物名詞〉拋掉		8
+放棄[^〈名詞〉]		喪氣, 罷休, 氣餒, 認輸		放棄：〈及物名詞〉拋掉 放棄(拋掉)忠直之言 正確		8
 半途放棄		半途而棄		現代標準漢語		8
 （沒有｜毫無）保留		無隱, 沒有隱諱		現代標準漢語		8
 保留⋯⋯權（利｜力）		有權追究, 或會追究		現代標準漢語		8
@@ -130,7 +143,6 @@
 持份者		與事（各方｜者）		現代標準漢語		8
 用戶友善		方便		現代標準漢語		8
 （生態｜環境）友善		無損（生態｜環境）		現代標準漢語		8
-
 採取行動		行動		現代標準漢語		8
 採取〈*〉行動		〈*〉		現代標準漢語		8
 採取行動〈動詞〉		〈動詞〉		現代標準漢語		8
@@ -156,6 +168,7 @@
 請辭		辭職, 辭祿		現代標準漢語		8
 
 萌		可愛, 可憐, 撩人, 逗人, 動人, 誘人		現代標準漢語		8
+萌翻了		可愛極了		現代標準漢語		8
 進一步		再, 更, 更加, 從長計議		現代標準漢語		8
 解讀		揣度, 揣測, 剖析, 分析		現代標準漢語		8
 過度解讀		胡亂解讀		現代標準漢語		8
@@ -217,7 +230,7 @@
 發表講話		致辭, 講話		現代標準漢語		8
 壓倒性勝利		大勝, 全勝, 大獲全勝		現代標準漢語		8
 壓倒		不勝(羞愧|悲哀)		現代標準漢語		8
-揚棄		[發揚]摒棄		德文aufheben的方塊字寫法。		8
+揚棄		[發揚]摒棄, 拋棄, 棄, 廢		德文aufheben的方塊字寫法。		8
 （顏值高|高顏值）		漂亮, 好容顏		現代標準漢語		8
 （顏值低|低顏值）		醜陋		現代標準漢語		8
 正面〈褒〉好		善		現代標準漢語		8
@@ -246,28 +259,50 @@ RLL compiles rules from top to bottom and **ORDER MATTERS**. Your rules can be o
 
 Implementations of RLL include the mobile application **Zai Lihk**.
 
-Syntax Error: Expecting ）, found （.
-Syntax Error: （（|）） Right-hand side retainment content does not match the left-hand side.
+Syntax Error 0: Expecting ), found (.
+Syntax Error 1: ((|)) Right-hand side retainment content does not match the left-hand side.
+Syntax Error 2: {0} is not a recognised keyword inside <>. Possible options: <v|n|adj|adv|art|prep|pron|proper>	Parts of speech
+<+|->								Sentiment (laudatory and derogatory)
+<inf|fml>							Formality
+Syntax Error 3: <> Semantic Category {0} does not exist.
+Syntax Error 4: {} expecting an integer, found {0}.
+Syntax Error 5: {} expecting ., found {0}.
+Syntax Error 6: {} Semantic Category {0} does not exist.
 
-[o|p|tiona|l]						Optional
+
+==Operations==
+a = b													Replacement
+a = b, c, d 											Multiple replacements
+expToBeDeleted ~										Deletion
+((ab|cd))abc((ef|gh)) = x((ef|gh))y((ab|cd))			Retainment (both sides must be the same)
+
+==Matching==
+[completely|entirely] optional  	Optional
 (either|or)							Or
-re, place, ment						Or (high-readability syntax recommended for replacements)
-a = b								Replacement
-a = b c d 							Multiple replacement
-((abc|def)) = x((abc|def))y			Retainment
-^(not)								Not
+^(not|never)						Not
 ?()									Non-capturing
 ?^()								Non-capturing not
-~									Deletion
 ~happy								Word plus synonyms
-@animals|buildings@					Semantic Categories (cf. Semantic Categories definition)
-<v|n|adj|adv|art|prep|pron|proper>	Parts of speech (cf. Parts of speech definition)
-<laud|derog>						Sentiment
-<*>									Wildcard (group of entities)
-.5{lorem}4.							Aura
-.3{@animals@}						Aura left
-{(a|b)}3.							Aura right
+~(well done)						Expression plus synonyms
+
+<@animals|@buildings>				Semantic Categories (cf. Semantic Categories definition)
+<v|n|adj|adv|art|prep|pron|proper>	Parts of speech
+<+|->								Sentiment (laudatory and derogatory)
+<inf|fml>							Formality
+<@animals,v,+,fml>					Combination of the above four
+<*>									Wildcard (Matches all recorded expressions. If there is a phrase, matches the whole phrase.)
+
+==Aura==
+{5.@animals}						Aura: Search 5 words/CKJ characters before for the Semantic Category for animals
+{@animals.5}						Aura: Search 5 words/CKJ characters after for the Semantic Category for animals
+{5.@animals.10}						Aura: Search 5 words/CKJ characters before, and 10 words/CKJ characters after for the Semantic Category for animals
+{5.(@animals|@plants).10}			Aura: Search 5 words/CKJ characters before, and 10 words/CKJ characters after for the Semantic Category for animals or plants
+
+==Comments==
 /* this is a comment */				Comment
+
+
+
 
 @@ G01 - Geographical entity - 地	Semantic Categories definition
 lorem								Use singular form and hyphens
