@@ -1,5 +1,6 @@
 /* exlamation particles */
 啦 rdelim 啦啦
+咖 rdelim 大咖
 嗎 rdelim
 喇 rdelim   /* 喇叭 喇嘛 */
 囉 rdelim   /* 囉唆 囉嘍 囉嗦 */
@@ -8,7 +9,7 @@
 吖 rdelim
 喳 rdelim
 呢 rdelim
-咖 rdelim
+呀 rdelim	/* For all AI responses, there is 50% chance to add 呀 at the back of each sentence: r'[。！]', r'呀[。！]' */
 
 /* connectives */
 啲

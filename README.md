@@ -52,7 +52,7 @@ expToBeDeleted ~										Deletion
 
 <@animals|@buildings>									Semantic Categories (cf. Semantic Categories definition)
 <v|n|adj|adv|art|prep|pron|proper>						Parts of speech
-<+|->													Sentiment (laudatory and derogatory)
+<+|->													Sentiment polarity (laudatory and derogatory)
 <inf|fml>												Formality
 <@animals,v,+,fml>										Combination of the above four
 <*>														Wildcard (Matches all recorded expressions. If there is a phrase, matches the whole phrase.)
